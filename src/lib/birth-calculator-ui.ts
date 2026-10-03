@@ -11,6 +11,7 @@ export function initBirthCalculator() {
   root.dataset.initialized = 'true';
   const get = <T extends HTMLElement = HTMLElement>(id: string) => root.querySelector<T>(`#${id}`)!;
   const form = get<HTMLFormElement>('birth-form');
+  const nameInput = get<HTMLInputElement>('birth-name');
   const date = get<HTMLInputElement>('birth-date');
   const time = get<HTMLInputElement>('birth-time');
   const placeInput = get<HTMLInputElement>('birth-place');
@@ -137,19 +138,20 @@ export function initBirthCalculator() {
   function renderRow(point: Placement) {
     return `<tr><td><span class="birth-planet-symbol" aria-hidden="true">${escape(point.symbol)}</span>${escape(point.name)}<small>${escape(point.sanskrit)}</small>${point.retrograde ? '<abbr class="birth-retrograde" title="Ruch wsteczny">R</abbr>' : ''}</td><td>${escape(point.sign)}</td><td>${degrees(point.degree)}</td><td>${point.house}</td><td>${escape(point.nakshatra)}</td><td>${point.pada}</td></tr>`;
   }
-  function render(chart: BirthChart, place: Place, example: boolean) {
+  function render(chart: BirthChart, place: Place, example: boolean, personName: string) {
     const [year, month, day] = chart.localDateTime.slice(0, 10).split('-');
     const when = `${day}.${month}.${year}, ${chart.localDateTime.slice(11, 16)}`;
     const location = [place.name, place.country].filter(Boolean).join(', ');
-    const title = `${example ? 'Przykładowy wykres' : 'Twój wykres urodzeniowy'} — ${when} · ${location}`;
+    const title = `${personName ? `${personName} — ` : ''}${example ? 'Przykładowy wykres' : 'Twój wykres urodzeniowy'} — ${when} · ${location}`;
     currentSvg = renderNorthIndianChart({
       ascendantSign: chart.ascendant.signIndex,
       planets: chart.planets.map(planet => ({ id: planet.id, label: planet.name, glyph: planet.symbol, sign: planet.signIndex, retrograde: planet.retrograde })),
       title,
+      personName,
       backgroundHref,
     });
     // Keep the exact calculation context with exported artwork, independent of the page.
-    currentSvg = currentSvg.replace('</svg>', `<metadata>${escape(JSON.stringify({ title, utc: chart.utc, latitude: chart.latitude, longitude: chart.longitude, timeZone: chart.timeZone, utcOffset: chart.utcOffset, settings: chart.settings }))}</metadata></svg>`);
+    currentSvg = currentSvg.replace('</svg>', `<metadata>${escape(JSON.stringify({ title, personName: personName || undefined, utc: chart.utc, latitude: chart.latitude, longitude: chart.longitude, timeZone: chart.timeZone, utcOffset: chart.utcOffset, settings: chart.settings }))}</metadata></svg>`);
     get('birth-chart-visual').innerHTML = currentSvg;
     get('birth-result-heading').textContent = example ? 'Przykładowy wykres' : 'Twój wykres urodzeniowy';
     get('birth-result-subtitle').textContent = `${when} · ${location}`;
@@ -191,13 +193,14 @@ export function initBirthCalculator() {
     chartPanel.setAttribute('aria-busy', 'true');
     say('Obliczam pozycje planet…');
     const revision = formRevision;
+    const personName = nameInput.value.trim().replace(/\s+/g, ' ').slice(0, 80);
     const input = { date: date.value, time: time.value, latitude: place.latitude, longitude: place.longitude, timeZone: place.timezone };
     try {
       // Allow the progress state to paint before the synchronous astronomy calculation.
       await new Promise<void>(resolve => requestAnimationFrame(() => resolve()));
       if (revision !== formRevision) { say('Dane zmienione — kliknij ponownie „Wygeneruj wykres”.'); return; }
       const chart = calculateBirthChart(input);
-      render(chart, place, example);
+      render(chart, place, example, personName);
       say(example ? 'Gotowe — to przykład dla Warszawy, 15.06.1990 o 14:30. Zmień dane, aby obliczyć własny wykres.' : 'Gotowe. Twój wykres i tabela pozycji są poniżej.');
       get('birth-result-heading').focus({ preventScroll: true });
       if (window.matchMedia('(max-width:1050px)').matches) get('birth-result-heading').scrollIntoView({ block: 'start', behavior: window.matchMedia('(prefers-reduced-motion:reduce)').matches ? 'instant' : 'smooth' });
@@ -215,6 +218,7 @@ export function initBirthCalculator() {
     manualFields.disabled = true;
     manualFields.hidden = true;
     placeInput.disabled = false;
+    nameInput.value = '';
     date.value = '1990-06-15';
     time.value = '14:30';
     choosePlace({ id: '756135', name: 'Warszawa', country: 'Polska', region: 'woj. mazowieckie', latitude: 52.22977, longitude: 21.01178, timezone: 'Europe/Warsaw' });
@@ -262,7 +266,17 @@ export function initBirthCalculator() {
     if (!currentSvg || enlarge.disabled) return;
     get('birth-dialog-subtitle').textContent = get('birth-result-subtitle').textContent;
     // Keep gradient IDs independent of the inline chart while both SVGs are visible.
-    get('birth-dialog-visual').innerHTML = currentSvg.replaceAll('manuscript-', 'enlarged-manuscript-');
+    const enlarged = new DOMParser().parseFromString(currentSvg, 'image/svg+xml');
+    for (const element of enlarged.querySelectorAll('[id]')) {
+      if (element.id.startsWith('manuscript-')) element.id = `enlarged-${element.id}`;
+    }
+    for (const element of enlarged.querySelectorAll('[fill], [stroke]')) {
+      for (const attribute of ['fill', 'stroke']) {
+        const value = element.getAttribute(attribute);
+        if (value?.startsWith('url(#manuscript-')) element.setAttribute(attribute, value.replace('url(#manuscript-', 'url(#enlarged-manuscript-'));
+      }
+    }
+    get('birth-dialog-visual').innerHTML = new XMLSerializer().serializeToString(enlarged.documentElement);
     dialog.showModal();
   });
   get('birth-dialog-close').addEventListener('click', () => dialog.close());

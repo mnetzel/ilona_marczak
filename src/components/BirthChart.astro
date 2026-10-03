@@ -17,6 +17,7 @@ const emptyChart = renderNorthIndianChart({ ascendantSign: 0, planets: [], empty
     <section class="birth-input-panel" aria-labelledby="birth-form-title">
       <div class="birth-panel-heading"><span class="birth-step">01</span><div><h2 id="birth-form-title">Chwila i miejsce</h2><p>Zacznij od danych urodzenia.</p></div></div>
       <form id="birth-form" autocomplete="off">
+        <div class="birth-field"><label for="birth-name">Imię i nazwisko <span class="birth-optional">(opcjonalnie)</span></label><input id="birth-name" type="text" maxlength="80" autocomplete="off" placeholder="Jak podpisać Twój wykres?" aria-describedby="birth-name-help" /><small id="birth-name-help">Wpisz podpis, który ma pojawić się nad wykresem. Możesz zostawić to pole puste.</small></div>
         <div class="birth-fields-pair">
           <div class="birth-field"><label for="birth-date">Data urodzenia</label><input id="birth-date" type="date" min="1900-01-01" max="2100-12-31" required /></div>
           <div class="birth-field"><label for="birth-time">Godzina urodzenia</label><input id="birth-time" type="time" required /><small>Czas lokalny, np. z aktu urodzenia.</small></div>
