@@ -1,0 +1,49 @@
+---
+import V2Layout from '../../layouts/V2Layout.astro';
+import content from '../../content/v2.json';
+import site from '../../content/site.json';
+const home=`${import.meta.env.BASE_URL.replace(/\/$/,'')}/v2`;
+const initial=content.services[0].title;
+const initialDraft=`Dzień dobry, Ilono,\n\ninteresuje mnie: ${initial}.\n\nProszę o informację o możliwym zakresie, cenie i terminie przygotowania raportu. Dane urodzenia przekażę po ustaleniu zasad kontaktu.\n\nPozdrawiam`;
+---
+<V2Layout title="Przygotuj zamówienie raportu — Ilona Marczak" section="zamowienie">
+  <main id="main" class="v2-shell v2-page"><header class="v2-page-heading"><p class="v2-kicker v2-kicker-accent">06 / ZAMÓWIENIE</p><h1>Zacznij od tematu.</h1><p class="v2-lead">{content.order.intro}</p></header>
+    <div class="v2-notice v2-order-intro-notice">{site.email ? <p><strong>Zgłoszenie e-mailem.</strong> Przygotuj wiadomość poniżej i otwórz ją w swoim programie pocztowym. Wysłanie zapytania nie oznacza jeszcze przyjęcia zamówienia.</p> : <p><strong>Zapisy nie są jeszcze uruchomione.</strong> {content.order.availability}</p>}</div>
+    <div class="v2-order-grid">
+      <form class="v2-form" id="order-draft" data-email={site.email}>
+        <div class="v2-field"><label for="report-type">Rodzaj opracowania</label><select id="report-type" name="rodzaj">{content.services.map(service=><option value={service.slug}>{service.title}</option>)}</select></div>
+        <div class="v2-field"><label for="report-topic">Twoje pytanie lub temat</label><textarea id="report-topic" name="temat" rows="6" maxlength="2000" aria-describedby="topic-help" placeholder="Np. Chcę przeanalizować najbliższe sześć miesięcy w kontekście zmiany pracy."></textarea><small id="topic-help">Wystarczy kilka zdań. Na tym etapie nie wpisuj daty urodzenia, adresu ani danych innych osób.</small></div>
+        <div class="v2-field"><label for="report-period">Okres, który Cię interesuje <span class="v2-optional">(opcjonalnie)</span></label><input type="text" id="report-period" name="okres" maxlength="120" placeholder="Np. najbliższe sześć miesięcy" /></div>
+        <small>Tekst powstaje tylko w tej przeglądarce. Nie zapisujemy go po odświeżeniu strony i nie wysyłamy na serwer.</small>
+        <noscript><p>Włącz JavaScript, aby przygotować treść automatycznie. Możesz też skopiować wzór z sąsiedniej sekcji i samodzielnie dopisać temat.</p></noscript>
+      </form>
+      <div><section class="v2-draft-output" aria-label="Gotowa treść wiadomości"><h2>Treść do skopiowania</h2><pre id="draft-output">{initialDraft}</pre><div class="v2-draft-actions" hidden id="draft-actions"><button type="button" class="v2-btn" id="copy-order">Kopiuj treść</button><button type="button" class="v2-btn v2-btn-outline" id="download-order">Pobierz TXT</button>{site.email && <a class="v2-btn v2-btn-outline" id="email-order" href={`mailto:${site.email}`}>Otwórz e-mail</a>}</div><p class="v2-form-status" id="draft-status" role="status" aria-live="polite"></p></section><p class="v2-local-note">Kopiowanie i pobranie pliku nie wysyłają zamówienia. {site.email ? 'Wiadomość wyślesz samodzielnie ze swojej poczty.' : 'Dane do wysyłki pojawią się po uruchomieniu kontaktu.'}</p><p class="v2-local-note"><a href={`${home}/prywatnosc/`}>Jak traktujemy prywatność</a> · <a href={`${home}/jak-zamowic/`}>Proces i warunki</a></p></div>
+    </div>
+  </main>
+</V2Layout>
+<style>.v2-form input{width:100%;border:1px solid #8e9990;background:var(--v2-bg);color:var(--v2-ink);padding:12px;font:inherit;font-size:15px;border-radius:0}.v2-optional{font-weight:400;color:var(--v2-muted);font-size:12px}[hidden]{display:none!important}</style>
+<script>
+  const form=document.querySelector<HTMLFormElement>('#order-draft');
+  const type=document.querySelector<HTMLSelectElement>('#report-type');
+  const topic=document.querySelector<HTMLTextAreaElement>('#report-topic');
+  const period=document.querySelector<HTMLInputElement>('#report-period');
+  const output=document.querySelector<HTMLElement>('#draft-output');
+  const status=document.querySelector<HTMLElement>('#draft-status');
+  const emailLink=document.querySelector<HTMLAnchorElement>('#email-order');
+  const requested=new URLSearchParams(location.search).get('rodzaj');
+  form?.reset();
+  if(type&&requested&&[...type.options].some(option=>option.value===requested))type.value=requested;
+  function message(){
+    const selected=type?.selectedOptions[0]?.textContent||'Horoskop urodzeniowy';
+    const parts=['Dzień dobry, Ilono,',`interesuje mnie: ${selected}.`];
+    if(topic?.value.trim())parts.push(`Mój temat lub pytanie:\n${topic.value.trim()}`);
+    if(period?.value.trim())parts.push(`Interesujący mnie okres: ${period.value.trim()}.`);
+    parts.push('Proszę o informację o możliwym zakresie, cenie i terminie przygotowania raportu. Dane urodzenia przekażę po ustaleniu zasad kontaktu.','Pozdrawiam');
+    return parts.join('\n\n');
+  }
+  function update(){if(output)output.textContent=message();if(status)status.textContent='';if(emailLink){emailLink.href=`mailto:${form?.dataset.email||''}?subject=${encodeURIComponent(`Zapytanie o raport: ${type?.selectedOptions[0]?.textContent}`)}&body=${encodeURIComponent(message())}`;}}
+  form?.addEventListener('input',update);form?.addEventListener('change',update);form?.addEventListener('submit',event=>event.preventDefault());
+  document.querySelector('#draft-actions')?.removeAttribute('hidden');update();
+  document.querySelector('#copy-order')?.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(message());if(status)status.textContent='Skopiowano treść. Wiadomość nie została wysłana.';}catch{if(output){const range=document.createRange();range.selectNodeContents(output);const selection=window.getSelection();selection?.removeAllRanges();selection?.addRange(range);}if(status)status.textContent='Zaznaczono tekst. Skopiuj go z menu przeglądarki lub klawiszami Ctrl+C (⌘C).';}});
+  document.querySelector('#download-order')?.addEventListener('click',()=>{const blob=new Blob(['\uFEFF'+message()],{type:'text/plain;charset=utf-8'});const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download='zapytanie-do-ilony-marczak.txt';document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);if(status)status.textContent='Przygotowano plik TXT do pobrania. Zamówienie nie zostało wysłane.';});
+</script>

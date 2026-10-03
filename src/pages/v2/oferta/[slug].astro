@@ -1,0 +1,12 @@
+---
+import V2Layout from '../../../layouts/V2Layout.astro';
+import content from '../../../content/v2.json';
+export function getStaticPaths(){return content.services.map(service=>({params:{slug:service.slug},props:{service}}));}
+const {service}=Astro.props;
+const home=`${import.meta.env.BASE_URL.replace(/\/$/,'')}/v2`;
+---
+<V2Layout title={`${service.title} — Ilona Marczak | Jyotish`} description={service.summary} section="oferta">
+  <main id="main" class="v2-shell v2-page"><a class="v2-breadcrumb" href={`${home}/oferta/`}>Oferta / wszystkie opracowania</a><header class="v2-page-heading"><p class="v2-kicker v2-kicker-accent">OPRACOWANIE {service.number} / PISEMNY RAPORT</p><h1>{service.title}</h1><p class="v2-lead">{service.intro}</p></header>
+    <div class="v2-detail-grid"><div class="v2-detail-content"><section><h2>Dla kogo?</h2><p>{service.forWhom}</p></section><section><h2>Co zawiera opracowanie?</h2><ul class="v2-checklist">{service.includes.map(item=><li>{item}</li>)}</ul></section><section><h2>Zakres analizy</h2><p>{service.scope}</p><p>{service.reportNote}</p></section></div><aside class="v2-order-aside"><p class="v2-kicker">PRZED ZAMÓWIENIEM</p><h2>Co będzie potrzebne?</h2><ul>{service.needed.map(item=><li>{item}</li>)}</ul><p>Dane urodzenia przekaż po ustaleniu zakresu i zasad kontaktu. Wstępne zgłoszenie może zawierać tylko wybrany temat.</p><a class="v2-btn" href={`${home}/zamowienie/?rodzaj=${service.slug}`}>Przygotuj zamówienie</a><small>Cena i termin do uzgodnienia przed rozpoczęciem.</small></aside></div>
+  </main>
+</V2Layout>

@@ -1,0 +1,8 @@
+---
+import V2Layout from '../../../layouts/V2Layout.astro';
+import content from '../../../content/v2.json';
+const home=`${import.meta.env.BASE_URL.replace(/\/$/,'')}/v2`;
+---
+<V2Layout title="Czytelnia — podstawy Jyotish i przygotowanie zamówienia | Ilona Marczak" section="czytelnia">
+  <main id="main" class="v2-shell v2-page"><header class="v2-page-heading"><p class="v2-kicker v2-kicker-accent">05 / CZYTELNIA</p><h1>Zanim zamówisz analizę.</h1><p class="v2-lead">Co jest analizowane w horoskopie, jak sformułować pytanie i czym różnią się okresy planetarne od tranzytów. Krótkie teksty bez wymogu wcześniejszej znajomości astrologii.</p></header><div class="v2-article-grid">{content.articles.map(article=><a class="v2-article-card" href={`${home}/czytelnia/${article.slug}/`}><span class="v2-kicker">{article.category}</span><h2>{article.title}</h2><p>{article.intro}</p><span class="v2-text-link">Przeczytaj tekst</span></a>)}</div><div class="v2-notice">Teksty objaśniają tradycyjny sposób interpretacji. Odsyłacze do dalszej lektury znajdziesz pod każdym artykułem.</div></main>
+</V2Layout>

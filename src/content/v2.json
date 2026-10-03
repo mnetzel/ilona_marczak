@@ -1,0 +1,243 @@
+{
+  "hero": {
+    "eyebrow": "ILONA MARCZAK · ASTROLOGIA WEDYJSKA",
+    "title": "Twój horoskop. Konkretne pytania. Pisemna analiza.",
+    "intro": "Horoskop urodzeniowy, odpowiedź na wybrane pytanie lub prognoza z analizą obecnych tranzytów. Wybierasz temat, przekazujesz potrzebne informacje i otrzymujesz raport, do którego możesz wracać. Rozmowę możemy ustalić po jego przeczytaniu."
+  },
+  "services": [
+    {
+      "slug": "horoskop-urodzeniowy",
+      "number": "01",
+      "title": "Horoskop urodzeniowy",
+      "shortTitle": "Horoskop urodzeniowy",
+      "summary": "Przekrojowa interpretacja horoskopu: predyspozycje, powtarzające się wzorce i główne obszary życia.",
+      "intro": "Punktem wyjścia są data, godzina i miejsce urodzenia. Na ich podstawie przygotowuję interpretację horoskopu w tradycji Jyotish. Raport porządkuje najważniejsze tematy i odnosi je do obszarów, które chcesz lepiej zrozumieć.",
+      "forWhom": "Dla osób, które chcą poznać swój horoskop jako całość lub uporządkować kilka powiązanych tematów, zamiast szukać odpowiedzi na jedno wąskie pytanie.",
+      "includes": [
+        "Omówienie głównych elementów horoskopu oraz ich znaczenia w interpretacji.",
+        "Opis predyspozycji, mocnych stron i powtarzających się trudności wskazywanych przez układ urodzeniowy.",
+        "Analizę uzgodnionych obszarów, takich jak relacje, praca, sposób działania czy kierunek rozwoju.",
+        "Podsumowanie najważniejszych wniosków i objaśnienie użytych pojęć."
+      ],
+      "needed": [
+        "Data urodzenia.",
+        "Godzina urodzenia oraz informacja, skąd ją znasz i na ile jest dokładna.",
+        "Miejscowość i kraj urodzenia.",
+        "Krótka informacja o tematach, na których najbardziej Ci zależy."
+      ],
+      "scope": "Przed przyjęciem zamówienia ustalamy, które obszary obejmie analiza. Jeśli godzina urodzenia jest nieznana lub przybliżona, najpierw określam, co można rzetelnie omówić na podstawie dostępnych danych.",
+      "reportNote": "Otrzymujesz pisemny raport z interpretacją i podsumowaniem. Jeżeli po lekturze chcesz omówić jego treść, możemy osobno ustalić rozmowę."
+    },
+    {
+      "slug": "odpowiedz-na-pytanie",
+      "number": "02",
+      "title": "Odpowiedź na pytanie",
+      "shortTitle": "Konkretne pytanie",
+      "summary": "Analiza jednego tematu w kontekście Twojego horoskopu i opisanej sytuacji.",
+      "intro": "To propozycja dla osoby, która przychodzi z konkretną sprawą. Opisujesz sytuację i pytanie, a ja przygotowuję ukierunkowaną interpretację. Przed zamówieniem sprawdzam, czy temat jest dostatecznie precyzyjny i czy mogę go podjąć.",
+      "forWhom": "Dla osób, które chcą przyjrzeć się wybranemu zagadnieniu, na przykład powtarzającemu się schematowi w relacjach, zmianie kierunku zawodowego lub trudności w realizacji planów.",
+      "includes": [
+        "Jasne określenie pytania i granic analizy.",
+        "Omówienie elementów horoskopu związanych z wybranym tematem.",
+        "Odniesienie interpretacji do przedstawionej sytuacji i, jeśli to potrzebne, uzgodnionego okresu.",
+        "Odpowiedź z uzasadnieniem oraz wskazaniem tego, czego dostępne informacje nie pozwalają rozstrzygnąć."
+      ],
+      "needed": [
+        "Jedno główne pytanie zapisane własnymi słowami.",
+        "Krótki opis sytuacji oraz informacja, co chcesz dzięki analizie zrozumieć.",
+        "Data, miejsce i godzina urodzenia wraz z informacją o dokładności godziny.",
+        "Okres, którego dotyczy pytanie, jeśli czas ma w nim znaczenie."
+      ],
+      "scope": "Analiza dotyczy uzgodnionego pytania. Jeśli opis obejmuje kilka odrębnych spraw, przed przyjęciem zamówienia wybieramy najważniejszą lub ustalamy szerszy zakres.",
+      "reportNote": "Otrzymujesz pisemną odpowiedź wraz z wyjaśnieniem toku interpretacji. Ewentualna rozmowa po lekturze służy omówieniu raportu i wymaga osobnego ustalenia."
+    },
+    {
+      "slug": "prognoza-i-tranzyty",
+      "number": "03",
+      "title": "Prognoza i tranzyty",
+      "shortTitle": "Prognoza i tranzyty",
+      "summary": "Interpretacja obecnej dynamiki i nadchodzącego okresu w odniesieniu do horoskopu urodzeniowego.",
+      "intro": "Ta analiza koncentruje się na czasie: tym, co w interpretacji Jyotish jest teraz szczególnie istotne, oraz tematach nadchodzącego okresu. Łączę odczyt horoskopu urodzeniowego z analizą okresów planetarnych i tranzytów, czyli bieżących pozycji planet.",
+      "forWhom": "Dla osób, które chcą przyjrzeć się obecnemu etapowi życia, przygotowują się do zmiany lub potrzebują interpretacji wybranego okresu i jego głównych tematów.",
+      "includes": [
+        "Omówienie obecnego okresu planetarnego i jego głównych tematów w tradycji Jyotish.",
+        "Analizę istotnych tranzytów w odniesieniu do horoskopu urodzeniowego.",
+        "Opis dynamiki uzgodnionego okresu oraz przedziałów czasu, na które wskazuje interpretacja.",
+        "Podsumowanie w odniesieniu do wybranych obszarów życia, z rozróżnieniem ogólnych tendencji i bardziej indywidualnych wniosków."
+      ],
+      "needed": [
+        "Data, miejsce i godzina urodzenia wraz z informacją o dokładności godziny.",
+        "Okres, który chcesz omówić: obecna sytuacja, najbliższe miesiące lub inny wskazany przedział.",
+        "Tematy, które są teraz dla Ciebie najważniejsze.",
+        "Krótki opis bieżącej sytuacji i planowanych zmian."
+      ],
+      "scope": "Długość analizowanego okresu i obszary prognozy ustalamy przed zamówieniem. Prognoza opisuje astrologiczne tendencje i możliwe znaczenia danego czasu; nie jest kalendarzem zagwarantowanych zdarzeń.",
+      "reportNote": "Otrzymujesz pisemny raport uporządkowany według tematów i okresów. Po jego przeczytaniu możemy ustalić dodatkową rozmowę o wnioskach."
+    }
+  ],
+  "process": [
+    {
+      "title": "Wybierasz temat",
+      "text": "Wskazujesz rodzaj analizy i krótko opisujesz, czego chcesz się dowiedzieć. Nie musisz znać terminów astrologicznych."
+    },
+    {
+      "title": "Ustalamy zakres i warunki",
+      "text": "Potwierdzam, czy mogę podjąć temat, jakie dane są potrzebne, kiedy otrzymasz raport i jaki będzie koszt. Zamówienie przyjmuję dopiero po uzgodnieniu tych warunków."
+    },
+    {
+      "title": "Przygotowuję raport",
+      "text": "Po otrzymaniu uzgodnionych danych opracowuję pisemną analizę. Raport zawiera interpretację, wyjaśnienie pojęć i podsumowanie odnoszące się do Twojego zamówienia."
+    },
+    {
+      "title": "Czytasz i wracasz z pytaniami",
+      "text": "Raport czytasz we własnym tempie. Jeśli potrzebujesz rozmowy po lekturze, ustalamy jej dostępność, zakres i ewentualny koszt osobno."
+    }
+  ],
+  "about": {
+    "intro": "Nazywam się Ilona Marczak. Uczę się Jyotish i rozwijam swoją praktykę interpretacji horoskopów w tradycji astrologii wedyjskiej.",
+    "paragraphs": [
+      "Jestem na początku praktyki. Podejmuję tematy, do których mogę się przygotować i które potrafię jasno opisać. Jeśli pytanie wykracza poza moje kompetencje, mówię o tym przed przyjęciem zamówienia.",
+      "Wybieram formę pisemnego raportu, ponieważ daje czas na analizę i uporządkowanie wniosków. Tobie pozwala przeczytać całość bez pośpiechu, zaznaczyć ważne fragmenty i wrócić do nich później.",
+      "W Jyotish ważny jest dla mnie szacunek do tradycji i źródeł wiedzy. Chcę rozróżniać zasady interpretacji od własnych wniosków oraz wyjaśniać astrologiczne pojęcia zwykłym językiem.",
+      "Bliska jest mi sewa — służba rozumiana jako odpowiedzialne dzielenie się wiedzą. W praktyce oznacza to dla mnie uczciwe określenie zakresu pracy, jasne warunki i szacunek do Twoich decyzji."
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Czy zamawiam rozmowę, czy raport?",
+      "answer": "Podstawą każdej analizy jest pisemny raport. Nie musimy spotykać się na żywo podczas jego przygotowania. Ewentualną rozmowę o treści raportu ustalamy po jego przeczytaniu."
+    },
+    {
+      "question": "Którą analizę wybrać?",
+      "answer": "Horoskop urodzeniowy daje szerszy obraz i obejmuje uzgodnione obszary życia. Odpowiedź na pytanie koncentruje się na jednym zagadnieniu. Prognoza i tranzyty dotyczą obecnej dynamiki oraz wybranego okresu. Jeśli wahasz się między nimi, wystarczy krótko opisać, czego chcesz się dowiedzieć."
+    },
+    {
+      "question": "Co jeśli nie znam dokładnej godziny urodzenia?",
+      "answer": "Napisz, co wiesz: przybliżoną godzinę, przedział czasu albo informację, że godzina jest nieznana. Jej dokładność wpływa na zakres interpretacji. Przed zamówieniem ustalimy, co można przeanalizować na podstawie dostępnych danych."
+    },
+    {
+      "question": "Ile kosztuje raport i jak długo trwa przygotowanie?",
+      "answer": "Koszt i termin zależą od uzgodnionego zakresu oraz dostępności. Otrzymasz te informacje przed przyjęciem zamówienia. Przesłanie samego zapytania nie oznacza zamówienia ani obowiązku zapłaty."
+    },
+    {
+      "question": "Czy rozmowa po otrzymaniu raportu jest wliczona?",
+      "answer": "Rozmowa nie jest automatyczną częścią zamówienia. Jeśli będzie potrzebna, osobno potwierdzimy jej dostępność, zakres i ewentualny koszt."
+    },
+    {
+      "question": "Czy muszę znać astrologię wedyjską?",
+      "answer": "Nie. W raporcie wyjaśniam pojęcia potrzebne do zrozumienia interpretacji. Do zamówienia wystarczy opis sytuacji własnymi słowami i uzgodnione dane urodzenia."
+    },
+    {
+      "question": "Co oznacza praca w duchu sewy?",
+      "answer": "Sewa oznacza służbę. W mojej pracy to zobowiązanie do uczciwego określenia, w czym mogę pomóc, i do jasnych zasad. Nie oznacza automatycznie, że wszystkie analizy są bezpłatne — warunki zawsze ustalamy wcześniej."
+    },
+    {
+      "question": "Jak traktować wnioski z raportu?",
+      "answer": "Jyotish jest tradycją interpretacji, a nie naukowo potwierdzoną metodą przewidywania zdarzeń. Raport nie gwarantuje wyniku i nie zastępuje porady medycznej, prawnej ani finansowej. Decyzje pozostają po Twojej stronie."
+    },
+    {
+      "question": "Czy mogę już wysłać zamówienie przez stronę?",
+      "answer": "Dane kontaktowe są jeszcze w przygotowaniu. Możesz wybrać analizę i przygotować treść zapytania. Formularz niczego nie wysyła i nie przyjmuje zamówień; służy do skopiowania roboczej wiadomości."
+    }
+  ],
+  "articles": [
+    {
+      "slug": "podstawy-jyotish",
+      "category": "PODSTAWY",
+      "title": "Co jest analizowane w horoskopie?",
+      "intro": "Horoskop urodzeniowy jest punktem wyjścia do indywidualnej interpretacji. Do jego przygotowania potrzebne są data, godzina i miejsce narodzin.",
+      "sections": [
+        {
+          "title": "Układ urodzeniowy",
+          "text": "W Jyotish analizuje się pozycje grah: Słońca, Księżyca, pięciu planet oraz węzłów księżycowych Rahu i Ketu. Ważne są także znaki zodiaku, domy horoskopu i ascendent, czyli punkt zodiaku wschodzący w danej chwili na wschodnim horyzoncie. Interpretacja łączy te elementy; pojedyncza pozycja nie stanowi samodzielnego opisu człowieka."
+        },
+        {
+          "title": "Po co dokładna godzina?",
+          "text": "Godzina urodzenia wpływa między innymi na ascendent i układ domów. Dlatego warto podać nie tylko samą godzinę, lecz również jej źródło: dokument, zapis rodzinny albo wspomnienie bliskiej osoby. Jeśli znasz jedynie przybliżenie, zaznacz to. Taka informacja pozwala dostosować zakres analizy, zamiast budować szczegółowe wnioski na niepewnym założeniu. Nie trzeba wpisywać danych urodzenia do formularza na tej stronie — sposób ich przekazania ustalimy przed rozpoczęciem pracy."
+        },
+        {
+          "title": "Interpretacja potrzebuje zakresu",
+          "text": "Przy zamawianiu raportu określ, co jest dla Ciebie ważne. Może to być szeroki przegląd horoskopu albo nacisk na relacje, pracę czy sposób podejmowania decyzji. Dwa zdania o Twojej sytuacji pomogą dobrać zakres i wyjaśnić, co raport będzie zawierał. Nie musisz samodzielnie wskazywać planet ani technik astrologicznych."
+        },
+        {
+          "title": "Jak korzystać z raportu?",
+          "text": "Najpierw przeczytaj podsumowanie, a potem wróć do poszczególnych części. Zaznacz sformułowania, które są niejasne, i oddziel opis tradycyjnych znaczeń od odniesień do własnego doświadczenia. Raport ma dawać czytelny tok interpretacji. Jeśli potrzebujesz doprecyzowania, zapisz konkretne pytanie do danego fragmentu; będzie dobrym punktem wyjścia do ewentualnej rozmowy po lekturze."
+        }
+      ],
+      "sources": [
+        {
+          "label": "P. V. R. Narasimha Rao — Vedic Astrology: An Integrated Approach, podstawy horoskopu i dokładność godziny urodzenia",
+          "url": "https://www.vedicastrologer.org/articles/astro_books.htm"
+        }
+      ]
+    },
+    {
+      "slug": "jak-przygotowac-pytanie",
+      "category": "PRZED ZAMÓWIENIEM",
+      "title": "Jak przygotować pytanie do analizy?",
+      "intro": "Dobre zapytanie określa temat, sytuację i to, czego chcesz się dowiedzieć. Wystarczy krótki opis własnymi słowami.",
+      "sections": [
+        {
+          "title": "Zacznij od jednej sprawy",
+          "text": "Pytanie „Co mnie czeka?” może dotyczyć niemal wszystkiego. Łatwiej ustalić zakres pracy, gdy zapiszesz konkretny temat: „Rozważam zmianę rodzaju pracy. Jakie predyspozycje i powtarzające się trudności warto omówić w moim horoskopie?”. To przykład sposobu sformułowania pytania. Możesz równie dobrze zapytać o relacje, obecny etap życia lub wybrany okres."
+        },
+        {
+          "title": "Dodaj krótki kontekst",
+          "text": "Opisz to, co jest potrzebne do zrozumienia pytania: co się zmieniło, jakie możliwości rozważasz i dlaczego ten temat jest teraz ważny. Nie potrzebuję całej historii życia ani danych osób trzecich. Na początek wystarczy kilka zdań. Jeśli analizowany ma być określony czas, wskaż miesiące lub rok, zamiast używać samego słowa „niedługo”."
+        },
+        {
+          "title": "Napisz, jakiej odpowiedzi szukasz",
+          "text": "Czy interesuje Cię ogólny obraz predyspozycji, powtarzający się schemat, czy astrologiczna interpretacja nadchodzącego okresu? Nazwanie oczekiwania pomaga ustalić, czy właściwa będzie analiza urodzeniowa, odpowiedź na pytanie, czy prognoza. Jeśli w jednej wiadomości pojawi się kilka tematów, ustalimy ich priorytet przed przyjęciem zamówienia. Nie musisz rozstrzygać tego samodzielnie."
+        },
+        {
+          "title": "Skorzystaj z prostego wzoru",
+          "text": "Możesz napisać: „Interesuje mnie [rodzaj analizy]. Moja sytuacja to [krótki opis]. Chcę przede wszystkim zrozumieć [pytanie]. Ważny dla mnie okres to [termin, jeśli dotyczy]. Proszę o informację o możliwym zakresie, koszcie i terminie raportu”. To roboczy wzór przygotowany na potrzeby tej strony. W pierwszej wiadomości nie musisz jeszcze przesyłać danych urodzenia. Samo zapytanie nie zobowiązuje Cię do zamówienia analizy."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Kontekst podejścia: Penny Farrow — o odpowiedzialności za sposób przekazywania interpretacji, biuletyn Winter 2024",
+          "url": "https://vedicchart.com/"
+        }
+      ]
+    },
+    {
+      "slug": "okresy-i-tranzyty",
+      "category": "CZAS W JYOTISH",
+      "title": "Okresy planetarne a tranzyty",
+      "intro": "W analizie czasu spotkasz dwa różne pojęcia: okres planetarny i tranzyt. Pomagają uporządkować interpretację obecnej sytuacji i prognozę.",
+      "sections": [
+        {
+          "title": "Okres planetarny — daśā",
+          "text": "Daśā to tradycyjny system dzielenia czasu na okresy i podokresy. W systemach planetarnych poszczególnym odcinkom przypisuje się grahy, a ich znaczenie odczytuje w odniesieniu do horoskopu urodzeniowego. W Jyotish istnieje wiele takich systemów. Nazwa planety nie wystarcza więc do oceny, czy dany okres będzie korzystny: potrzebna jest indywidualna interpretacja."
+        },
+        {
+          "title": "Tranzyt — bieżąca pozycja",
+          "text": "Tranzyty dotyczą pozycji planet w analizowanym czasie. Astrolog zestawia je z układem urodzeniowym i innymi elementami interpretacji. To dlatego ogólna informacja o przejściu planety do kolejnego znaku nie opisuje w ten sam sposób każdej osoby. W analizach tradycyjnych odczyt tranzytów bywa łączony z trwającymi okresami planetarnymi, aby odnieść bieżący układ do szerszego kontekstu."
+        },
+        {
+          "title": "Co powinno znaleźć się w prognozie?",
+          "text": "Raport powinien wskazywać, jakiego czasu dotyczy i które obszary obejmuje. Przydatne jest rozdzielenie opisu obecnej dynamiki od tematów nadchodzących miesięcy. Warto też wyjaśnić, które wnioski odnoszą się do dłuższego okresu, a które do krótszego tranzytu. Tak uporządkowaną analizę łatwiej przeczytać i później odnieść do własnych obserwacji. Przed zamówieniem ustalimy długość prognozy i główne zagadnienia."
+        },
+        {
+          "title": "Podaj czas i temat",
+          "text": "Zamiast prosić o prognozę całego życia, wskaż okres oraz sprawy, które są teraz istotne. Możesz napisać: „Chcę przyjrzeć się najbliższym sześciu miesiącom w kontekście pracy i planowanej zmiany miejsca zamieszkania”. To przykład zakresu do uzgodnienia. Prognoza jest interpretacją tendencji, nie gwarancją wydarzeń w konkretnym dniu. Po lekturze raportu możesz wrócić z pytaniem o wskazany przedział lub wniosek."
+        }
+      ],
+      "sources": [
+        {
+          "label": "P. V. R. Narasimha Rao — Vedic Astrology: An Integrated Approach, części Dasa Analysis i Transit Analysis",
+          "url": "https://www.vedicastrologer.org/articles/astro_books.htm"
+        },
+        {
+          "label": "Penny Farrow — przykłady odnoszenia tranzytów do indywidualnego horoskopu",
+          "url": "https://vedicchart.com/"
+        }
+      ]
+    }
+  ],
+  "order": {
+    "intro": "Wybierz rodzaj analizy i krótko opisz temat. Pierwsza wiadomość służy ustaleniu zakresu, terminu i kosztu — dopiero po ich potwierdzeniu podejmujesz decyzję o zamówieniu.",
+    "availability": "Dane kontaktowe są w przygotowaniu. Poniżej możesz przygotować i skopiować treść zapytania. Ta wersja formularza nie wysyła wiadomości ani nie przyjmuje zamówienia."
+  }
+}

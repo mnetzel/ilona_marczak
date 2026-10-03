@@ -1,0 +1,12 @@
+---
+import V2Layout from '../../layouts/V2Layout.astro';
+import content from '../../content/v2.json';
+const home=`${import.meta.env.BASE_URL.replace(/\/$/,'')}/v2`;
+---
+<V2Layout title="Jak zamówić raport Jyotish — Ilona Marczak" section="jak-zamowic">
+  <main id="main" class="v2-shell v2-page"><header class="v2-page-heading"><p class="v2-kicker v2-kicker-accent">02 / SPOSÓB PRACY</p><h1>Od zgłoszenia<br />do gotowego raportu.</h1><p class="v2-lead">Analizę przygotowuję po otrzymaniu zamówienia i uzgodnieniu jego zakresu. Podstawą jest pisemne opracowanie, które możesz przeczytać w swoim czasie.</p></header>
+    <ol class="v2-process-list">{content.process.map((step,i)=><li><span class="v2-step">0{i+1}</span><h2>{step.title}</h2><p>{step.text}</p></li>)}</ol>
+    <div class="v2-actions"><a class="v2-btn" href={`${home}/zamowienie/`}>Przygotuj zamówienie</a><a class="v2-text-link" href={`${home}/oferta/`}>Porównaj opracowania</a></div>
+    <section class="v2-faq"><h2>Przed zamówieniem</h2>{content.faqs.map(faq=><details><summary>{faq.question}</summary><p>{faq.answer}</p></details>)}</section>
+  </main>
+</V2Layout>

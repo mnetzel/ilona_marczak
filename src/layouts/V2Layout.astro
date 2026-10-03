@@ -1,0 +1,60 @@
+---
+import '@fontsource/dm-sans/latin-ext-400.css';
+import '@fontsource/dm-sans/latin-ext-500.css';
+import '@fontsource/dm-sans/latin-ext-700.css';
+import '@fontsource/dm-sans/latin-400.css';
+import '@fontsource/dm-sans/latin-500.css';
+import '@fontsource/dm-sans/latin-700.css';
+import VersionSwitch from '../components/VersionSwitch.astro';
+import site from '../content/site.json';
+import '../styles/v2.css';
+interface Props { title?: string; description?: string; section?: string; }
+const {title='Ilona Marczak — Jyotish. Horoskopy i raporty',description='Horoskop urodzeniowy, odpowiedzi na pytania, prognozy i tranzyty w tradycji Jyotish. Zamówienie, pisemny raport i opcjonalne omówienie.',section=''}=Astro.props;
+const base=import.meta.env.BASE_URL.replace(/\/$/,'');
+const home=`${base}/v2`;
+const nav=[['oferta','Oferta'],['jak-zamowic','Jak zamówić'],['o-jyotish','O Jyotish'],['o-mnie','O mnie'],['czytelnia','Czytelnia']];
+---
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#1d292b" />
+    {site.isDraft && <meta name="robots" content="noindex, follow" />}
+    <link rel="canonical" href={new URL(Astro.url.pathname,Astro.site)} />
+    <link rel="icon" type="image/svg+xml" href={`${base}/favicon-v2.svg`} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pl_PL" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <title>{title}</title>
+  </head>
+  <body class="v2">
+    <a class="v2-skip" href="#main">Przejdź do treści</a>
+    <VersionSwitch current={2} />
+    <header class="v2-header">
+      <div class="v2-shell v2-header-row">
+        <a class="v2-brand" href={`${home}/`} aria-label="Ilona Marczak — strona główna wersji drugiej"><span class="v2-brand-mark" aria-hidden="true">IM<span>.</span></span><span>Ilona Marczak<small>JYOTISH · ASTROLOGIA WEDYJSKA</small></span></a>
+        <button class="v2-menu-toggle" aria-expanded="false" aria-controls="v2-navigation">Menu <span aria-hidden="true">☰</span></button>
+        <nav id="v2-navigation" aria-label="Menu główne wersji drugiej">
+          {nav.map(([slug,label])=><a href={`${home}/${slug}/`} aria-current={section===slug?'page':undefined}>{label}</a>)}
+          <a class="v2-nav-order" href={`${home}/zamowienie/`} aria-current={section==='zamowienie'?'page':undefined}>Zamów raport</a>
+        </nav>
+      </div>
+    </header>
+    <slot />
+    <footer class="v2-footer">
+      <div class="v2-shell v2-footer-top"><div><a class="v2-footer-name" href={`${home}/`}>Ilona Marczak<span>.</span></a><p>Astrologia wedyjska. Indywidualne opracowania.</p></div><div class="v2-footer-links"><a href={`${home}/oferta/`}>Oferta</a><a href={`${home}/zamowienie/`}>Zamówienie</a><a href={`${home}/prywatnosc/`}>Prywatność</a><a href={`${base}/raport/`}>Raport z researchu</a></div></div>
+      <div class="v2-shell v2-footer-bottom"><span>© {new Date().getUTCFullYear()} Ilona Marczak</span><span>{site.isDraft?'Wersja robocza · treści do wspólnej redakcji':'Tradycyjna astrologia wedyjska'}</span></div>
+    </footer>
+    <script>
+      const toggle=document.querySelector<HTMLButtonElement>('.v2-menu-toggle');
+      const nav=document.querySelector<HTMLElement>('#v2-navigation');
+      const close=()=>{toggle?.setAttribute('aria-expanded','false');nav?.classList.remove('is-open');};
+      toggle?.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')!=='true';toggle.setAttribute('aria-expanded',String(open));nav?.classList.toggle('is-open',open);});
+      nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));
+      document.addEventListener('keydown',e=>{if(e.key==='Escape'&&toggle?.getAttribute('aria-expanded')==='true'){close();toggle.focus();}});
+    </script>
+  </body>
+</html>

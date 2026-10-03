@@ -3,11 +3,22 @@
 Statyczna strona wizytówka po polsku, opracowana w duchu sewy. Astro generuje zwykły HTML, CSS i niewielkie skrypty menu oraz filtrów raportu. Hosting: GitHub Pages.
 
 - Strona: https://mnetzel.github.io/ilona_marczak/
+- Wersja druga: https://mnetzel.github.io/ilona_marczak/v2/
 - Raport 50 witryn: https://mnetzel.github.io/ilona_marczak/raport/
 - CSV: https://mnetzel.github.io/ilona_marczak/research/zrodla.csv
 - Pełne dane badania: https://mnetzel.github.io/ilona_marczak/research/zrodla.json
 
 ## Edycja z Iloną
+
+### Dwie wersje strony
+
+Pierwsza wersja zachowuje pierwotny układ pod głównym adresem. Druga działa pod `/v2/` i ma osobne podstrony: oferta, trzy rodzaje opracowań, proces zamawiania, o Jyotish, o Ilonie, czytelnia z trzema nowymi tekstami oraz przygotowanie zamówienia. Przełącznik obu wersji znajduje się u góry każdej podstrony.
+
+`src/content/v2.json` zawiera ofertę i teksty drugiej wersji. `src/layouts/V2Layout.astro` oraz `src/styles/v2.css` tworzą jej oddzielny wygląd. `src/components/VersionSwitch.astro` jest wspólnym przełącznikiem. Pierwotna wersja nie została nadpisana.
+
+V2 opisuje proces: zapytanie → ustalenie zakresu, terminu i ceny → pisemny raport → opcjonalne omówienie po lekturze. Zamówienie ma lokalny generator tekstu z kopiowaniem i pobieraniem TXT; niczego nie wysyła ani nie zapisuje danych. Dopóki `site.json` ma pusty `email`, widoczny jest komunikat o braku zapisów. Po wpisaniu prawdziwego adresu pojawi się link otwierający program pocztowy z przygotowaną wiadomością. Wtedy trzeba też zaktualizować informacje o dostępności w `v2.json` (FAQ i `order.availability`) oraz prywatności. Formularz celowo nie zbiera danych urodzenia.
+
+### Wersja pierwsza i wspólne ustawienia
 
 1. `src/content/site.json` — teksty głównej strony, FAQ, kontakt i oznaczenie wersji roboczej.
 2. `src/content/articles.ts` — trzy artykuły czytelni, słowniczek i źródła.

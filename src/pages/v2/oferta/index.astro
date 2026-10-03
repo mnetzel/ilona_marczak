@@ -1,0 +1,11 @@
+---
+import V2Layout from '../../../layouts/V2Layout.astro';
+import content from '../../../content/v2.json';
+const home=`${import.meta.env.BASE_URL.replace(/\/$/,'')}/v2`;
+---
+<V2Layout title="Oferta — horoskopy i raporty Jyotish | Ilona Marczak" section="oferta">
+  <main id="main" class="v2-shell v2-page"><header class="v2-page-heading"><p class="v2-kicker v2-kicker-accent">01 / OFERTA</p><h1>Wybierz temat.<br />Otrzymaj opracowanie.</h1><p class="v2-lead">Trzy rodzaje indywidualnej analizy w tradycji astrologii wedyjskiej. Każde zamówienie kończy się pisemnym raportem; rozmowę można ustalić po jego otrzymaniu.</p></header>
+    <div class="v2-offer-list">{content.services.map(service=><article class="v2-offer-row"><span class="v2-service-number">{service.number}</span><div><h2>{service.title}</h2><p>{service.summary}</p></div><div><ul>{service.includes.slice(0,3).map(item=><li>{item}</li>)}</ul><a class="v2-text-link" href={`${home}/oferta/${service.slug}/`}>Zakres i potrzebne dane</a></div></article>)}</div>
+    <div class="v2-notice"><strong>Warunki przed rozpoczęciem pracy.</strong> Zakres, cena i termin są ustalane przed przyjęciem zamówienia. Zasady opcjonalnego omówienia ustalamy osobno. <a href={`${home}/jak-zamowic/`}>Zobacz, jak zamówić.</a></div>
+  </main>
+</V2Layout>

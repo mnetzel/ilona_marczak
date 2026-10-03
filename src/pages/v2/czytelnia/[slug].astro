@@ -1,0 +1,10 @@
+---
+import V2Layout from '../../../layouts/V2Layout.astro';
+import content from '../../../content/v2.json';
+export function getStaticPaths(){return content.articles.map(article=>({params:{slug:article.slug},props:{article}}));}
+const {article}=Astro.props;
+const home=`${import.meta.env.BASE_URL.replace(/\/$/,'')}/v2`;
+---
+<V2Layout title={`${article.title} — Ilona Marczak`} description={article.intro} section="czytelnia">
+  <main id="main" class="v2-shell v2-page"><a class="v2-breadcrumb" href={`${home}/czytelnia/`}>Czytelnia / wszystkie teksty</a><header class="v2-page-heading"><p class="v2-kicker v2-kicker-accent">{article.category}</p><h1>{article.title}</h1><p class="v2-lead">{article.intro}</p></header><article class="v2-prose">{article.sections.map(section=><section><h2>{section.title}</h2><p>{section.text}</p></section>)}<aside class="v2-source-list"><strong>Źródła i dalsza lektura</strong><ul>{article.sources.map(source=><li><a href={source.url} target="_blank" rel="noopener noreferrer">{source.label}</a></li>)}</ul><p>Autorskie opracowanie po polsku. Linki do źródeł nie oznaczają afiliacji Ilony z ich autorami.</p></aside><div class="v2-actions"><a class="v2-btn" href={`${home}/oferta/`}>Zobacz rodzaje analiz</a><a class="v2-text-link" href={`${home}/czytelnia/`}>Wróć do czytelni</a></div></article></main>
+</V2Layout>

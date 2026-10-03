@@ -1,0 +1,25 @@
+---
+interface Props { current: 1 | 2; }
+const { current } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<div class:list={['version-bar', { 'version-bar-v2': current === 2 }]}>
+  <div class="version-inner">
+    <span class="version-caption">Ilona Marczak <span class="version-caption-extra">· wybierz wersję strony</span></span>
+    <div class="version-options" role="group" aria-label="Wersja strony">
+      <a href={`${base}/`} aria-current={current === 1 ? 'true' : undefined}>Wersja 1</a>
+      <a href={`${base}/v2/`} aria-current={current === 2 ? 'true' : undefined}>Wersja 2</a>
+    </div>
+  </div>
+</div>
+<style>
+  .version-bar{background:#14372f;color:#f5f4ee;font:400 12px/1.4 'DM Sans',Arial,sans-serif;position:relative;z-index:25}
+  .version-inner{width:min(1264px,calc(100% - 48px));margin:auto;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:8px 0}
+  .version-caption{letter-spacing:.02em}.version-caption-extra{opacity:.75}
+  .version-options{display:flex;border:1px solid #ffffff55;padding:3px;gap:3px;flex-shrink:0}
+  .version-options a{display:block;color:inherit;padding:6px 15px;text-decoration:none;font-size:12px;line-height:1.4;white-space:nowrap}
+  .version-options a[aria-current=true]{background:#f7f6ee;color:#173d35;font-weight:500}
+  .version-options a:hover{outline:1px solid #ffffff88}.version-options a:focus-visible{outline:2px solid #eac692;outline-offset:3px}
+  .version-bar-v2{background:#1d292b}.version-bar-v2 .version-options a[aria-current=true]{background:#e6a484;color:#1d292b}
+  @media(max-width:580px){.version-inner{width:calc(100% - 32px);gap:12px}.version-caption-extra{display:none}.version-caption{font-size:11px}.version-options a{padding:5px 11px;font-size:11px}}
+</style>
