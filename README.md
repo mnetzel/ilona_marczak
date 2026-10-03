@@ -26,7 +26,7 @@ V2 opisuje proces: zapytanie → ustalenie zakresu, terminu i ceny → pisemny r
 4. `src/styles/global.css` — kolory, czcionki, odstępy i układ mobilny.
 5. `research/india.json`, `research/west.json`, `research/visual-audit.json` — źródła i obserwacje raportu.
 
-Wszystkie teksty osobiste są propozycjami do zatwierdzenia przez Ilonę. Potwierdzone wejściowo: imię, nazwisko oraz początek nauki astrologii wedyjskiej. Nie dodano fikcyjnych nauczycieli, afiliacji, certyfikatów, doświadczenia, opinii, adresu, telefonu ani e-maila.
+Wszystkie teksty osobiste są propozycjami do zatwierdzenia przez Ilonę. Obie wersje przedstawiają jej podejście do Jyotish i zakres pracy bez deklarowania stażu. Nie dodano fikcyjnych nauczycieli, afiliacji, certyfikatów, doświadczenia, opinii, adresu, telefonu ani e-maila.
 
 `isDraft: true` pokazuje pasek „strona w przygotowaniu” i ustawia `noindex, follow`. Po zatwierdzeniu tekstów zmień na `false`. Raport pozostanie `noindex` jako materiał roboczy, ale jest publicznie dostępny — nie zawiera poufnych danych.
 

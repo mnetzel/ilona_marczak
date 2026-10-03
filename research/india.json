@@ -134,7 +134,7 @@
     "designPL": "Odczyt pokazuje autorski blog z datami, kategoriami i komentarzami. Teksty sanskryckie przeplatają się z angielskimi objaśnieniami; ważniejsza jest biblioteka wpisów niż oferta na pierwszym planie.",
     "commercialLevel": "średni",
     "takeawayPL": "Mała sekcja „Z mojej nauki” może mieć ciepły, osobisty charakter; terminy sanskryckie trzeba od razu objaśniać po polsku.",
-    "cautionPL": "Powiązanie z SJC jest częścią tego samego środowiska. Zaawansowanych mantr i praktyk nie przenosić do oferty początkującej osoby.",
+    "cautionPL": "Powiązanie z SJC jest częścią tego samego środowiska. Zaawansowanych mantr i praktyk nie przenosić automatycznie do oferty Ilony bez potwierdzenia jej zakresu.",
     "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
     "checkedDate": "2026-10-03"
   },
@@ -217,7 +217,7 @@
     "designPL": "Odczyt pokazuje krótkie menu, portret, duży nagłówek, oddzielne części o dziedzictwie i usługach, bibliotekę oraz rekomendacje. Jest to bardziej uporządkowana osobista wizytówka niż wielki portal.",
     "commercialLevel": "średni",
     "takeawayPL": "Przydatny wzorzec: jedna prawdziwa fotografia, krótka historia nauki i kilka jasno nazwanych sekcji.",
-    "cautionPL": "Prestiżowa, ekskluzywna retoryka i długa tradycja rodzinna autora nie odpowiadają sytuacji początkującej Ilony. Nie kopiować tytułów ani rekomendacji.",
+    "cautionPL": "Prestiżowa, ekskluzywna retoryka nie odpowiada zamierzonemu tonowi strony Ilony. Tradycja rodzinna dotyczy autora źródła; nie kopiować jego tytułów ani rekomendacji.",
     "evidenceMethod": "Odczyt treści i struktury strony źródłowej przez narzędzie web; opis struktury nie jest audytem wizualnym.",
     "checkedDate": "2026-10-03"
   },

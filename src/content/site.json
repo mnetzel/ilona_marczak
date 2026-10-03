@@ -14,15 +14,15 @@
     "eyebrow": "MIŁO CIĘ TU GOŚCIĆ",
     "heading": "Mam na imię Ilona.",
     "paragraphs": [
-      "Jestem na początku drogi poznawania Jyotish — tradycyjnej astrologii Indii. Ta strona jest miejscem, w którym chcę dzielić się tym, czego się uczę, z pokorą wobec rozległości tej wiedzy.",
+      "Zajmuję się Jyotish — tradycyjną astrologią Indii. Łączę szacunek do jej źródeł z uważnością na osobę, jej pytania i obecną sytuację.",
       "Bliskie jest mi podejście, w którym najpierw słuchamy, a dopiero potem szukamy odpowiedzi. Horoskop może być punktem wyjścia do refleksji; o swoim życiu decydujesz Ty.",
       "Chciałabym, aby ta przestrzeń rosła w duchu sewy: życzliwego dzielenia się, uważności na drugiego człowieka i służby bez stawiania siebie w centrum."
     ]
   },
   "principles": [
-    {"number":"01", "title":"Szacunek do tradycji", "text":"Wiedza ma swoje źródła. Chcę je poznawać, nazywać i odróżniać to, czego naucza tradycja, od własnej interpretacji."},
+    {"number":"01", "title":"Szacunek do tradycji", "text":"Wiedza ma swoje źródła. Odwołuję się do nich i rozróżniam zasady tradycji od własnych wniosków z interpretacji."},
     {"number":"02", "title":"Uważność na człowieka", "text":"Za każdym pytaniem stoi czyjeś życie. Ważne są dla mnie spokojna rozmowa, delikatność i szacunek do Twoich decyzji."},
-    {"number":"03", "title":"Pokora w uczeniu się", "text":"Początek drogi oznacza także umiejętność powiedzenia „nie wiem”. Nie chcę obiecywać pewności tam, gdzie jej nie ma."}
+    {"number":"03", "title":"Odpowiedzialna interpretacja", "text":"Jasno określam zakres interpretacji i wyjaśniam jej ograniczenia. Zostawiam przestrzeń na Twoje pytania i samodzielne decyzje."}
   ],
   "conversation": {
     "heading":"Najpierw człowiek. Potem horoskop.",
@@ -32,7 +32,7 @@
       {"title":"Wspólnie przyglądamy się znaczeniom", "text":"Tradycyjne symbole mogą stać się językiem rozmowy o doświadczeniach, możliwościach i powtarzających się wzorcach."},
       {"title":"Zostaje przestrzeń na własne decyzje", "text":"Możesz przyjąć to, co jest dla Ciebie pomocne, i odłożyć resztę. Interpretacja nie jest wyrokiem ani obietnicą zdarzeń."}
     ],
-    "availability":"Przygotowuję tę przestrzeń. Informacje o możliwości rozmowy i jej zasadach pojawią się tutaj, gdy będę gotowa."
+    "availability":"Informacje o dostępności, zasadach spotkań i sposobie kontaktu są w przygotowaniu."
   },
   "faqs": [
     {"question":"Czy muszę znać się na astrologii?", "answer":"Nie. Czytelnię przygotowałam z myślą o pierwszym spotkaniu z Jyotish. Pojęcia sanskryckie objaśniam prostym językiem."},

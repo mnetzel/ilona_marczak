@@ -23,7 +23,7 @@
     "designPL": "W odczycie HTML krótka strona wejściowa z powitaniem, dwiema grupami zasobów i hasłem zachęcającym do samodzielności. Forma biblioteki, bez rozbudowanej ścieżki zakupowej.",
     "commercialLevel": "niski",
     "takeawayPL": "Najlepszy wzorzec dzielenia się wiedzą: niewielka otwarta czytelnia i źródła dostępne bez zapisu.",
-    "cautionPL": "Bogactwo zasobów jest modelem dla biblioteki, a nie zakresem usług początkującej osoby. Instrukcje rytualne wymagają osobnego kontekstu i nauczyciela.",
+    "cautionPL": "Bogactwo zasobów jest modelem dla biblioteki, a nie gotowym zakresem usług do przeniesienia na stronę Ilony. Instrukcje rytualne wymagają osobnego kontekstu i nauczyciela.",
     "region": "Zachód",
     "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
     "checkedDate": "2026-10-03"
@@ -289,7 +289,7 @@
     "designPL": "W HTML forma bloga z tekstem wprowadzającym, nagłówkami, wyszukiwarką i długą listą ostatnich wpisów.",
     "commercialLevel": "średni",
     "takeawayPL": "Przenieść jasno opisane granice rozmowy i szacunek dla decyzji osoby konsultującej.",
-    "cautionPL": "Oferta obejmuje też inne tradycje; nie kopiować rozbudowanych analiz celebrytów na spokojną stronę początkującej osoby.",
+    "cautionPL": "Oferta obejmuje też inne tradycje; rozbudowane analizy celebrytów nie odpowiadają kameralnemu charakterowi strony Ilony.",
     "region": "Zachód",
     "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
     "checkedDate": "2026-10-03"
@@ -433,7 +433,7 @@
     "designPL": "W HTML czytelny podział na trzy potrzeby: własna konsultacja, nauka i narzędzia dla praktyka. Kolejne bloki prezentują autora, film, program, kursy i kontakt.",
     "commercialLevel": "średni",
     "takeawayPL": "Sanskryckie nazwy można objaśniać po polsku; jasny podział treści ułatwia pierwszą wizytę.",
-    "cautionPL": "To rozbudowana praktyka doświadczonego autora. Początkująca strona potrzebuje znacznie węższego zakresu i łagodniejszego języka rezultatów.",
+    "cautionPL": "To rozbudowana praktyka doświadczonego autora. Strona wizytówka potrzebuje węższego zakresu i ostrożnego języka rezultatów.",
     "region": "Zachód",
     "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
     "checkedDate": "2026-10-03"
@@ -491,7 +491,7 @@
     "designPL": "W HTML wyraźny nagłówek, dwa główne kierunki działania, warianty sesji, biografia, newsletter i niżej biblioteka artykułów.",
     "commercialLevel": "wysoki",
     "takeawayPL": "Dobrze oddzielone FAQ i jawne pochodzenie nauki. Szkołę Rāma i Śrī Garuḍa liczymy jako jeden ekosystem.",
-    "cautionPL": "Cena i promocja sesji są wyraziste. Nie przenosić autorytetu guru ani zaawansowanych usług na początkującą Ilonę.",
+    "cautionPL": "Cena i promocja sesji są wyraziste. Nie przypisywać Ilonie autorytetu guru ani usług, których sama nie wskazała w swojej ofercie.",
     "region": "Zachód",
     "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
     "checkedDate": "2026-10-03"

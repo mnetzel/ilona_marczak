@@ -37,19 +37,19 @@ export const articles = [
     slug: 'sewa-i-uwaznosc',
     title: 'Sewa. Wiedza, którą można się dzielić.',
     category: 'PODEJŚCIE',
-    intro: 'Sewa, czyli sevā — służba — jest dla mnie dobrym słowem na początek. Przypomina, że spotkanie z człowiekiem jest ważniejsze niż budowanie własnego autorytetu.',
+    intro: 'Sewa, czyli sevā — służba — wyraża bliską mi intencję dzielenia się wiedzą. Przypomina o uważności na człowieka, który przychodzi ze swoim pytaniem.',
     sections: [
       {title:'Najpierw intencja', paragraphs:[
-        'Służba może mieć bardzo zwyczajny wymiar: cierpliwie objaśnić trudne słowo, udostępnić źródło, wysłuchać pytania bez oceniania. W uczeniu się Jyotish oznacza dla mnie także szacunek do czasu i wrażliwości osoby, która przychodzi z ważnym tematem.',
+        'Służba może mieć bardzo zwyczajny wymiar: cierpliwie objaśnić trudne słowo, udostępnić źródło, wysłuchać pytania bez oceniania. W pracy z Jyotish oznacza dla mnie także szacunek do czasu i wrażliwości osoby, która przychodzi z ważnym tematem.',
         'To osobista propozycja podejścia, a nie deklaracja przynależności do konkretnej szkoły. Tradycje indyjskie opisują sewę w różnych kontekstach religijnych i wspólnotowych. Nie chcę sprowadzać ich wszystkich do jednego hasła.'
       ]},
       {title:'Dostępność i jasne zasady', paragraphs:[
         'Duch dzielenia się można zobaczyć w bezpłatnych bibliotekach, nagraniach wykładów i tekstach udostępnianych przez nauczycieli. Takie materiały pozwalają najpierw poznać ich sposób myślenia, bez konieczności kupowania kursu.',
         'Sewa nie powinna jednak służyć do ukrywania warunków spotkania. Jeżeli rozmowa jest bezpłatna, płatna lub towarzyszy jej dobrowolny dar, należy powiedzieć to wprost. Dobrowolność ma sens wtedy, gdy odmowa jest naprawdę możliwa.'
       ]},
-      {title:'Pokora też jest praktyką', paragraphs:[
-        'Na początku drogi szczególnie ważne jest dla mnie odróżnienie tego, co wiem, od tego, co dopiero próbuję zrozumieć. Chcę zostawiać miejsce na korektę, wątpliwość i pytanie skierowane do bardziej doświadczonej osoby.',
-        'Ta czytelnia jest małym początkiem: kilkoma tekstami, do których można wrócić. Z czasem chciałabym uzupełniać ją o kolejne notatki oraz jasno opisane źródła nauki.'
+      {title:'Uważność i odpowiedzialność', paragraphs:[
+        'W interpretacji ważne jest rozróżnienie tradycyjnych znaczeń, własnych wniosków i tego, czego nie można rozstrzygnąć. Jasne wyjaśnienie tych granic pozwala korzystać z opracowania świadomie i zachować odpowiedzialność za własne decyzje.',
+        'Czytelnia gromadzi teksty, do których można wracać, oraz źródła pozwalające samodzielnie zgłębiać Jyotish. To również sposób dzielenia się wiedzą poza indywidualnymi opracowaniami.'
       ]}
     ],
     sources: [

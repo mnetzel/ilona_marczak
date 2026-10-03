@@ -4,7 +4,7 @@ import site from '../content/site.json';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const articles = [
   { slug:'pierwsze-spotkanie-z-jyotish', category:'PODSTAWY', title:'Jyotish — od czego zacząć?', text:'Kilka pojęć, które pomagają wejść w świat tradycyjnej astrologii Indii.', time:'5 min czytania' },
-  { slug:'sewa-i-uwaznosc', category:'PODEJŚCIE', title:'Sewa. Wiedza, którą można się dzielić.', text:'O służbie, intencji i małych gestach, które nadają sens uczeniu się.', time:'3 min czytania' },
+  { slug:'sewa-i-uwaznosc', category:'PODEJŚCIE', title:'Sewa. Wiedza, którą można się dzielić.', text:'O służbie, intencji i uważności w dzieleniu się wiedzą.', time:'3 min czytania' },
   { slug:'przed-rozmowa', category:'DOBRE PYTANIA', title:'Zanim zapytasz o przyszłość.', text:'Jak przygotować pytanie i pozostawić sobie przestrzeń na własne decyzje.', time:'3 min czytania' }
 ];
 ---
@@ -32,7 +32,7 @@ const articles = [
     </section>
 
     <section id="o-mnie" class="about-section container section-pad">
-      <div class="about-mark" aria-hidden="true"><span class="mark-overline">W DRODZE DO POZNANIA</span><span class="monogram">im.</span><span class="mark-caption">z ciekawością<br />i otwartością</span></div>
+      <div class="about-mark" aria-hidden="true"><span class="mark-overline">Z SZACUNKIEM DO TRADYCJI</span><span class="monogram">im.</span><span class="mark-caption">z uważnością<br />i otwartością</span></div>
       <div class="about-copy"><p class="eyebrow">{site.about.eyebrow}</p><h2>{site.about.heading}</h2>{site.about.paragraphs.map(p => <p>{p}</p>)}<span class="signature">Ilona</span></div>
     </section>
 
@@ -41,7 +41,7 @@ const articles = [
     </section>
 
     <section class="seva-section section-pad">
-      <div class="container seva-inner"><p class="eyebrow">SEVĀ · ŻYCZLIWA SŁUŻBA</p><h2>Wiedza nabiera sensu,<br />kiedy można się nią <em>dzielić.</em></h2><p>Nie wszystko musi zaczynać się od oferty.<br />Czasem wystarczy uważność, dobre pytanie<br class="desktop-break" /> i gotowość do wspólnego uczenia się.</p><a class="light-link" href={`${base}/czytelnia/sewa-i-uwaznosc/`}>Więcej o duchu sewy</a></div>
+      <div class="container seva-inner"><p class="eyebrow">SEVĀ · ŻYCZLIWA SŁUŻBA</p><h2>Wiedza nabiera sensu,<br />kiedy można się nią <em>dzielić.</em></h2><p>Uważność na człowieka, szacunek do jego pytań<br />i życzliwość nadają kierunek mojej pracy.<br class="desktop-break" /> Tak rozumiem ducha sewy.</p><a class="light-link" href={`${base}/czytelnia/sewa-i-uwaznosc/`}>Więcej o duchu sewy</a></div>
     </section>
 
     <section id="rozmowa" class="conversation-section container section-pad">

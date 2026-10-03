@@ -7,20 +7,20 @@ const home=`${import.meta.env.BASE_URL.replace(/\/$/,'')}/v2`;
   <main id="main">
     <section class="v2-shell v2-home-hero" aria-labelledby="v2-home-title">
       <div>
-        <p class="v2-kicker v2-kicker-accent">ILONA MARCZAK / TRADYCYJNA ASTROLOGIA WEDYJSKA</p>
-        <h1 id="v2-home-title">Horoskop.<br />Pytania.<br /><span>Prognoza.</span></h1>
+        <p class="v2-kicker v2-kicker-accent">JYOTISH · TRADYCYJNA ASTROLOGIA WEDYJSKA</p>
+        <h1 id="v2-home-title">Twój horoskop.<br />Pytania i <em>prognozy.</em></h1>
         <p class="v2-lead">{content.hero.intro}</p>
         <div class="v2-actions"><a class="v2-btn" href={`${home}/oferta/`}>Wybierz opracowanie</a><a class="v2-text-link" href={`${home}/jak-zamowic/`}>Jak wygląda zamówienie</a></div>
         <div class="v2-hero-meta"><span>INDYWIDUALNA ANALIZA</span><span>PISEMNY RAPORT</span><span>JYOTISH</span></div>
       </div>
       <aside class="v2-report-sample" aria-label="Forma i struktura opracowania">
-        <div class="v2-report-sample-head"><span>FORMA OPRACOWANIA</span><span>JYOTISH / IM</span></div>
-        <p class="v2-report-title">Twoje pytanie.<br />Moja analiza.<br />Pisemny raport.</p>
+        <div class="v2-report-sample-head"><span>INDYWIDUALNE OPRACOWANIE</span><span>JYOTISH</span></div>
+        <p class="v2-report-title">Interpretacja,<br />do której możesz<br /><em>wracać.</em></p>
         <dl><div><dt>01</dt><dd>Zakres i kontekst<span>Temat oraz dane przyjęte do analizy</span></dd></div><div><dt>02</dt><dd>Interpretacja astrologiczna<span>Wnioski wyjaśnione prostym językiem</span></dd></div><div><dt>03</dt><dd>Podsumowanie<span>Najważniejsze punkty i ograniczenia</span></dd></div></dl>
         <div class="v2-report-sample-foot"><span>ILONA MARCZAK</span><span>OMÓWIENIE PO RAPORCIE — OPCJONALNIE</span></div>
       </aside>
     </section>
     <section class="v2-service-strip" aria-label="Rodzaje opracowań"><div class="v2-shell v2-service-grid">{content.services.map(service=><a class="v2-service-tile" href={`${home}/oferta/${service.slug}/`}><span class="v2-service-number">{service.number}</span><h2>{service.title}</h2><p>{service.summary}</p><span class="v2-tile-cta">Sprawdź zakres</span></a>)}</div></section>
-    <section class="v2-shell v2-bottom-callout"><div><h2>Najpierw zamówienie. Potem raport.</h2><p>Wybierasz temat, ustalamy zakres i warunki. Otrzymujesz pisemne opracowanie. Jeśli po lekturze potrzebujesz omówienia, możemy ustalić dodatkową rozmowę.</p></div><a class="v2-btn v2-btn-outline" href={`${home}/jak-zamowic/`}>Poznaj cały proces</a></section>
+    <section class="v2-shell v2-bottom-callout"><div><h2>Od Twojego pytania do pisemnej interpretacji.</h2><p>Wybierasz temat, ustalamy zakres i warunki. Otrzymujesz pisemne opracowanie. Jeśli po lekturze potrzebujesz omówienia, możemy ustalić dodatkową rozmowę.</p></div><a class="v2-btn v2-btn-outline" href={`${home}/jak-zamowic/`}>Poznaj cały proces</a></section>
   </main>
 </V2Layout>
