@@ -1,0 +1,71 @@
+---
+import '@fontsource/cormorant-garamond/latin-ext-400.css';
+import '@fontsource/cormorant-garamond/latin-ext-500.css';
+import '@fontsource/cormorant-garamond/latin-ext-400-italic.css';
+import '@fontsource/cormorant-garamond/latin-400.css';
+import '@fontsource/cormorant-garamond/latin-500.css';
+import '@fontsource/cormorant-garamond/latin-400-italic.css';
+import '@fontsource/dm-sans/latin-ext-400.css';
+import '@fontsource/dm-sans/latin-ext-500.css';
+import '@fontsource/dm-sans/latin-400.css';
+import '@fontsource/dm-sans/latin-500.css';
+import '../styles/global.css';
+import site from '../content/site.json';
+const { title = 'Ilona Marczak — tradycyjna astrologia wedyjska', description = 'Spokojne spotkanie z Jyotish. Ilona Marczak o tradycyjnej astrologii wedyjskiej, uważności i uczeniu się w duchu sewy.', noindex = false } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#173d35" />
+    {(noindex || site.isDraft) && <meta name="robots" content="noindex, follow" />}
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pl_PL" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Przejdź do treści</a>
+    {site.isDraft && <div class="draft-strip">Pierwsza odsłona <span aria-hidden="true">·</span> strona w przygotowaniu</div>}
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href={`${base}/`} aria-label="Ilona Marczak — strona główna">
+          <img src={`${base}/favicon.svg`} width="43" height="43" alt="" />
+          <span><strong>Ilona Marczak</strong><small>JYOTISH · ASTROLOGIA WEDYJSKA</small></span>
+        </a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu <span aria-hidden="true">☰</span></button>
+        <nav id="main-nav" aria-label="Menu główne">
+          <a href={`${base}/#o-mnie`}>O mnie</a>
+          <a href={`${base}/#jyotish`}>O Jyotish</a>
+          <a href={`${base}/#rozmowa`}>O rozmowie</a>
+          <a href={`${base}/#czytelnia`}>Czytelnia</a>
+          <a class="nav-contact" href={`${base}/#kontakt`}>Kontakt</a>
+        </nav>
+      </div>
+    </header>
+    <slot />
+    <footer class="site-footer">
+      <div class="footer-main container">
+        <div><a class="footer-name" href={`${base}/`}>Ilona Marczak</a><p>Jyotish. Z uważnością na człowieka.</p></div>
+        <div class="footer-links"><a href={`${base}/prywatnosc/`}>Prywatność</a><a href={`${base}/raport/`}>O projekcie i źródła</a><a href={`${base}/#main`}>Na początek</a></div>
+      </div>
+      <div class="footer-bottom container"><span>© {new Date().getUTCFullYear()} Ilona Marczak</span><span>Wiedza · refleksja · życzliwość</span></div>
+    </footer>
+    <script>
+      const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle');
+      const nav = document.querySelector<HTMLElement>('#main-nav');
+      function closeMenu() { toggle?.setAttribute('aria-expanded', 'false'); nav?.classList.remove('is-open'); }
+      toggle?.addEventListener('click', () => { const open = toggle.getAttribute('aria-expanded') !== 'true'; toggle.setAttribute('aria-expanded', String(open)); nav?.classList.toggle('is-open', open); });
+      nav?.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
+      document.addEventListener('keydown', e => { if (e.key === 'Escape' && toggle?.getAttribute('aria-expanded') === 'true') { closeMenu(); toggle.focus(); } });
+    </script>
+  </body>
+</html>

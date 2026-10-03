@@ -1,0 +1,14 @@
+{
+  "name": "ilona-marczak-jyotish",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "build": "astro build",
+    "preview": "astro preview --host 127.0.0.1",
+    "check:site": "node scripts/check-site.mjs"
+  },
+  "dependencies": { "astro": "7.3.5", "@fontsource/cormorant-garamond": "^5.2.0", "@fontsource/dm-sans": "^5.2.0" },
+  "engines": { "node": ">=22.12.0" }
+}

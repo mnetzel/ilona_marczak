@@ -1,0 +1,45 @@
+{
+  "name": "Ilona Marczak",
+  "subtitle": "Tradycyjna astrologia wedyjska",
+  "email": "",
+  "isDraft": true,
+  "hero": {
+    "eyebrow": "JYOTISH · W UWAŻNOŚCI I Z SZACUNKIEM",
+    "heading": "Trochę światła na Twojej drodze.",
+    "text": "Spotkanie z tradycyjną astrologią wedyjską. Przestrzeń na pytania, refleksję i spokojniejsze spojrzenie na własne życie.",
+    "primary": "Poznaj moje podejście",
+    "secondary": "Czym jest Jyotish?"
+  },
+  "about": {
+    "eyebrow": "MIŁO CIĘ TU GOŚCIĆ",
+    "heading": "Mam na imię Ilona.",
+    "paragraphs": [
+      "Jestem na początku drogi poznawania Jyotish — tradycyjnej astrologii Indii. Ta strona jest miejscem, w którym chcę dzielić się tym, czego się uczę, z pokorą wobec rozległości tej wiedzy.",
+      "Bliskie jest mi podejście, w którym najpierw słuchamy, a dopiero potem szukamy odpowiedzi. Horoskop może być punktem wyjścia do refleksji; o swoim życiu decydujesz Ty.",
+      "Chciałabym, aby ta przestrzeń rosła w duchu sewy: życzliwego dzielenia się, uważności na drugiego człowieka i służby bez stawiania siebie w centrum."
+    ]
+  },
+  "principles": [
+    {"number":"01", "title":"Szacunek do tradycji", "text":"Wiedza ma swoje źródła. Chcę je poznawać, nazywać i odróżniać to, czego naucza tradycja, od własnej interpretacji."},
+    {"number":"02", "title":"Uważność na człowieka", "text":"Za każdym pytaniem stoi czyjeś życie. Ważne są dla mnie spokojna rozmowa, delikatność i szacunek do Twoich decyzji."},
+    {"number":"03", "title":"Pokora w uczeniu się", "text":"Początek drogi oznacza także umiejętność powiedzenia „nie wiem”. Nie chcę obiecywać pewności tam, gdzie jej nie ma."}
+  ],
+  "conversation": {
+    "heading":"Najpierw człowiek. Potem horoskop.",
+    "intro":"Tak wyobrażam sobie dobrą rozmowę o Jyotish: bez pośpiechu, bez straszenia i z miejscem na Twoje własne rozumienie życia.",
+    "steps":[
+      {"title":"Z czym przychodzisz?", "text":"Warto zacząć od jednego pytania lub tematu, któremu chcesz przyjrzeć się uważniej. Nie musisz znać astrologicznych pojęć."},
+      {"title":"Wspólnie przyglądamy się znaczeniom", "text":"Tradycyjne symbole mogą stać się językiem rozmowy o doświadczeniach, możliwościach i powtarzających się wzorcach."},
+      {"title":"Zostaje przestrzeń na własne decyzje", "text":"Możesz przyjąć to, co jest dla Ciebie pomocne, i odłożyć resztę. Interpretacja nie jest wyrokiem ani obietnicą zdarzeń."}
+    ],
+    "availability":"Przygotowuję tę przestrzeń. Informacje o możliwości rozmowy i jej zasadach pojawią się tutaj, gdy będę gotowa."
+  },
+  "faqs": [
+    {"question":"Czy muszę znać się na astrologii?", "answer":"Nie. Czytelnię przygotowałam z myślą o pierwszym spotkaniu z Jyotish. Pojęcia sanskryckie objaśniam prostym językiem."},
+    {"question":"Czy horoskop przesądza o mojej przyszłości?", "answer":"Na tej stronie traktuję go jako tradycyjny język interpretacji i refleksji, nie jako pewną prognozę. Astrologia nie jest naukowo potwierdzoną metodą przewidywania zdarzeń. Twoja sprawczość i własne decyzje pozostają ważne."},
+    {"question":"Co oznacza sewa?", "answer":"Sewa (sevā) oznacza służbę. Tutaj jest dla mnie inspiracją do życzliwego dzielenia się wiedzą i stawiania człowieka przed sprzedażą. Sama nazwa nie oznacza automatycznie bezpłatnych spotkań; ich ewentualne zasady opiszę jasno, zanim pojawią się zapisy."},
+    {"question":"Czy mogę już umówić rozmowę?", "answer":"Jeszcze nie przyjmuję zapisów przez tę stronę. Gdy pojawi się możliwość kontaktu i rozmowy, znajdziesz tutaj aktualne informacje."},
+    {"question":"Czy muszę podawać dane urodzenia?", "answer":"Do czytania strony nie potrzebujesz żadnych danych. Tradycyjna interpretacja horoskopu urodzeniowego korzysta z daty, miejsca i godziny urodzenia. Gdy rozmowy będą dostępne, przed przekazaniem takich danych ustalimy cel, zakres i sposób ich użycia."}
+  ],
+  "contact": {"heading":"Dobra rozmowa zaczyna się od uważności.","text":"Ta przestrzeń dopiero się otwiera. Kiedy możliwość rozmów będzie gotowa, znajdziesz tutaj dane kontaktowe i aktualne informacje."}
+}

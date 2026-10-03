@@ -1,0 +1,61 @@
+---
+import Layout from '../layouts/Layout.astro';
+import site from '../content/site.json';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const articles = [
+  { slug:'pierwsze-spotkanie-z-jyotish', category:'PODSTAWY', title:'Jyotish — od czego zacząć?', text:'Kilka pojęć, które pomagają wejść w świat tradycyjnej astrologii Indii.', time:'5 min czytania' },
+  { slug:'sewa-i-uwaznosc', category:'PODEJŚCIE', title:'Sewa. Wiedza, którą można się dzielić.', text:'O służbie, intencji i małych gestach, które nadają sens uczeniu się.', time:'3 min czytania' },
+  { slug:'przed-rozmowa', category:'DOBRE PYTANIA', title:'Zanim zapytasz o przyszłość.', text:'Jak przygotować pytanie i pozostawić sobie przestrzeń na własne decyzje.', time:'3 min czytania' }
+];
+---
+<Layout>
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-heading">
+      <div class="hero-copy">
+        <p class="eyebrow">{site.hero.eyebrow}</p>
+        <h1 id="hero-heading">{site.hero.heading.includes('światła') ? <>{site.hero.heading.split('światła')[0]}<em>światła</em><br />{site.hero.heading.split('światła')[1].trim()}</> : site.hero.heading}</h1>
+        <p class="hero-intro">{site.hero.text}</p>
+        <div class="hero-actions"><a class="button" href="#o-mnie">{site.hero.primary}</a><a class="text-link" href="#jyotish">{site.hero.secondary}</a></div>
+        <div class="hero-note"><span class="fine-line"></span><span>Tradycja. Pokora. Otwarte serce.</span></div>
+      </div>
+      <figure class="hero-image">
+        <img src={`${base}/images/hero.webp`} width="1122" height="1402" alt="Mała płonąca lampka w kamiennym dziedzińcu, rozświetlonym ciepłym słońcem." fetchpriority="high" />
+        <figcaption><span>JYOTISH</span><span>światło poznania</span></figcaption>
+      </figure>
+    </section>
+
+    <section id="jyotish" class="intro-section section-pad">
+      <div class="container intro-grid">
+        <div><p class="eyebrow">SPOJRZENIE ZAKORZENIONE W TRADYCJI</p><h2>Niebo jako język.<br /><em>Życie jako pytanie.</em></h2></div>
+        <div class="intro-text"><p>Jyotish (jyotiṣa) to tradycyjna astrologia Indii. Jej nazwa wiąże się ze światłem. Przez pokolenia rozwijała język opisu czasu, cykli i ludzkiego doświadczenia.</p><p>W horoskopie spotykają się grahy, znaki, domy i rytmy czasu. Można poznawać ten język powoli — z ciekawością wobec tradycji i uważnością na to, co dzieje się tu i teraz.</p><a class="text-link" href={`${base}/czytelnia/pierwsze-spotkanie-z-jyotish/`}>Poznaj podstawy Jyotish</a></div>
+      </div>
+    </section>
+
+    <section id="o-mnie" class="about-section container section-pad">
+      <div class="about-mark" aria-hidden="true"><span class="mark-overline">W DRODZE DO POZNANIA</span><span class="monogram">im.</span><span class="mark-caption">z ciekawością<br />i otwartością</span></div>
+      <div class="about-copy"><p class="eyebrow">{site.about.eyebrow}</p><h2>{site.about.heading}</h2>{site.about.paragraphs.map(p => <p>{p}</p>)}<span class="signature">Ilona</span></div>
+    </section>
+
+    <section class="principles-section container" aria-label="Moje podejście">
+      {site.principles.map(p => <article><span class="step-number">{p.number}</span><h3>{p.title}</h3><p>{p.text}</p></article>)}
+    </section>
+
+    <section class="seva-section section-pad">
+      <div class="container seva-inner"><p class="eyebrow">SEVĀ · ŻYCZLIWA SŁUŻBA</p><h2>Wiedza nabiera sensu,<br />kiedy można się nią <em>dzielić.</em></h2><p>Nie wszystko musi zaczynać się od oferty.<br />Czasem wystarczy uważność, dobre pytanie<br class="desktop-break" /> i gotowość do wspólnego uczenia się.</p><a class="light-link" href={`${base}/czytelnia/sewa-i-uwaznosc/`}>Więcej o duchu sewy</a></div>
+    </section>
+
+    <section id="rozmowa" class="conversation-section container section-pad">
+      <div class="conversation-intro"><p class="eyebrow">PRZESTRZEŃ NA SPOTKANIE</p><h2>{site.conversation.heading}</h2><p>{site.conversation.intro}</p><div class="availability"><span>Na spokojnie, krok po kroku</span><p>{site.conversation.availability}</p></div></div>
+      <ol class="conversation-steps">{site.conversation.steps.map((step,i) => <li><span class="step-number">0{i+1}</span><div><h3>{step.title}</h3><p>{step.text}</p></div></li>)}</ol>
+      <p class="scope-note">Jyotish przedstawiam tu jako tradycję interpretacyjną i duchową. Nie zastępuje pomocy medycznej, psychologicznej, prawnej ani finansowej. Nie służy stawianiu diagnoz ani gwarantowaniu przyszłych zdarzeń.</p>
+    </section>
+
+    <section id="czytelnia" class="reading-section section-pad">
+      <div class="container"><div class="section-heading"><div><p class="eyebrow">MAŁA CZYTELNIA</p><h2>Zacznij od ciekawości.</h2></div><p>Proste słowa o rozległej tradycji.<br />Do czytania we własnym rytmie.</p></div><div class="article-grid">{articles.map((a,i)=><a class="article-card" href={`${base}/czytelnia/${a.slug}/`}><div class={`article-cover cover-${i+1}`} aria-hidden="true"><span>{['jyotiṣa','sevā','saṃvāda'][i]}</span><small>0{i+1}</small></div><div class="article-content"><span class="eyebrow">{a.category}</span><h3>{a.title}</h3><p>{a.text}</p><span class="read-time">{a.time}</span></div></a>)}</div></div>
+    </section>
+
+    <section class="faq-section container section-pad"><div><p class="eyebrow">ZANIM PÓJDZIESZ DALEJ</p><h2>Być może<br /><em>zastanawiasz się…</em></h2></div><div class="faq-list">{site.faqs.map(f=><details><summary>{f.question}<span aria-hidden="true" class="faq-plus">+</span></summary><p>{f.answer}</p></details>)}</div></section>
+
+    <section id="kontakt" class="contact-section"><div class="container contact-inner"><p class="eyebrow">MIEJSCE NA KONTAKT</p><h2>{site.contact.heading}</h2><p>{site.contact.text}</p>{site.email ? <a class="button" href={`mailto:${site.email}`}>Napisz do mnie</a> : <span class="contact-status">Informacje o kontakcie są w przygotowaniu</span>}</div></section>
+  </main>
+</Layout>

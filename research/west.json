@@ -1,0 +1,735 @@
+[
+  {
+    "id": "WE01",
+    "name": "P. V. R. Narasimha Rao — Vedic Astrologer",
+    "url": "https://www.vedicastrologer.org/",
+    "country": "USA (diaspora indyjska, okolice Bostonu)",
+    "type": "Bezpłatna biblioteka i oprogramowanie Jyotish",
+    "traditionEvidence": "Autor przedstawia się jako uczący astrologii i sanskrytu; strona łączy Jyotish z homą, pūją i praktyką dharmy. Materiały zajęć wskazują Sri Jagannath Center.",
+    "pagesReviewed": [
+      "https://www.vedicastrologer.org/",
+      "https://www.vedicastrologer.org/jh/"
+    ],
+    "sections": [
+      "Astrologia",
+      "Duchowość",
+      "Jagannatha Hora",
+      "E-book",
+      "Lekcje MP3",
+      "Artykuły",
+      "Instrukcje rytuałów"
+    ],
+    "contentPL": "Darmowe narzędzia obliczeniowe, podręcznik, nagrania lekcji i teksty dla samodzielnie studiujących. Dostęp do wiedzy i praktyki jest głównym celem komunikacji.",
+    "designPL": "W odczycie HTML krótka strona wejściowa z powitaniem, dwiema grupami zasobów i hasłem zachęcającym do samodzielności. Forma biblioteki, bez rozbudowanej ścieżki zakupowej.",
+    "commercialLevel": "niski",
+    "takeawayPL": "Najlepszy wzorzec dzielenia się wiedzą: niewielka otwarta czytelnia i źródła dostępne bez zapisu.",
+    "cautionPL": "Bogactwo zasobów jest modelem dla biblioteki, a nie zakresem usług początkującej osoby. Instrukcje rytualne wymagają osobnego kontekstu i nauczyciela.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE02",
+    "name": "Komilla Sutton",
+    "url": "https://komilla.com/",
+    "country": "USA / Wielka Brytania",
+    "type": "Nauczycielka i akademia Jyotish",
+    "traditionEvidence": "Autorka opisuje pracę nad udostępnianiem tradycyjnej wiedzy indyjskiej, współtworzenie BAVA oraz wieloletnie nauczanie; program obejmuje m.in. pañcāṅgę, nakṣatry i vargi.",
+    "pagesReviewed": [
+      "https://komilla.com/",
+      "https://komilla.com/komilla-credentials.html",
+      "https://komilla.com/courses-live-foundation.html"
+    ],
+    "sections": [
+      "Konsultacje",
+      "Książki",
+      "Kursy",
+      "Podróże do Indii",
+      "Konferencje",
+      "Nagrania",
+      "Biblioteka",
+      "Święta",
+      "Kontakt"
+    ],
+    "contentPL": "Systematyczny program od podstaw do zaawansowanej interpretacji; artykuły, wiadomości planetarne, opisy świąt i relacje z pielgrzymek.",
+    "designPL": "W HTML rozbudowana nawigacja wielopoziomowa i osobne bloki odsyłające do kursów, książek, konsultacji oraz darmowej biblioteki. Wysoka gęstość treści na stronie głównej.",
+    "commercialLevel": "wysoki",
+    "takeawayPL": "Wyjaśniać tradycję przez pojęcia, święta i kulturę; zachować wyraźną drogę dla osoby początkującej.",
+    "cautionPL": "To skala doświadczonej nauczycielki. Ilona nie powinna przejmować liczby usług, obietnic ani tytułów.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE03",
+    "name": "Freedom Vidya — Freedom Cole",
+    "url": "https://shrifreedom.org/",
+    "country": "USA / Indie",
+    "type": "Nauczyciel Jyotish, jogi i ajurwedy",
+    "traditionEvidence": "Biografia wskazuje Sanjaya Ratha i tradycję Śrī Achyutānanda Dāsa; opisuje sanskryt, mantrę, medytację oraz relację nauczyciel–uczeń.",
+    "pagesReviewed": [
+      "https://shrifreedom.org/",
+      "https://shrifreedom.org/vedic-astrology/",
+      "https://shrifreedom.org/freedom-cole/"
+    ],
+    "sections": [
+      "Jyotish",
+      "Ajurweda",
+      "Yoga Therapy",
+      "Biografia",
+      "Linia przekazu",
+      "Publikacje i wykłady"
+    ],
+    "contentPL": "Jyotish zostaje pokazany w szerszym kontekście praktyk indyjskich. Biografia wymienia nauczycieli, miejsca nauki i konkretne publikacje.",
+    "designPL": "Strona wejściowa w odczycie HTML ma trzy główne ścieżki tematyczne oraz film. Biografia przyjmuje formę dłuższego tekstu i chronologicznej listy dorobku.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Krótko wskazać, skąd pochodzi nauka, oraz oddzielić podstawowe objaśnienia od specjalistycznych materiałów.",
+    "cautionPL": "Strona łączy astrologię z tematami zdrowia. Na wizytówce Ilony nie przenosić deklaracji leczenia ani specjalizacji terapeutycznych.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE04",
+    "name": "American Institute of Vedic Studies — Vedanet",
+    "url": "https://www.vedanet.com/",
+    "country": "USA",
+    "type": "Instytut wiedzy wedyjskiej; Jyotish jako część większej oferty",
+    "traditionEvidence": "Instytut Davida Frawleya i Yogini Shambhavi deklaruje zakorzenienie w jodze, Vedāntcie i Sanātana Dharmie.",
+    "pagesReviewed": [
+      "https://www.vedanet.com/"
+    ],
+    "sections": [
+      "Autorzy",
+      "Artykuły",
+      "Książki",
+      "Kursy",
+      "Programy",
+      "Konsultacje",
+      "Filmy",
+      "Newsletter"
+    ],
+    "contentPL": "Jyotish sąsiaduje z ajurwedą, jogą, mantrą i filozofią. Strona prowadzi do kursów, publikacji oraz wyjazdów edukacyjnych.",
+    "designPL": "W HTML duże bloki powitalne, sylwetki autorów, wyróżnione kursy, kategorie wiedzy i osobny strumień aktualnych artykułów.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Kontekst filozoficzny pomaga zrozumieć tradycję. Dla Ilony wystarczy krótka sekcja z kilkoma sprawdzonymi lekturami.",
+    "cautionPL": "To źródło szerszego kontekstu wedyjskiego, nie wyłącznie szkoła Jyotish; języka o zdrowiu nie kopiować.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE05",
+    "name": "Council of Vedic Astrology (CVA)",
+    "url": "https://www.councilvedicastrology.com/",
+    "country": "USA",
+    "type": "Stowarzyszenie i certyfikacja",
+    "traditionEvidence": "Misja mówi o edukacji Jyotish, wymianie badań między szkołami oraz standardach praktyki, bez deklarowania jednej wyłącznej parampary.",
+    "pagesReviewed": [
+      "https://www.councilvedicastrology.com/"
+    ],
+    "sections": [
+      "Praktycy",
+      "Członkostwo",
+      "Certyfikacja",
+      "Historia",
+      "Zarząd",
+      "Journal",
+      "Darowizny",
+      "Kontakt"
+    ],
+    "contentPL": "Katalog praktyków, wymagania certyfikacyjne i czasopismo. Najnowsze trzy wydania czasopisma są udostępniane wszystkim.",
+    "designPL": "W HTML klasyczny układ instytucjonalny: menu, główna misja, wyróżnione czasopismo, cele w punktach oraz formularze darowizny i kontaktu.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Jawne zasady i granice kompetencji budują wiarygodność lepiej niż superlatywy.",
+    "cautionPL": "Nie przypisywać Ilonie członkostwa, certyfikatu ani afiliacji; stowarzyszenie i indywidualny praktyk to różne modele.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE06",
+    "name": "Northwest Institute of Vedic Sciences — Dennis Flaherty",
+    "url": "https://www.vedicsciences.com/",
+    "country": "USA (Waszyngton)",
+    "type": "Praktyk i szkoła Jyotish",
+    "traditionEvidence": "Biografia wskazuje edukację i wyróżnienia ICAS, CVA i ACVA oraz kurs Jyotish; otwarcie ujawnia także doświadczenie w astrologii zachodniej.",
+    "pagesReviewed": [
+      "https://www.vedicsciences.com/"
+    ],
+    "sections": [
+      "O autorze",
+      "Wywiad",
+      "Nauka Jyotish",
+      "Archiwum zajęć",
+      "Artykuły",
+      "Relokacja",
+      "Konsultacje",
+      "Star Trends"
+    ],
+    "contentPL": "Portret praktyka, kurs korespondencyjny, artykuły o dharmie i Sade Sati, aktualne interpretacje oraz informacje o konsultacji.",
+    "designPL": "W HTML prosty układ osobisty: nazwisko, portret, biografia, trzy główne odsyłacze do zajęć, konsultacji i tekstów; kontakt w stopce.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Niewielka liczba głównych ścieżek i spokojny opis osoby dobrze pasują do wizytówki.",
+    "cautionPL": "Źródło porównawcze z praktyką mieszaną. Nie przejmować deklaracji skuteczności ani bogatej listy kompetencji.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE07",
+    "name": "James Kelleher",
+    "url": "https://jameskelleher.com/",
+    "country": "USA (Kalifornia)",
+    "type": "Nauczyciel i autor Jyotish",
+    "traditionEvidence": "Biografia wskazuje osobistą naukę u M. K. Gandhiego oraz Swamiego Sivanandy Murthy'ego; autor opisuje praktykę w Indiach.",
+    "pagesReviewed": [
+      "https://jameskelleher.com/",
+      "https://jameskelleher.com/pages/bio"
+    ],
+    "sections": [
+      "Jyotish",
+      "Zajęcia",
+      "Książki",
+      "Mantry",
+      "Konsultacje",
+      "Journal",
+      "Aktualności",
+      "Biografia"
+    ],
+    "contentPL": "Kursy o daśach, nakṣatrach i wykresach podziałowych; książki, omówienia bieżących zjawisk oraz szczegółowa droga nauki autora.",
+    "designPL": "W HTML układ sklepu Shopify: katalog produktów, ceny, koszyk i wyróżnione nagrania dominują na stronie głównej; biografia jest osobną stroną.",
+    "commercialLevel": "wysoki",
+    "takeawayPL": "Przejrzystość tematów nauki jest użyteczna, a opis nauczycieli daje kontekst pochodzenia wiedzy.",
+    "cautionPL": "Analizowany jako tradycyjnie osadzony kontrast do modelu sewy. Sklep, presja sprzedażowa i temat przewidywania długości życia nie są wzorcem dla Ilony.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE08",
+    "name": "Light on Vedic Astrology — Vaughn Paul Manley",
+    "url": "https://www.lightonvedicastrology.com/",
+    "country": "USA",
+    "type": "Szkoła i biblioteka Jyotish",
+    "traditionEvidence": "Autor na własnej stronie nazywa K. N. Rao swoim nauczycielem i opisuje naukę w Bharatiya Vidya Bhavan; biblioteka obejmuje Parāśarę i Jaiminiego.",
+    "pagesReviewed": [
+      "https://www.lightonvedicastrology.com/",
+      "https://www.lightonvedicastrology.com/blog/the-largest-astrology-school-in-the-world-interview-with-founder-sri-k-n-rao"
+    ],
+    "sections": [
+      "Kursy",
+      "Program praktyki",
+      "Rektyfikacja",
+      "Książka",
+      "Konsultacje",
+      "Blog",
+      "Forum",
+      "Darmowe materiały"
+    ],
+    "contentPL": "Nauka przez przykłady wykresów, zadania i omówienia; duże archiwum artykułów oraz wywiad o szkole K. N. Rao.",
+    "designPL": "W HTML platforma kursowa z widocznym zapisem na newsletter, blokami programów i panelem ucznia. Blog ma kategorie tematyczne i wyszukiwarkę.",
+    "commercialLevel": "wysoki",
+    "takeawayPL": "Oddzielić prostą lekturę wprowadzającą od zaawansowanych materiałów; pokazywać źródła i metodę nauki.",
+    "cautionPL": "To tradycyjna szkoła z wyraźnym marketingiem. Twierdzeń o naukowej skuteczności z artykułów nie traktować jako ustaleń tego raportu.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE09",
+    "name": "Vedic Chart — Penny Farrow / The Cosmic Kaleidoscope",
+    "url": "https://vedicchart.com/",
+    "country": "USA",
+    "type": "Nauczycielka i biblioteka tradycyjnego Jyotish",
+    "traditionEvidence": "Osobna strona przekazu wymienia K. N. Rao, Harta deFouw, Swamiego Dayanandę Saraswatiego i Krishnę Mantriego.",
+    "pagesReviewed": [
+      "https://vedicchart.com/",
+      "https://vedicchart.com/lineage/"
+    ],
+    "sections": [
+      "O Penny",
+      "Linia przekazu",
+      "Sanskryt",
+      "Zajęcia",
+      "Journal",
+      "Publikacje",
+      "Podcasty",
+      "Newslettery"
+    ],
+    "contentPL": "Wprowadzenie do Jyotish, historia nauczycieli i listy do społeczności. Wątek etyki mowy kładzie nacisk na prawdziwość, stosowność i konstruktywny charakter wypowiedzi.",
+    "designPL": "W HTML przeważają dłuższe teksty, zdjęcia nauczycieli oraz archiwum newsletterów. Wyraźnie wydzielona jest osobista droga nauki.",
+    "commercialLevel": "niski",
+    "takeawayPL": "Bardzo dobry wzorzec wdzięczności wobec nauczycieli i spokojnego, niestraszącego języka konsultacji.",
+    "cautionPL": "Serwis odsyła do nowszej domeny Cosmic Kaleidoscope; obie traktujemy jako jeden ekosystem. Historycznych dat newsletterów nie przedstawiać jako aktualnej oferty.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE10",
+    "name": "NAVAMSA — Alan Annand",
+    "url": "https://www.navamsa.com/",
+    "country": "Kanada",
+    "type": "Praktyk, autor i nauczyciel",
+    "traditionEvidence": "Strona nauczania opisuje długą naukę u Harta deFouw i pośrednio tradycję Mantrijiego; ujawnia także przygotowanie zachodnioastrologiczne.",
+    "pagesReviewed": [
+      "https://www.navamsa.com/",
+      "https://www.navamsa.com/?page_id=5"
+    ],
+    "sections": [
+      "Jyotisha",
+      "Karma i rola astrologa",
+      "Nauczanie",
+      "Archiwum wpisów",
+      "Studia przypadków",
+      "YouTube"
+    ],
+    "contentPL": "Wprowadzenie do wykresu i navāṃśy, nauczanie indywidualne oraz analizy osób publicznych. Autor deklaruje unikanie straszenia klienta i rozmów o śmierci.",
+    "designPL": "W HTML forma bloga z tekstem wprowadzającym, nagłówkami, wyszukiwarką i długą listą ostatnich wpisów.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Przenieść jasno opisane granice rozmowy i szacunek dla decyzji osoby konsultującej.",
+    "cautionPL": "Oferta obejmuje też inne tradycje; nie kopiować rozbudowanych analiz celebrytów na spokojną stronę początkującej osoby.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE11",
+    "name": "Robert Koch — Vedic Astrology",
+    "url": "https://www.robertkoch.com/",
+    "country": "USA (Idaho)",
+    "type": "Praktyk i autor Jyotish",
+    "traditionEvidence": "Biografia podaje naukę u K. N. Rao i Sanjaya Ratha oraz wcześniejszą praktykę w tradycji wisznuickiej pod kierunkiem A. C. Bhaktivedanty Swamiego Prabhupady.",
+    "pagesReviewed": [
+      "https://www.robertkoch.com/"
+    ],
+    "sections": [
+      "Powitanie",
+      "Czym jest Jyotish",
+      "Jyotish a astrologia zachodnia",
+      "Duchowy wymiar",
+      "Usługi",
+      "Zamówienie konsultacji",
+      "Archiwum"
+    ],
+    "contentPL": "Biografia dominuje nad ofertą. Osobne teksty objaśniają system, kamienie i duchowe zastosowania; widoczna jest książka autora.",
+    "designPL": "W HTML klasyczna struktura WordPress: długi tekst biograficzny z portretem, lista stron, archiwum i kontakt.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Osobista historia może być prosta i konkretna, z oddzielnym krótkim objaśnieniem Jyotish.",
+    "cautionPL": "Widoczne stare daty archiwum i stopki wymagają ostrożności przy ocenie aktualności. Nie kopiować oferty kamieni czy obietnic trafności.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE12",
+    "name": "Praxis für Jyotish — Marcello Michelutti",
+    "url": "https://www.indische-astrologie.eu/start-en",
+    "country": "Niemcy (Stuttgart)",
+    "type": "Osobista praktyka tradycyjnego Jyotish",
+    "traditionEvidence": "Autor wskazuje Gudrun Lewis-Schellenbeck, Nicholasa Lewisa oraz naukę według Bṛhat Parāśara Horā Śāstra; opisuje egzamin przed indyjskimi astrologami.",
+    "pagesReviewed": [
+      "https://www.indische-astrologie.eu/start-en"
+    ],
+    "sections": [
+      "Powitanie",
+      "Kwalifikacje",
+      "Formy konsultacji",
+      "Kontakt",
+      "Dostępność"
+    ],
+    "contentPL": "Krótki opis drogi nauki i form spotkania: nagranie, telefon, wideo lub rozmowa osobista. Konkretna informacja o językach i przekazaniu nagrania.",
+    "designPL": "W HTML zwięzła wizytówka: główny opis, ilustracja certyfikatu, lista sposobów konsultacji i widoczny kontakt.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Dobry wzorzec małej strony: osoba, sposób pracy, przygotowanie i jeden prosty kontakt.",
+    "cautionPL": "Certyfikat i nauczyciele dotyczą autora; Ilona może opublikować analogiczne fakty dopiero po ich podaniu i potwierdzeniu.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE13",
+    "name": "Michael Laughrin — North American Jyotish Newsletter",
+    "url": "https://jyotish.ws/",
+    "country": "USA",
+    "type": "Bezpłatny newsletter i archiwum",
+    "traditionEvidence": "Autor wskazuje naukę u Harta deFouw; teksty obejmują sanskryt, grahy, nakṣatry, navāṃśę i karmę.",
+    "pagesReviewed": [
+      "https://jyotish.ws/"
+    ],
+    "sections": [
+      "Kwalifikacje",
+      "Książki",
+      "Yajña",
+      "Środki zaradcze",
+      "Artykuły",
+      "Linki",
+      "Kontakt",
+      "Recenzje"
+    ],
+    "contentPL": "Bezpłatna biblioteka newsletterów, recenzje książek i listy lektur według poziomu. Strona informuje, że autor obecnie nie prowadzi formalnych konsultacji.",
+    "designPL": "W HTML prosta nawigacja i bardzo długa lista tytułów, dat oraz odsyłaczy. Treść edukacyjna ma pierwszeństwo przed rozbudowaną prezentacją usług.",
+    "commercialLevel": "niski",
+    "takeawayPL": "Warto jasno powiedzieć, co jest obecnie dostępne, i udostępnić kilka starannie opisanych lektur.",
+    "cautionPL": "Występują także intuicyjne twierdzenia i oferta rytuałów; bibliografia jest inspiracją, nie potwierdzeniem tych deklaracji.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE14",
+    "name": "American College of Vedic Astrology (ACVA)",
+    "url": "https://acvaonline.org/",
+    "country": "USA (Arizona)",
+    "type": "Organizacja edukacyjna",
+    "traditionEvidence": "Misja mówi o zachowaniu i nauczaniu Jyotish; historia wskazuje współpracę z B. V. Ramanem i ICAS. Program obejmuje m.in. pañcāṅgę, muhūrtę i praśnę.",
+    "pagesReviewed": [
+      "https://acvaonline.org/membership/",
+      "https://www.americancollegeofvedicastrology.org/",
+      "https://acvaonline.org/acvas-history/"
+    ],
+    "sections": [
+      "O szkole",
+      "Etyka",
+      "Zespół",
+      "Poziomy nauki",
+      "Materiały próbne",
+      "Lektury",
+      "Filmy",
+      "Kalkulator",
+      "Członkostwo",
+      "Darowizny"
+    ],
+    "contentPL": "Ustrukturyzowana ścieżka kształcenia, treści wprowadzające i zasady etyczne. Różne formy członkostwa odpowiadają etapom od studenta do praktyka.",
+    "designPL": "Odczyt strony członkostwa pokazuje rozbudowane menu i tabelę wariantów. Osobny portal edukacyjny prowadzi do kategorii kursów.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Na małej stronie warto zachować z tego modelu tylko etykę, uczciwy etap nauki i polecane źródła.",
+    "cautionPL": "Strona główna chwilowo nie odpowiadała w odczycie; analizowano dostępne podstrony i portal kursowy. Nie przypisywać Ilonie certyfikacji.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE15",
+    "name": "Rohinaa — Rafał Gendarz",
+    "url": "https://rohinaa.com/",
+    "country": "Niemcy / polskojęzyczna diaspora",
+    "type": "Praktyk i nauczyciel Jyotish",
+    "traditionEvidence": "Autor wskazuje Śrī Jagannāth Center, Parāśarę, Jaiminiego i Mantra Śāstrę; naukę w linii przekazu przedstawia jako podstawę kursów.",
+    "pagesReviewed": [
+      "https://rohinaa.com/"
+    ],
+    "sections": [
+      "O autorze",
+      "Konsultacje",
+      "Kursy",
+      "Viveka",
+      "Materiały YouTube",
+      "Newsletter",
+      "Kontakt"
+    ],
+    "contentPL": "Opis metod, wykresów podziałowych i daś; polsko- i anglojęzyczne kursy, darmowe filmy oraz osobny program komputerowy.",
+    "designPL": "W HTML czytelny podział na trzy potrzeby: własna konsultacja, nauka i narzędzia dla praktyka. Kolejne bloki prezentują autora, film, program, kursy i kontakt.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Sanskryckie nazwy można objaśniać po polsku; jasny podział treści ułatwia pierwszą wizytę.",
+    "cautionPL": "To rozbudowana praktyka doświadczonego autora. Początkująca strona potrzebuje znacznie węższego zakresu i łagodniejszego języka rezultatów.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE16",
+    "name": "British Association for Vedic Astrology (BAVA)",
+    "url": "https://bavamembership.org/about/",
+    "country": "Wielka Brytania",
+    "type": "Stowarzyszenie edukacyjne",
+    "traditionEvidence": "Opis stowarzyszenia wymienia B. V. Ramana i Davida Frawleya jako patronów oraz cel poznawania duchowych aspektów Jyotish.",
+    "pagesReviewed": [
+      "https://bavamembership.org/about/",
+      "https://bavamembership.org/bava-committee/"
+    ],
+    "sections": [
+      "O BAVA",
+      "Komitet",
+      "Członkostwo",
+      "Sklep członkowski",
+      "Gochara",
+      "Wykłady i konferencje"
+    ],
+    "contentPL": "Historia organizacji, misja, osoby odpowiedzialne i rozwój edukacji. Stowarzyszenie opisuje czasopismo oraz działalność konferencyjną.",
+    "designPL": "W HTML oszczędny portal członkowski WordPress z dużym nagłówkiem, tekstem i funkcjami konta. Forma informacyjna i instytucjonalna.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Dobrze działa krótko wyrażona intencja działania; na wizytówce można ją odnieść do służby i odpowiedzialności.",
+    "cautionPL": "Portal członkowski zastępuje w tej analizie chwilowo niedostępną stronę główną. Deklaracji historycznych nie traktujemy jako niezależnie zweryfikowanych ustaleń.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE17",
+    "name": "Śrī Garuḍa — Visti Larsen",
+    "url": "https://srigaruda.com/",
+    "country": "Dania",
+    "type": "Nauczyciel tradycyjnego Jyotish",
+    "traditionEvidence": "Autor wprost wskazuje Sanjaya Ratha jako nauczyciela i tradycję Śrī Achyutānanda Dāsa; opisuje programy Parāśara, Jaimini i Mantra Śāstra.",
+    "pagesReviewed": [
+      "https://srigaruda.com/"
+    ],
+    "sections": [
+      "O autorze",
+      "Czym jest Jyotish",
+      "Konsultacje",
+      "Kursy",
+      "E-book",
+      "FAQ",
+      "Artykuły",
+      "Lekcje audio",
+      "Darowizny"
+    ],
+    "contentPL": "Osobista biografia, teksty techniczne i duchowe, materiały wykładowe, poradnik najczęstszych pytań oraz odsyłacze do szkoły Rāma.",
+    "designPL": "W HTML wyraźny nagłówek, dwa główne kierunki działania, warianty sesji, biografia, newsletter i niżej biblioteka artykułów.",
+    "commercialLevel": "wysoki",
+    "takeawayPL": "Dobrze oddzielone FAQ i jawne pochodzenie nauki. Szkołę Rāma i Śrī Garuḍa liczymy jako jeden ekosystem.",
+    "cautionPL": "Cena i promocja sesji są wyraziste. Nie przenosić autorytetu guru ani zaawansowanych usług na początkującą Ilonę.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE18",
+    "name": "Marc Boney",
+    "url": "https://marcboney.com/",
+    "country": "USA (Kalifornia)",
+    "type": "Autor i nauczyciel Jyotish",
+    "traditionEvidence": "Wprowadzenie przedstawia Jyotish w indyjskim kontekście karmy, reinkarnacji i duchowej praktyki; menu wyodrębnia linię przekazu. Dawna biografia w indeksie wskazuje K. N. Rao, lecz jej link obecnie zwraca błąd.",
+    "pagesReviewed": [
+      "https://marcboney.com/"
+    ],
+    "contentPL": "Wprowadzenie do Jyotish jako systemu duchowego, refleksja nad karmą i wolną wolą oraz odsyłacze do książek, artykułów i nauki.",
+    "sections": [
+      "O autorze",
+      "Książki",
+      "Artykuły",
+      "Nauka Jyotish",
+      "Konsultacje",
+      "Linia przekazu",
+      "Kontakt"
+    ],
+    "designPL": "Audyt wizualny zespołu: oliwka i krem, pismo szeryfowe, dekoracyjny nagłówek z Ganeśą i Om. Portret po lewej, tekst w centrum oraz boczna kolumna z ogłoszeniami o nauce.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Uczciwa opowieść o uczeniu się jest wartościowsza niż samo zapewnienie o intuicji.",
+    "cautionPL": "Strona główna działa w przeglądarce, lecz link do biografii zwracał 404, a do linii przekazu pętlę przekierowań. To przykład potrzeby regularnego sprawdzania odsyłaczy.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt bieżącego HTML strony głównej oraz zrzut Chrome zweryfikowany wizualnie przez członka zespołu; HTTP 200. Podstrony częściowo niedostępne.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE19",
+    "name": "Vedic Healing — Madhavi Rathod",
+    "url": "https://vedichealing.com/",
+    "country": "USA (Kalifornia, diaspora indyjska)",
+    "type": "Praktyka Jyotish i ajurwedy",
+    "traditionEvidence": "Serwis opisuje Jyotish w kontekście indyjskiej tradycji, karmy i duchowości; oferta rozróżnia m.in. praśnę, muhūrtę i rektyfikację.",
+    "pagesReviewed": [
+      "https://vedichealing.com/",
+      "https://vedichealing.com/about/about-jyotish/",
+      "https://vedichealing.com/services-rates/jyotish/"
+    ],
+    "sections": [
+      "O praktyce",
+      "Usługi i stawki",
+      "Wydarzenia",
+      "Artykuły",
+      "Blog",
+      "FAQ",
+      "Polecenia",
+      "Kontakt"
+    ],
+    "contentPL": "Jasne opisy poszczególnych form konsultacji, informacje o przygotowaniu i rezerwacji przez e-mail oraz wyraźne ograniczenia interpretacji astrologicznej.",
+    "designPL": "W HTML typowe menu osobistego serwisu i lista usług z krótkimi objaśnieniami. Informacja o kontakcie poprzedza szczegóły.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Wyjaśnić przebieg kontaktu i oddzielić rozmowę astrologiczną od porad medycznych, prawnych i finansowych.",
+    "cautionPL": "Zakres autorki jest szeroki, obejmuje także astrologię chińską. Strona Ilony nie powinna odziedziczyć takiej listy kompetencji.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE20",
+    "name": "The Vedic Dawn — Kunal Shah",
+    "url": "https://www.thevedicdawn.com/",
+    "country": "Kanada / Indie (Toronto i Ahmedabad)",
+    "type": "Praktyk Jyotish; przykład porównawczy",
+    "traditionEvidence": "Autor deklaruje tradycję Śrī Achyuta Dāsa, naukę u Sanjaya Ratha i związek z Divine Jyotish School of Canada.",
+    "pagesReviewed": [
+      "https://www.thevedicdawn.com/",
+      "https://www.thevedicdawn.com/about/"
+    ],
+    "sections": [
+      "O autorze",
+      "Konsultacje",
+      "Szkoła",
+      "Artykuły",
+      "Proces",
+      "FAQ",
+      "Zasady",
+      "Kontakt"
+    ],
+    "contentPL": "Łączy tradycyjny przekaz z doświadczeniem biznesowym. Przebieg współpracy opisuje w czterech krokach: zgłoszenie, przygotowanie, rozmowa, podsumowanie.",
+    "designPL": "W HTML rozbudowana strona usługowa: nagłówek, portret, tematy konsultacji, proces, opinie i artykuły. Liczne wezwania do rezerwacji.",
+    "commercialLevel": "wysoki",
+    "takeawayPL": "Sam opis przebiegu spotkania jest użyteczny; dla Ilony zastosować prostszy i spokojniejszy język.",
+    "cautionPL": "Pomimo deklarowanej linii przekazu jest to przykład mocno biznesowy, nie rekomendowany model sewy.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE21",
+    "name": "Daria Aichinger — Jyotish Coach",
+    "url": "https://www.jyotish.coach/",
+    "country": "Niemcy",
+    "type": "Osobista praktyka Jyotish; przykład porównawczy",
+    "traditionEvidence": "Autorka wymienia Bette Timm jako nauczycielkę i podkreśla ustną relację przekazu oraz ciągłe studiowanie.",
+    "pagesReviewed": [
+      "https://www.jyotish.coach/"
+    ],
+    "sections": [
+      "Wprowadzenie",
+      "O autorce",
+      "Konsultacje",
+      "Nauka",
+      "Blog",
+      "Newsletter",
+      "FAQ",
+      "Kontakt"
+    ],
+    "contentPL": "Wyjaśnienie systemu, zakresów rozmowy i sposobu przygotowania; duże FAQ odpowiada na pytania o dane urodzeniowe, format i czas spotkania.",
+    "designPL": "W HTML długa strona z portretem, szeregiem tematów życiowych, opisami usług, opiniami i formularzami. Wyraźny nacisk na rezerwację.",
+    "commercialLevel": "wysoki",
+    "takeawayPL": "FAQ może usunąć niepewność przed kontaktem; informacje praktyczne warto podać prostym językiem.",
+    "cautionPL": "Strona eksponuje także zastosowania biznesowe i deklaracje trafności. Tego tonu nie przyjmować na stronie Ilony.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE22",
+    "name": "Jyotish Maha Kumbh — Jyotish.com",
+    "url": "https://jyotish.com/",
+    "country": "USA / społeczność międzynarodowa",
+    "type": "Konferencja edukacyjna",
+    "traditionEvidence": "Program gromadzi nauczycieli różnych nurtów, m.in. P. V. R. Narasimha Rao, Penny Farrow i K. S. Charaka. Nie deklaruje jednej wspólnej parampary wszystkich uczestników.",
+    "pagesReviewed": [
+      "https://jyotish.com/",
+      "https://jyotish.com/speakers-new/",
+      "https://jyotish.com/schedule-jyotish-new/"
+    ],
+    "sections": [
+      "Terminy",
+      "Program",
+      "Prelegenci",
+      "Bilety",
+      "Dla kogo",
+      "Rejestracja"
+    ],
+    "contentPL": "Harmonogram nauki, biografie wykładowców i opisy tematów. Wydarzenie online pokazuje międzynarodowy obieg tradycyjnej wiedzy.",
+    "designPL": "W HTML strona wydarzenia: daty na pierwszym planie, segmenty cenowe, program i lista prelegentów, powtarzane odsyłacze do zapisu.",
+    "commercialLevel": "wysoki",
+    "takeawayPL": "Lista polecanych wydarzeń może żyć w czytelni; wizytówka nie potrzebuje własnego systemu kursów.",
+    "cautionPL": "To konferencja, a nie pojedyncza szkoła. Obecność prelegenta nie jest niezależnym potwierdzeniem każdej prezentowanej tezy.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE23",
+    "name": "School of Dharma — Ritika",
+    "url": "https://www.schoolofdharma.com.au/ritikaofferings",
+    "country": "Australia (Nowa Południowa Walia)",
+    "type": "Szkoła praktyki duchowej z konsultacjami Jyotish",
+    "traditionEvidence": "Strona deklaruje osadzenie w Himalayan Kriya, mantrze i tradycjach tantrycznych; na analizowanej podstronie nie podaje pełnej imiennej linii nauczycieli Jyotish.",
+    "pagesReviewed": [
+      "https://www.schoolofdharma.com.au/",
+      "https://www.schoolofdharma.com.au/ritikaofferings"
+    ],
+    "sections": [
+      "O szkole",
+      "Praktyka Navratri",
+      "Spotkania z Ritiką",
+      "Jyotish",
+      "Mentoring",
+      "Medytacja",
+      "FAQ",
+      "Kontakt"
+    ],
+    "contentPL": "Opis indywidualnej rozmowy, przygotowania, nagrania i podsumowania; obok dłuższe programy praktyki i medytacji.",
+    "designPL": "W HTML fotografie prowadzącej, wyraźne bloki form spotkania, listy zawartości, czteroetapowy proces oraz rozbudowane FAQ.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Dobry pomysł na strukturę: czego można oczekiwać, jak się przygotować i co dzieje się po rozmowie.",
+    "cautionPL": "Źródło kontekstowe, nie zweryfikowana szkoła klasycznego Jyotish. Obecne w opiniach deklaracje dotyczące zdrowia nie powinny być przenoszone do projektu.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE24",
+    "name": "Himalayan Academy — Kauai's Hindu Monastery",
+    "url": "https://www.himalayanacademy.com/books/jyotisha-hindu-astrology-2/",
+    "country": "USA (Hawaje)",
+    "type": "Tradycyjna instytucja hinduistyczna; źródło kontekstu",
+    "traditionEvidence": "Klasztor przedstawia własną śiwaicką linię nauczycieli; Jyotish występuje jako część praktyki religijnej i edukacji hinduistycznej.",
+    "pagesReviewed": [
+      "https://www.himalayanacademy.com/books/jyotisha-hindu-astrology-2/",
+      "https://www.himalayanacademy.com/media/books/jyotisha-hindu-astrology_ei/web/toc.html"
+    ],
+    "sections": [
+      "O hinduizmie",
+      "Książki",
+      "Praktyka",
+      "Audio",
+      "Sztuka",
+      "Pañcāṅga",
+      "Linia przekazu",
+      "Darowizny"
+    ],
+    "contentPL": "Bezpłatne opracowanie Jyotish w PDF i EPUB, kontekst kalendarza religijnego, grah i praktyki codziennej. Duża otwarta biblioteka.",
+    "designPL": "W HTML katalog publikacji z okładką, autorem, kategorią i przyciskami pobierania. Menu umieszcza astrologię obok praktyki, tekstów i muzyki.",
+    "commercialLevel": "niski",
+    "takeawayPL": "Czytelnia może wprost podawać autora, tytuł, format i krótki opis, bez obowiązku zapisu.",
+    "cautionPL": "To źródło religijnego kontekstu, nie neutralny podręcznik naukowy ani wyłącznie szkoła astrologii.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "WE25",
+    "name": "Sivananda Ashram Yoga Farm — Jyotish",
+    "url": "https://sivanandayogafarm.org/study/scriptural-study/jyotish-vedic-astrology/",
+    "country": "USA (Kalifornia)",
+    "type": "Aśram; Jyotish w edukacji jogicznej",
+    "traditionEvidence": "Jyotish znajduje się w dziale studiowania tekstów obok Bhagavadgīty i Vedānty; serwis odwołuje się do tradycji Sivanandy i praktyki karma-jogi/sewy.",
+    "pagesReviewed": [
+      "https://sivanandayogafarm.org/study/scriptural-study/jyotish-vedic-astrology/"
+    ],
+    "sections": [
+      "Nauka",
+      "Jyotish",
+      "Konferencje",
+      "Doradztwo wedyjskie",
+      "Kalendarz",
+      "Karma Yoga / Seva",
+      "Biblioteka",
+      "Wsparcie"
+    ],
+    "contentPL": "Opis programów i konferencji łączących Jyotish z jogą, samoobserwacją i filozofią. Osobny dział sewy osadza naukę w życiu wspólnoty.",
+    "designPL": "W HTML rozbudowana nawigacja aśramu i tematyczna podstrona z opisem, zdjęciami, historią wydarzeń oraz tabelą terminów.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Służbę można wyrazić przez ton, otwarte treści i uważny kontakt, bez budowania hierarchii prestiżu.",
+    "cautionPL": "Źródło kontekstowe szerszej tradycji jogicznej. Nie sugeruje, że Ilona należy do tego aśramu lub prowadzi jego praktyki.",
+    "region": "Zachód",
+    "evidenceMethod": "Odczyt treści i struktury HTML źródeł pierwotnych; opis kolorów i typografii wymaga osobnego audytu zrzutów.",
+    "checkedDate": "2026-10-03"
+  }
+]

@@ -1,0 +1,689 @@
+[
+  {
+    "id": "IN01",
+    "name": "Sanjay Rath",
+    "url": "https://srath.com/",
+    "region": "Indie",
+    "country": "Indie — Odisha / Nowe Delhi",
+    "type": "Nauczyciel i biblioteka tradycji",
+    "traditionEvidence": "Biogram wskazuje rodzinę astrologów z Puri, nauczyciela Kasinatha Ratha oraz linię Achyutanandy. Wymienia Parāśarę, Jaiminiego, Bṛhat Jātaka i Sārāvalī; jest to deklaracja autora.",
+    "pagesReviewed": [
+      "https://srath.com/",
+      "https://srath.com/about/about/"
+    ],
+    "sections": [
+      "O nauczycielu i paramparze",
+      "Nauka",
+      "Jyotiṣa",
+      "Duchowość",
+      "Artykuły i nagrania",
+      "Konsultacje"
+    ],
+    "contentPL": "Obszerne artykuły techniczne, mantry, komentarze do pism, wykłady oraz programy wieloletniej nauki. Serwis łączy nauczanie duchowe z płatnymi odczytami horoskopu.",
+    "designPL": "Obejrzany zrzut: beżowo-oliwkowa paleta, bordowy znak trójzębu i sanskryt w nagłówku; gęsty układ trzech kolumn, filmy, boczne boksy i dwa poziomy menu. Wrażenie archiwum nauczyciela, duże obciążenie informacyjne.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Wyraźnie pokazać źródła nauki i szacunek do nauczycieli; mała czytelnia może budować zaufanie skuteczniej niż obietnice.",
+    "cautionPL": "Tradycyjny przekaz współistnieje tu z drogimi konsultacjami. Nie przypisywać Ilonie tej parampary bez jej potwierdzenia ani przenosić deterministycznych prognoz.",
+    "evidenceMethod": "Odczyt stron źródłowych + rzeczywisty zrzut przeglądarki (strona główna).",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN02",
+    "name": "Śrī Jagannāth Center",
+    "url": "https://srijagannath.org/",
+    "region": "Indie",
+    "country": "Indie / społeczność międzynarodowa",
+    "type": "Centrum tradycji i wspólnota",
+    "traditionEvidence": "Witryna deklaruje zachowywanie przekazu Achyuta Dāsa z Odishy, naukę śāstr i relację guru–uczeń pod przewodnictwem Sanjaya Ratha.",
+    "pagesReviewed": [
+      "https://srijagannath.org/",
+      "https://srijagannath.org/sjc/sri-jagannath-center-sjc-vision/"
+    ],
+    "sections": [
+      "Wizja SJC",
+      "Artykuły",
+      "Autorzy",
+      "Jyotiṣa",
+      "Duchowość",
+      "Komentarze"
+    ],
+    "contentPL": "Wielu autorów publikuje studia grah, rāśi, tithi i filozofii. Powtarzają się podziękowania nauczycielowi, wskazanie źródła lekcji i przyjęcie odpowiedzialności za własne błędy interpretacyjne.",
+    "designPL": "Struktura odczytanej strony przypomina magazyn lub blog: datowane wpisy, autorzy, kategorie, liczniki komentarzy i udostępnianie. To obserwacja struktury, bez wnioskowania o barwach.",
+    "commercialLevel": "niski",
+    "takeawayPL": "Warto przyjąć ton wdzięczności oraz podpisywać krótkie notatki źródłami i datą, otwarcie uznając własny etap nauki.",
+    "cautionPL": "To ten sam ekosystem przekazu co srath.com, a nie niezależne potwierdzenie jego tez. Artykuły o zdrowiu nie stanowią wskazań medycznych.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN03",
+    "name": "Bharatiya Vidya Bhavan — K.N. Rao Institute of Astrology",
+    "url": "https://www.bvbdelhi.org/astrology/",
+    "region": "Indie",
+    "country": "Indie — Nowe Delhi",
+    "type": "Instytut edukacyjny",
+    "traditionEvidence": "Oficjalna strona instytutu imienia K.N. Rao opisuje stopniowe kształcenie Jyotish Alankar, Jyotish Acharya i dalszą pracę badawczą w ramach Bharatiya Vidya Bhavan.",
+    "pagesReviewed": [
+      "https://www.bvbdelhi.org/astrology/"
+    ],
+    "sections": [
+      "O instytucji",
+      "Kursy",
+      "Wymagania przyjęcia",
+      "Program i prospekt",
+      "Opłaty",
+      "Kontakt"
+    ],
+    "contentPL": "Informacje organizacyjne, warunki przyjęcia, poziomy studiów, tryb zajęć i egzaminy. Jyotish pokazano w otoczeniu sanskrytu, kultury i innych dziedzin tradycji indyjskiej.",
+    "designPL": "Odczyt ujawnia duże menu instytucjonalne, baner tematyczny, pobierany prospekt i długi blok informacji o naborze. Dominuje logika strony uczelni, a nie osobistej wizytówki.",
+    "commercialLevel": "średni",
+    "takeawayPL": "U Ilony warto podać konkretne, prawdziwe etapy nauki i zasady rozmowy, ale w znacznie krótszym układzie.",
+    "cautionPL": "Sam fakt istnienia kursu nie potwierdza empirycznej trafności astrologii. Nie sugerować, że Ilona ukończyła ten instytut.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN04",
+    "name": "Indian Council of Astrological Sciences (ICAS)",
+    "url": "https://www.icasindia.org/",
+    "region": "Indie",
+    "country": "Indie — sieć ogólnokrajowa",
+    "type": "Organizacja edukacyjna",
+    "traditionEvidence": "Organizacja przedstawia się jako założona przez B.V. Ramana w 1984 r. i odwołuje się do klasycznych tekstów oraz nauczania Jyotirvidyā.",
+    "pagesReviewed": [
+      "https://www.icasindia.org/",
+      "https://www.icasindia.org/ICAS/Organization.html"
+    ],
+    "sections": [
+      "Organizacja i wizja",
+      "Założyciel",
+      "Oddziały",
+      "Przedmioty i kursy",
+      "Egzaminy",
+      "Publikacje",
+      "FAQ"
+    ],
+    "contentPL": "Programy Jyotish, Nādi, vāstu i chiromancji, formalna ścieżka nauki, publikacje, sieć nauczycieli oraz wydarzenia. Informacje o praktyce i etyce towarzyszą certyfikacji.",
+    "designPL": "W strukturze widoczne są wielopoziomowe menu, banery, bloki z ikonami, liczniki skali instytucji i zestawienia kursów. Strona organizacyjna z silnym akcentem na wiarygodność formalną.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Czytelny opis przygotowania i zakresu praktyki jest przydatny; nie potrzeba wielkich liczników ani kolekcji odznak.",
+    "cautionPL": "Organizacja używa języka naukowości, który opisuje jej własne stanowisko. Certyfikaty astrologiczne nie są uprawnieniami medycznymi ani dowodem skuteczności.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN05",
+    "name": "Sarbani Rath",
+    "url": "https://sarbanirath.com/",
+    "region": "Indie",
+    "country": "Indie / nauczanie międzynarodowe",
+    "type": "Nauczycielka i blog",
+    "traditionEvidence": "Autorka wskazuje nauczanie w Devaguru Bṛhaspati Centre, kursach Parāśary i programie Jaiminiego; materiały odwołują się do Achyuta Dāsa i tradycji SJC.",
+    "pagesReviewed": [
+      "https://sarbanirath.com/",
+      "https://sarbanirath.com/learn-jyoti%E1%B9%A3a/where-do-i-teach/"
+    ],
+    "sections": [
+      "Najnowsze notatki",
+      "Nauka Jyotiṣa",
+      "Zaawansowane tematy",
+      "Mantry",
+      "Miejsca nauczania"
+    ],
+    "contentPL": "Komentarze do jog i varg, teksty dewocyjne, sanskryckie strofy oraz informacje o nauczaniu. Osobisty głos łączy szczegółową praktykę z religijnym kontekstem.",
+    "designPL": "Odczyt pokazuje autorski blog z datami, kategoriami i komentarzami. Teksty sanskryckie przeplatają się z angielskimi objaśnieniami; ważniejsza jest biblioteka wpisów niż oferta na pierwszym planie.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Mała sekcja „Z mojej nauki” może mieć ciepły, osobisty charakter; terminy sanskryckie trzeba od razu objaśniać po polsku.",
+    "cautionPL": "Powiązanie z SJC jest częścią tego samego środowiska. Zaawansowanych mantr i praktyk nie przenosić do oferty początkującej osoby.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN06",
+    "name": "PJC Ātreya — Parāśara Jyotiṣa Course",
+    "url": "https://parasarajyotisa.com/",
+    "region": "Indie",
+    "country": "Indie / program międzynarodowy",
+    "type": "Program nauki klasycznego Jyotish",
+    "traditionEvidence": "Program odwołuje się do Parāśary, Jaiminiego oraz nauczania Sanjaya Ratha; publikuje strofy i omówienia klasycznych tekstów.",
+    "pagesReviewed": [
+      "https://parasarajyotisa.com/",
+      "https://parasarajyotisa.com/guru/sanjay-rath/"
+    ],
+    "sections": [
+      "O PJC",
+      "Guru",
+      "Rāśi",
+      "Ārca Jyotiṣa",
+      "Webinary",
+      "Zapisy"
+    ],
+    "contentPL": "Materiały wprowadzające, komentarze do Bṛhat Jātaka i Jātaka Pārijāta, omówienia Navagraha oraz informacje o wieloletnim kursie. Pojawiają się promocyjne zasady wcześniejszych zapisów.",
+    "designPL": "Układ treści to lista artykułów z nagłówkami, krótkimi zajawkami i kategoriami. Obok wpisów o tekstach klasycznych znajduje się komunikat naborowy.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Jedna zrozumiała notatka o pojęciu jest użyteczniejsza dla początkującego czytelnika niż wielka baza wszystkich technik.",
+    "cautionPL": "To odrębny serwis tego samego kręgu SJC. Nie kopiować promocji cenowych ani tytułów kwalifikacyjnych do wizytówki Ilony.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN07",
+    "name": "Vedic Siddhanta",
+    "url": "https://vedicsiddhanta.in/",
+    "region": "Indie",
+    "country": "Indie — Jammu",
+    "type": "Ośrodek edukacyjny, publikacje i konsultacje",
+    "traditionEvidence": "Organizacja opisuje zakorzenienie w klasycznych śāstrach, Parāśarī Jyotish, Vedach, Purāṇach, Saṃhitach i Siddhāntach oraz działalność Vedic School of Krishndhaam.",
+    "pagesReviewed": [
+      "https://vedicsiddhanta.in/",
+      "https://vedicsiddhanta.in/about-vedicsiddhanta"
+    ],
+    "sections": [
+      "Organizacja",
+      "Autorzy",
+      "Konsultacje i ich zasady",
+      "Badania",
+      "Publikacje",
+      "Podcast",
+      "Pomoc"
+    ],
+    "contentPL": "Bogata biblioteka dotycząca horoskopu, praśny, tradycyjnych praktyk i filozofii. Osobno opisano proces konsultacji, reguły kontaktu oraz możliwość zadania bezpłatnego pytania.",
+    "designPL": "Struktura bardzo rozbudowana: menu tematyczne, wiele podkategorii, wyszukiwarka, artykuły i wezwania do umówienia konsultacji. To portal wiedzy i usług, nie mała wizytówka.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Najbardziej przydatny jest osobny, spokojny opis procesu i zasad kontaktu.",
+    "cautionPL": "Nie przenosić twierdzeń o diagnozowaniu chorób ani przewidywaniu giełdy. Określenie „badania” jest własnym językiem organizacji.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN08",
+    "name": "Bangalore Niranjan Babu",
+    "url": "https://www.niranjanbabu.com/",
+    "region": "Indie",
+    "country": "Indie — Bangalore",
+    "type": "Nauczyciel, autor i konsultant",
+    "traditionEvidence": "Biogram deklaruje rodzinną linię Jyotish B.V. Ramana i wieloletnią naukę vāstu oraz klasycznej astrologii. Nauczyciel przedstawia się jako kontynuator przekazu swojego ojca.",
+    "pagesReviewed": [
+      "https://www.niranjanbabu.com/"
+    ],
+    "sections": [
+      "Linia przekazu",
+      "Konsultacje",
+      "Biblioteka",
+      "Rekomendacje",
+      "Kontakt"
+    ],
+    "contentPL": "Osobisty profil, historia rodziny, wykłady i książki oraz trzy główne zakresy praktyki: vāstu, Jyotish i muhūrta. Tradycję przedstawiono jako podstawę konkretnej oferty konsultacji.",
+    "designPL": "Odczyt pokazuje krótkie menu, portret, duży nagłówek, oddzielne części o dziedzictwie i usługach, bibliotekę oraz rekomendacje. Jest to bardziej uporządkowana osobista wizytówka niż wielki portal.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Przydatny wzorzec: jedna prawdziwa fotografia, krótka historia nauki i kilka jasno nazwanych sekcji.",
+    "cautionPL": "Prestiżowa, ekskluzywna retoryka i długa tradycja rodzinna autora nie odpowiadają sytuacji początkującej Ilony. Nie kopiować tytułów ani rekomendacji.",
+    "evidenceMethod": "Odczyt treści i struktury strony źródłowej przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN09",
+    "name": "Jupiter Astro — Sundar Balakrishnan",
+    "url": "https://jupiterastrology.com/",
+    "region": "Indie",
+    "country": "Indie — Mumbai",
+    "type": "Blog nauczyciela i praktyka",
+    "traditionEvidence": "Autor przedstawia się jako wykładowca astrologii Bharatiya Vidya Bhavan w Mumbai i opisuje poziomy nauki Jyotirvid oraz Jyotirvisharad.",
+    "pagesReviewed": [
+      "https://jupiterastrology.com/"
+    ],
+    "sections": [
+      "Blog",
+      "Kącik ucznia",
+      "Duchowość",
+      "Vāstu",
+      "Konsultacje",
+      "Kontakt"
+    ],
+    "contentPL": "Studia horoskopów, teksty dydaktyczne i komentarze do wydarzeń publicznych są połączone z usługami konsultacyjnymi i matrymonialnymi.",
+    "designPL": "Struktura skupia się na liście postów, krótkim profilu autora, kategoriach, kontakcie oraz obszernych opiniach klientów. Daje szybki dostęp do materiałów, ale łatwo przeładowuje treścią.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Można rozdzielić notatki dla uczących się od zaproszenia do rozmowy.",
+    "cautionPL": "Nie adaptować politycznych przewidywań, obietnic trafności ani publikowania prywatnych historii klientów. To szersza praktyka niż planowana wizytówka Ilony.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN10",
+    "name": "Jyotish Teachings — Chandrashekhar Sharma",
+    "url": "https://www.jyotishteachings.com/",
+    "region": "Indie",
+    "country": "Indie — Nagpur",
+    "type": "Bezpłatne nauczanie i osobista praktyka",
+    "traditionEvidence": "Biogram opisuje przekaz od babci i ojca oraz uczenie się od dzieciństwa. Autor ujmuje Jyotish jako Vedāṅgę służącą pomocy ludziom.",
+    "pagesReviewed": [
+      "https://www.jyotishteachings.com/",
+      "https://www.jyotishteachings.com/about-me.html"
+    ],
+    "sections": [
+      "Czym jest Jyotish",
+      "O mnie",
+      "Artykuły i YouTube",
+      "Książki i odnośniki"
+    ],
+    "contentPL": "Autor przedstawia się jako stale uczący się i deklaruje rodzinną zasadę niepobierania opłat za odczyty. Udostępnia wiedzę, książki oraz materiały do samodzielnej nauki.",
+    "designPL": "Bardzo mała struktura: cztery główne odnośniki, tekst celu strony, biogram i modlitwa. W odczycie nie ma rozbudowanego lejka sprzedażowego ani wielu pakietów usług.",
+    "commercialLevel": "niski",
+    "takeawayPL": "Najbliższy duchowi sewy wzorzec: skromna autoprezentacja, pomoc, ciągła nauka i kilka użytecznych treści.",
+    "cautionPL": "To deklaracja sposobu pracy autora, nie zobowiązanie Ilony do bezpłatnej działalności. Jej zasady trzeba sformułować oddzielnie.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN11",
+    "name": "The Astrological eMagazine",
+    "url": "https://www.astrologicalmagazine.com/",
+    "region": "Indie",
+    "country": "Indie — Bangalore",
+    "type": "Magazyn i narzędzia tradycyjnej astrologii",
+    "traditionEvidence": "Serwis podaje tradycję wydawniczą Suryanarayana Rao, B.V. Ramana i Niranjana Babu oraz powiązanie z Raman and Rajeswari Research Foundation.",
+    "pagesReviewed": [
+      "https://www.astrologicalmagazine.com/",
+      "https://astrologicalmagazine.com/about-us.html"
+    ],
+    "sections": [
+      "Bieżące wydanie",
+      "Archiwum",
+      "Podstawy Jyotiṣa",
+      "Pañcāṅga",
+      "Efemerydy",
+      "O redakcji"
+    ],
+    "contentPL": "Artykuły, lekcje dla początkujących, kalendarz, tablice pozycji planet i materiały redakcyjne. Obok edukacji występują prognozy polityczne i społeczne.",
+    "designPL": "W odczycie widoczna logika współczesnego magazynu: wyróżniony artykuł, krótsze zapowiedzi, działy i osobne narzędzia. Redakcja i archiwum pomagają ustalić autorstwo.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Krótka czytelnia z podpisanymi autorami, datami i źródłami będzie łatwa do rozwijania.",
+    "cautionPL": "Historia wydawnictwa nie dowodzi trafności prognoz. Nie kopiować tonu wyjątkowości ani obietnic wpływu astrologii na decyzje publiczne.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN12",
+    "name": "Maharishi India — Jyotish and Yagya",
+    "url": "https://www.maharishi-india.org/jyotishintro.htm",
+    "region": "Indie",
+    "country": "Indie",
+    "type": "Program tradycji Maharishiego",
+    "traditionEvidence": "Strona osadza Jyotish w systemie nauczania Maharishiego i przywołuje Bṛhat Parāśara Horā Śāstra oraz praktyki yajña.",
+    "pagesReviewed": [
+      "https://www.maharishi-india.org/jyotishintro.htm"
+    ],
+    "sections": [
+      "Wprowadzenie",
+      "Podstawy",
+      "Yagya",
+      "Związki kosmiczne",
+      "Kalendarz",
+      "Kontakt"
+    ],
+    "contentPL": "Doktrynalny opis związku jednostki z kosmosem, roli czasu narodzin i rytuałów. Tekst prezentuje Jyotish jako element szerszej praktyki duchowej.",
+    "designPL": "Odczyt wskazuje starszy, tekstowy format: nagłówki, niewielka liczba ilustracji, długie akapity i linki do kolejnych rozdziałów.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Dobrze pokazać szerszy kontekst filozoficzny, ale w przystępnym języku i krótkich częściach.",
+    "cautionPL": "Obietnice matematycznej precyzji przewidywań oraz zapobiegania problemom są twierdzeniami tej tradycji. Nie przedstawiać ich jako ustalonych faktów naukowych.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN13",
+    "name": "Shri Lal Bahadur Shastri National Sanskrit University — Jyotisha",
+    "url": "https://slbsrsv.ac.in/faculties-and-departments/faculty-veda-vedanga/department-jyotisha",
+    "region": "Indie",
+    "country": "Indie — Nowe Delhi",
+    "type": "Wydział uczelni sanskryckiej",
+    "traditionEvidence": "Oficjalny wydział omawia Siddhāntę, Saṃhitę i Horā oraz misję zachowania klasycznej wiedzy, nauczanie sanskryckie i publikowanie pañcāṅgi.",
+    "pagesReviewed": [
+      "https://slbsrsv.ac.in/faculties-and-departments/faculty-veda-vedanga/department-jyotisha"
+    ],
+    "sections": [
+      "Profil wydziału",
+      "Kierunki",
+      "Kursy dodatkowe",
+      "Kadra",
+      "Materiały",
+      "Kalendarz"
+    ],
+    "contentPL": "Poziomy studiów, sylwetki wykładowców i zakres dziedziny. Jyotish przedstawiono jako obszar dziedzictwa i formalnego kształcenia.",
+    "designPL": "Struktura instytucjonalna: rozległe menu uczelni, ścieżka nawigacji, fotografia kierownika, opis wydziału i tabela kadry. Zawiera kontrolki dostępności oraz wersje językowe.",
+    "commercialLevel": "niski",
+    "takeawayPL": "Precyzja nazw dziedzin i transparentny opis nauki są wartościowe; wizytówka nie potrzebuje akademickiej skali menu.",
+    "cautionPL": "Obecność astrologii w uczelni nie jest dowodem empirycznej skuteczności. Sekcji astrologii medycznej nie traktować jako porad zdrowotnych.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN14",
+    "name": "Central Sanskrit University — programy Jyotisha",
+    "url": "https://sanskrit.nic.in/programme.php",
+    "region": "Indie",
+    "country": "Indie — Nowe Delhi i kampusy",
+    "type": "Uczelnia i katalog programów",
+    "traditionEvidence": "Oficjalny katalog zawiera Phalit Jyotish i Siddhant Jyotish od poziomu certyfikatu do studiów wyższych, w otoczeniu innych śāstr.",
+    "pagesReviewed": [
+      "https://sanskrit.nic.in/programme.php"
+    ],
+    "sections": [
+      "Programy szkolne",
+      "Certyfikaty",
+      "Dyplomy",
+      "Śāstrī",
+      "Ācārya",
+      "Doktoraty"
+    ],
+    "contentPL": "Usystematyzowana lista ścieżek edukacyjnych pokazuje, że w tradycyjnym kształceniu odróżnia się część interpretacyjną od matematyczno-astronomicznej.",
+    "designPL": "Odczyt HTML ujawnia katalog pogrupowany poziomami, rozwijane części oraz wielojęzyczną nawigację. To funkcjonalny spis edukacyjny.",
+    "commercialLevel": "niski",
+    "takeawayPL": "Nazwy i zakresy pojęć wymagają rozróżnienia; można dodać prosty słowniczek zamiast używać sanskrytu jako dekoracji.",
+    "cautionPL": "Opis katalogu nie jest oceną jakości kursów ani dowodem trafności astrologii. Aktualnego statusu rekrutacji nie sprawdzano.",
+    "evidenceMethod": "Wyniki wyszukiwania + bezpośredni odczyt HTML przez HTTP (200); narzędzie web przy otwarciu zwracało przejściowe 502.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN15",
+    "name": "National Sanskrit University — Department of Jyotisha and Vasthu",
+    "url": "https://nsktu.ac.in/index.php/department-of-jyotisha/",
+    "region": "Indie",
+    "country": "Indie — Tirupati",
+    "type": "Wydział uczelni sanskryckiej",
+    "traditionEvidence": "Oficjalna uczelnia umieszcza Jyotisha i Vasthu w School of Veda-Vedangas; programy obejmują klasyczne śāstry i naukę sanskrytu.",
+    "pagesReviewed": [
+      "https://nsktu.ac.in/index.php/courses/",
+      "https://nsktu.ac.in/index.php/department-of-jyotisha/"
+    ],
+    "sections": [
+      "Wydziały",
+      "Programy",
+      "Biblioteka",
+      "Projekty rękopiśmienne",
+      "Kadra",
+      "Kontakt"
+    ],
+    "contentPL": "Opis kształcenia regularnego, tradycyjne kierunki i powiązania z biblioteką, zasobami tekstowymi i innymi dyscyplinami.",
+    "designPL": "Długi, instytucjonalny układ z bardzo obszerną nawigacją i wieloma poziomami informacji. Zakres uczelni dominuje nad pojedynczym tematem Jyotish.",
+    "commercialLevel": "niski",
+    "takeawayPL": "Wskazać, że studiowanie Jyotish wymaga kontekstu języka i tekstów; zrobić to w krótkiej sekcji źródeł.",
+    "cautionPL": "Nie utożsamiać strony formalnej uczelni z kliniczną lub naukową walidacją praktyki astrologicznej.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN16",
+    "name": "Drik Panchang",
+    "url": "https://www.drikpanchang.com/",
+    "region": "Indie",
+    "country": "Indie",
+    "type": "Kalendarz i narzędzia",
+    "traditionEvidence": "Serwis deklaruje tworzenie i hosting w Indiach; opisuje pañcāṅgę, święta i tradycyjne reguły kalendarza, jednocześnie wskazując używane obliczenia Drik Ganita.",
+    "pagesReviewed": [
+      "https://www.drikpanchang.com/"
+    ],
+    "sections": [
+      "Pañcāṅga",
+      "Kalendarze regionalne",
+      "Muhūrta",
+      "Święta i posty",
+      "Jyotish",
+      "Tutoriale",
+      "FAQ"
+    ],
+    "contentPL": "Daty zależne od lokalizacji, tithi, nakṣatry, święta, efemerydy i narzędzia. Rozbudowana biblioteka pomaga zrozumieć kulturowy rytm czasu.",
+    "designPL": "Odczyt pokazuje interfejs narzędziowy: wyszukiwarka, wybór języka i lokalizacji, tabele, ikony, wiele kategorii i reklamy. Duża gęstość informacji.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Lepszy jest odnośnik do sprawdzonego kalendarza z objaśnieniem niż pozornie dokładny licznik planet na statycznej stronie.",
+    "cautionPL": "Dokładność obliczeń astronomicznych nie dowodzi trafności interpretacji astrologicznej. Daty rytualne mogą zależeć od miejscowości i tradycji.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN17",
+    "name": "Jyotish Vidya",
+    "url": "https://www.jyotishvidya.co.in/",
+    "region": "Indie",
+    "country": "Indie",
+    "type": "Szkoła i materiały edukacyjne",
+    "traditionEvidence": "Organizacja deklaruje naukę dawnej astrologii wedyjskiej; opisuje grahy, nakṣatry, daśe, vargi oraz klasyczne pojęcia.",
+    "pagesReviewed": [
+      "https://www.jyotishvidya.co.in/",
+      "https://www.jyotishvidya.co.in/about-us"
+    ],
+    "sections": [
+      "O nas",
+      "Kurs",
+      "Must Read",
+      "Pojęcia i artykuły",
+      "Kontakt",
+      "Prywatność"
+    ],
+    "contentPL": "Strona prowadzi do programu nauki i krótkich zasobów tematycznych. Zaznacza, że astrologia nie może po prostu usunąć ludzkiego cierpienia ani dowolnie zmienić losu.",
+    "designPL": "Struktura opiera się na dużych hasłach w oddzielnych sekcjach z ilustracjami, prostym menu i obszernym zestawie linków do pojęć w stopce.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Warto jasno wyjaśnić ograniczenia spotkania oraz dodać krótkie definicje kilku pojęć.",
+    "cautionPL": "Serwis łączy klasyczne pojęcia z nowoczesnymi spekulacjami o energii i prawie przyciągania; nie jest wzorcem czystej parampary. Deklaracji naukowości nie przenosić na stronę Ilony.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN18",
+    "name": "Journal of Astrology — środowisko K.N. Rao",
+    "url": "https://www.journalofastrology.com/",
+    "region": "Indie",
+    "country": "Indie — Nowe Delhi",
+    "type": "Magazyn, archiwum i księgarnia",
+    "traditionEvidence": "Biogram wskazuje naukę K.N. Rao od matki, nauczyciela Yogi Bhaskaranandy i związek z Bharatiya Vidya Bhavan.",
+    "pagesReviewed": [
+      "https://www.journalofastrology.com/",
+      "https://www.journalofastrology.com/page.php?page=KNRAO"
+    ],
+    "sections": [
+      "K.N. Rao",
+      "Artykuły",
+      "Archiwa",
+      "Nauka",
+      "Książki",
+      "Odczyty"
+    ],
+    "contentPL": "Biblioteka tradycyjnych analiz, publikacje i biogram nauczyciela współistnieją ze sprzedażą książek oraz konsultacji. Biografia podkreśla osobistą służbę i honorowe nauczanie Rao.",
+    "designPL": "Struktura sklepowa jest mocno widoczna: koszyk, promocje, kategorie produktów, bestsellerowe pozycje i długie listy artykułów.",
+    "commercialLevel": "wysoki",
+    "takeawayPL": "Cenny jest nacisk na własną naukę, źródła i misyjność; sklepowy układ jest słabym wzorcem dla Ilony.",
+    "cautionPL": "Do porównania, nie do naśladowania sprzedaży. Oddzielić deklarację osobistej bezinteresowności nauczyciela od obecnego modelu komercyjnego witryny.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN19",
+    "name": "All India Federation of Astrologers' Societies (AIFAS)",
+    "url": "https://www.aifas.com/",
+    "region": "Indie",
+    "country": "Indie — Delhi / Noida",
+    "type": "Federacja edukacyjna",
+    "traditionEvidence": "Federacja deklaruje upowszechnianie astrologii indyjskiej, naukę Jyotish i sieć lokalnych oddziałów. Program jest szerszy i obejmuje też inne praktyki ezoteryczne.",
+    "pagesReviewed": [
+      "https://www.aifas.com/"
+    ],
+    "sections": [
+      "Federacja",
+      "Oddziały",
+      "Kursy",
+      "Badania",
+      "Egzaminy",
+      "Artykuły",
+      "Książki"
+    ],
+    "contentPL": "Programy online, materiały kursowe, egzaminy, publikacje oraz instrukcje dla oddziałów. Nauka astrologii sąsiaduje z numerologią, vāstu, chiromancją i tarotem.",
+    "designPL": "Rozbudowane menu, karuzela komunikatów, formularz zapytania, bloki kursów i lista artykułów. Strona koncentruje się na naborze i skali organizacji.",
+    "commercialLevel": "wysoki",
+    "takeawayPL": "Jasność programu i sposobu kontaktu jest przydatna, lecz wizytówka Ilony powinna zachować jeden temat i prosty układ.",
+    "cautionPL": "To przykład porównawczy szkoły mieszanej; nie przedstawiać całej oferty jako jednorodnej klasycznej parampary.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN20",
+    "name": "Planetary Positions — Vedic Astrology",
+    "url": "https://planetarypositions.com/",
+    "region": "Indie",
+    "country": "Indie — Bangalore",
+    "type": "Blog edukacyjny i narzędzia",
+    "traditionEvidence": "Kshitij Sharma wskazuje naukę przez materiały Davida Frawleya, B.V. Ramana i Bepina Behariego. Serwis określa się jako poświęcony Vedāṅga Jyotish.",
+    "pagesReviewed": [
+      "https://planetarypositions.com/",
+      "https://planetarypositions.com/contact-and-consultation/"
+    ],
+    "sections": [
+      "Janma Kundali",
+      "Artykuły",
+      "Grahy i znaki",
+      "Nakṣatry",
+      "Recenzje książek",
+      "Słowniczek",
+      "FAQ"
+    ],
+    "contentPL": "Darmowe obliczenia horoskopu i zgodności, notatki astrologiczne, recenzje literatury oraz osobny kontakt konsultacyjny.",
+    "designPL": "Odczyt pokazuje moduły prowadzące do konkretnych zadań, krótkie objaśnienia i widoczny spis zasobów. Informacyjny układ z niewielką liczbą warstw nawigacji.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Najlepszą inspiracją są słowniczek, FAQ i opis książek dla rozpoczynających naukę.",
+    "cautionPL": "Narzędzia zgodności i interpretacje nie powinny decydować za użytkownika o związku. Nie potrzeba ich w pierwszej wersji strony Ilony.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN21",
+    "name": "Chandra Narayan Jyotish Foundation",
+    "url": "https://www.chandranarayanjyotishfoundation.in/index",
+    "region": "Indie",
+    "country": "Indie — Mumbai",
+    "type": "Fundacja deklarująca działalność społeczną",
+    "traditionEvidence": "Fundacja nazywa Jyotish źródłem duchowego wsparcia. Na przejrzanej stronie nie podaje konkretnej parampary; włączona jako przykład komunikacji sewy.",
+    "pagesReviewed": [
+      "https://www.chandranarayanjyotishfoundation.in/index"
+    ],
+    "sections": [
+      "Misja i wizja",
+      "Bezpłatne konsultacje",
+      "Darowizny",
+      "Działalność społeczna",
+      "Galeria",
+      "Kontakt"
+    ],
+    "contentPL": "Deklaruje bezpłatne konsultacje i dobrowolne darowizny podtrzymujące tę działalność. Opisuje również wsparcie dzieci, osób starszych, edukację i mentoring.",
+    "designPL": "Długa strona z kolejnymi nagłówkami misji, problemu i rozwiązania, wezwaniami do wsparcia, galerią i kontaktem. W menu widoczne są darowizny i rejestracja.",
+    "commercialLevel": "niski",
+    "takeawayPL": "Bardzo jasno oddzielić dostępność spotkania od ewentualnej dobrowolnej formy wsparcia.",
+    "cautionPL": "Status i wyniki działalności społecznej są deklaracją strony, nie przeprowadzono audytu fundacji. Nie należy tworzyć pozorów, że Ilona prowadzi podobną organizację.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN22",
+    "name": "Jyotish Vidyapeeth",
+    "url": "https://www.jyotishvidyapeeth.com/",
+    "region": "Indie",
+    "country": "Indie — północne Indie",
+    "type": "Szkoła i konsultacje",
+    "traditionEvidence": "Szkoła przedstawia nauczanie Jyotish, vāstu i yantr oraz nauczyciela Anuraga Kaushika. Obok tematów wedyjskich ma ofertę spoza klasycznego Jyotish.",
+    "pagesReviewed": [
+      "https://www.jyotishvidyapeeth.com/"
+    ],
+    "sections": [
+      "Szkoła",
+      "Kursy wedyjskie",
+      "Kursy podstawowe",
+      "Vāstu",
+      "Praktyki zaradcze",
+      "Kontakt"
+    ],
+    "contentPL": "Duża część materiału jest w hindi. Strona opisuje kursy wideo, możliwość rozmowy z nauczycielem, opinie uczniów oraz programy o różnym stopniu zaawansowania.",
+    "designPL": "Odczyt ujawnia liczne obrazy i banery, napisy w devanāgarī, listy kursów, formularze i rejestrację. Część mechanizmów odtwarzania wygląda na starszą technicznie.",
+    "commercialLevel": "wysoki",
+    "takeawayPL": "Rodzimy język i prosta ścieżka dla początkujących są wartościowe; dla polskiej odbiorczyni wystarczy kilka spokojnych sekcji.",
+    "cautionPL": "Oferta obejmuje też hipnozę i regresję; to przykład szkoły mieszanej. Nie należy przenosić tych tematów do tradycyjnej wizytówki Ilony.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN23",
+    "name": "JVSIRC — Abhay Agaste",
+    "url": "https://abhayagaste.com/institute/",
+    "region": "Indie",
+    "country": "Indie — Nashik",
+    "type": "Instytut i osobista praktyka",
+    "traditionEvidence": "Instytut deklaruje nauczanie wedyjskie oraz system K.P.; równocześnie zapowiada łączenie go z innymi podejściami, w tym astrologią zachodnią.",
+    "pagesReviewed": [
+      "https://abhayagaste.com/institute/"
+    ],
+    "sections": [
+      "Profil",
+      "Instytut",
+      "Dziedziny",
+      "Kursy",
+      "Galeria",
+      "Blog",
+      "Kontakt"
+    ],
+    "contentPL": "Opis instytutu, czasu trwania kursów i dziedzin nauki; zdjęcia i wirtualny spacer prezentują rzeczywiste miejsce spotkań.",
+    "designPL": "Struktura podzielona na przejrzyste sekcje z fotografiami, kartami dziedzin, listą długości kursów, galerią i jednym formularzem zapytania.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Prawdziwa fotografia i konkretny opis spotkania mogą być bardziej wiarygodne niż rozbudowana symbolika.",
+    "cautionPL": "Praktyka jest eklektyczna i wykracza poza klasyczne Jyotish. Układ warto porównać, ale nie kopiować katalogu usług ani sugestii terapeutycznych.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN24",
+    "name": "JaiminiSutra.com — Jaimini Scholar Program",
+    "url": "https://jaiminisutra.com/",
+    "region": "Indie",
+    "country": "Indie / międzynarodowa sieć nauczycieli",
+    "type": "Biblioteka i platforma nauczania",
+    "traditionEvidence": "Opisuje przekaz Sanjaya Ratha, linię Achyutanandy i studium Upadeśa Sūtr Jaiminiego. Zaawansowana nauka wymaga relacji z nauczycielem.",
+    "pagesReviewed": [
+      "https://jaiminisutra.com/"
+    ],
+    "sections": [
+      "Jak studiować",
+      "Kwalifikacje",
+      "Nauczyciele",
+      "Wskazówki dla uczniów",
+      "Programy roczne"
+    ],
+    "contentPL": "Archiwum nagrań, sylabusy i rozdzielenie dostępu do materiałów od prowadzenia przez nauczyciela. Podkreśla praktyczny i duchowy charakter studiów.",
+    "designPL": "Układ platformy edukacyjnej: bloki wprowadzające, kafle pomocnicze, lista dostępnych kursów i długie sylabusy. W centrum jest ścieżka uczenia się.",
+    "commercialLevel": "średni",
+    "takeawayPL": "Jasno powiedzieć, co Ilona zna i czego nadal się uczy; skomplikowanych technik nie reklamować bez przygotowania.",
+    "cautionPL": "Międzynarodowy serwis indyjskiej tradycji, a nie niezależna indyjska szkoła; powiązany z SJC. Liczony jako odrębna witryna, nie odrębna linia przekazu.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  },
+  {
+    "id": "IN25",
+    "name": "Sagittarius Publications",
+    "url": "https://sagittariuspublications.com/",
+    "region": "Indie",
+    "country": "Indie — środowisko SJC / Nowe Delhi",
+    "type": "Wydawnictwo i zasoby",
+    "traditionEvidence": "Katalog zawiera książki Jyotish, materiały Sanjaya Ratha, Jyotish Digest i nagrania konferencji; jest częścią ekosystemu publikacji SJC.",
+    "pagesReviewed": [
+      "https://sagittariuspublications.com/"
+    ],
+    "sections": [
+      "Książki Jyotish",
+      "Jyotish Digest",
+      "Nagrania",
+      "Konferencje",
+      "Wsparcie druku"
+    ],
+    "contentPL": "Materiały do pogłębionej nauki, archiwalne numery czasopisma i nagrania. W tym samym sklepie są również przedmioty rytualne.",
+    "designPL": "Odczyt pokazuje typową księgarnię internetową: wyszukiwarka produktów, kategorie z licznikami, koszyk i subskrypcje.",
+    "commercialLevel": "wysoki",
+    "takeawayPL": "Dla Ilony przydatna jest krótka bibliografia z opisem, co czytelnik znajdzie w książkach, bez budowania sklepu.",
+    "cautionPL": "To źródło bibliograficzne z tego samego kręgu SJC, nie wzorzec handlowy. Nie kopiować tekstów, grafik okładek ani materiałów kursowych bez praw.",
+    "evidenceMethod": "Odczyt treści i struktury stron źródłowych przez narzędzie web; opis struktury nie jest audytem wizualnym.",
+    "checkedDate": "2026-10-03"
+  }
+]

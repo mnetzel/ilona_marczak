@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "IN01",
+    "region": "IN",
+    "url": "https://srath.com/",
+    "finalUrl": "https://srath.com/",
+    "title": "Sanjay Rath – Vedic Astrology & Spirituality",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN01.png",
+    "contactSheet": ".qa/research/sheet-01.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Oliwkowo-beżowa strona o gęstym, trzykolumnowym układzie. Filmy, lista artykułów i portret autora konkurują o uwagę; mała szeryfowa typografia, liczne paski nawigacji.",
+    "visualObservations": "Oliwkowo-beżowa strona o gęstym, trzykolumnowym układzie. Filmy, lista artykułów i portret autora konkurują o uwagę; mała szeryfowa typografia, liczne paski nawigacji.",
+    "limitations": null
+  },
+  {
+    "id": "IN02",
+    "region": "IN",
+    "url": "https://srijagannath.org/",
+    "finalUrl": "https://srijagannath.org/",
+    "title": "Sri Jagannāth Center – Vedic Astrology & Spirituality",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN02.png",
+    "contactSheet": ".qa/research/sheet-01.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Grafitowe tło, ciemne karty artykułów w dwóch kolumnach i prawy panel świąt. Drobna biała typografia szeryfowa i kolorowe miniatury; układ archiwum wiedzy.",
+    "visualObservations": "Grafitowe tło, ciemne karty artykułów w dwóch kolumnach i prawy panel świąt. Drobna biała typografia szeryfowa i kolorowe miniatury; układ archiwum wiedzy.",
+    "limitations": null
+  },
+  {
+    "id": "IN03",
+    "region": "IN",
+    "url": "https://www.bvbdelhi.org/astrology/",
+    "finalUrl": "https://www.bvbdelhi.org/astrology/",
+    "title": "Astrology – Bhartiya Vidya Bhavan",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN03.png",
+    "contactSheet": ".qa/research/sheet-01.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Białe tło, rozbudowany instytucjonalny nagłówek, granatowe linki i żółty pasek komunikatu. Centralny plakat naboru na zajęcia zajmuje dużą część pierwszego ekranu.",
+    "visualObservations": "Białe tło, rozbudowany instytucjonalny nagłówek, granatowe linki i żółty pasek komunikatu. Centralny plakat naboru na zajęcia zajmuje dużą część pierwszego ekranu.",
+    "limitations": null
+  },
+  {
+    "id": "IN04",
+    "region": "IN",
+    "url": "https://www.icasindia.org/",
+    "finalUrl": "https://www.icasindia.org/",
+    "title": "ICAS : Indian Council of Astrological Sciences",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN04.png",
+    "contactSheet": ".qa/research/sheet-01.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Duży złoto-kremowy plakat wydarzenia z girlandą kwiatów pod białą nawigacją. Bordowe nagłówki i akcenty; trzy szerokie kafle programu przy dolnej krawędzi.",
+    "visualObservations": "Duży złoto-kremowy plakat wydarzenia z girlandą kwiatów pod białą nawigacją. Bordowe nagłówki i akcenty; trzy szerokie kafle programu przy dolnej krawędzi.",
+    "limitations": null
+  },
+  {
+    "id": "IN05",
+    "region": "IN",
+    "url": "https://sarbanirath.com/",
+    "finalUrl": "https://sarbanirath.com/",
+    "title": "Sarbani Rath – True to Mother Nature",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN05.png",
+    "contactSheet": ".qa/research/sheet-01.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Pomarańczowy nagłówek i turkusowa nawigacja na ilustracyjnym tle lotosów. Trzy wąskie kolumny wpisów, biografii i popularnych treści; dużo niewielkich miniatur.",
+    "visualObservations": "Pomarańczowy nagłówek i turkusowa nawigacja na ilustracyjnym tle lotosów. Trzy wąskie kolumny wpisów, biografii i popularnych treści; dużo niewielkich miniatur.",
+    "limitations": null
+  },
+  {
+    "id": "IN06",
+    "region": "IN",
+    "url": "https://parasarajyotisa.com/",
+    "finalUrl": "https://parasarajyotisa.com/",
+    "title": "PJC Ātreya – ॐ नमो नारायणाय",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN06.png",
+    "contactSheet": ".qa/research/sheet-01.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Oliwkowo-złote tło i kremowe moduły. Lista materiałów po lewej, symbole religijne i portret nauczyciela po prawej; mała typografia i gęsta nawigacja.",
+    "visualObservations": "Oliwkowo-złote tło i kremowe moduły. Lista materiałów po lewej, symbole religijne i portret nauczyciela po prawej; mała typografia i gęsta nawigacja.",
+    "limitations": null
+  },
+  {
+    "id": "IN07",
+    "region": "IN",
+    "url": "https://vedicsiddhanta.in/about-vedicsiddhanta/",
+    "finalUrl": "https://vedicsiddhanta.in/about-vedicsiddhanta",
+    "title": "Organizacja - Vedic Siddhanta",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN07.png",
+    "contactSheet": ".qa/research/sheet-02.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Czarny nagłówek z czerwonym przyciskiem rezerwacji, duży ciemny pas tytułowy i biała część z tekstem. Szeryfowy tytuł kontrastuje z prostą nawigacją; boczny pionowy pasek udostępniania. Modal prywatności odrzucony przed końcowym zrzutem.",
+    "visualObservations": "Czarny nagłówek z czerwonym przyciskiem rezerwacji, duży ciemny pas tytułowy i biała część z tekstem. Szeryfowy tytuł kontrastuje z prostą nawigacją; boczny pionowy pasek udostępniania. Modal prywatności odrzucony przed końcowym zrzutem.",
+    "limitations": null
+  },
+  {
+    "id": "IN08",
+    "region": "IN",
+    "url": "https://www.niranjanbabu.com/",
+    "finalUrl": "https://www.niranjanbabu.com/",
+    "title": "Bangalore Niranjan Babu — Vāstu Śāstra & Jyotiṣa Consultant",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN08.png",
+    "contactSheet": ".qa/research/sheet-02.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Bardzo oszczędny kremowy ekran, okrągły portret i duży wyśrodkowany nagłówek szeryfowy. Cienkie linie, stonowane złote akcenty i szeroki odstęp między literami; dużo wolnej przestrzeni.",
+    "visualObservations": "Bardzo oszczędny kremowy ekran, okrągły portret i duży wyśrodkowany nagłówek szeryfowy. Cienkie linie, stonowane złote akcenty i szeroki odstęp między literami; dużo wolnej przestrzeni.",
+    "limitations": null
+  },
+  {
+    "id": "IN09",
+    "region": "IN",
+    "url": "https://jupiterastrology.com/",
+    "finalUrl": "https://jupiterastrology.com/",
+    "title": "Jupiter Astro | www.jupiterastrology.com",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN09.png",
+    "contactSheet": ".qa/research/sheet-02.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Biały blog z wąskim fioletowym paskiem nawigacji i trzema kolumnami wpisów. Poniżej szeroki terakotowy pas z dużym portretem, danymi autora i dyskretnymi obrysowymi przyciskami.",
+    "visualObservations": "Biały blog z wąskim fioletowym paskiem nawigacji i trzema kolumnami wpisów. Poniżej szeroki terakotowy pas z dużym portretem, danymi autora i dyskretnymi obrysowymi przyciskami.",
+    "limitations": null
+  },
+  {
+    "id": "IN10",
+    "region": "IN",
+    "url": "https://www.jyotishteachings.com/",
+    "finalUrl": "https://www.jyotishteachings.com/",
+    "title": "JyotishTeachings",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN10.png",
+    "contactSheet": ".qa/research/sheet-02.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Oliwkowy nagłówek, poziomy fotograficzny pas rzeźby i bladożółta nawigacja. Bardzo prosta biała strona z niewielkim blokiem tekstu oraz modlitwą; duże puste pola.",
+    "visualObservations": "Oliwkowy nagłówek, poziomy fotograficzny pas rzeźby i bladożółta nawigacja. Bardzo prosta biała strona z niewielkim blokiem tekstu oraz modlitwą; duże puste pola.",
+    "limitations": null
+  },
+  {
+    "id": "IN11",
+    "region": "IN",
+    "url": "https://www.astrologicalmagazine.com/",
+    "finalUrl": "https://www.astrologicalmagazine.com/",
+    "title": "The Astrological eMagazine | Vedic Astrology, Horoscopes, Vastu | Since 1895",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN11.png",
+    "contactSheet": ".qa/research/sheet-02.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Granatowa winieta magazynu, biała część redakcyjna, niebieskie linie i etykiety. Wyraźna hierarchia dużych szeryfowych tytułów oraz kilku kolumn tekstu, okładki i kalendarza.",
+    "visualObservations": "Granatowa winieta magazynu, biała część redakcyjna, niebieskie linie i etykiety. Wyraźna hierarchia dużych szeryfowych tytułów oraz kilku kolumn tekstu, okładki i kalendarza.",
+    "limitations": null
+  },
+  {
+    "id": "IN12",
+    "region": "IN",
+    "url": "https://www.maharishi-india.org/jyotishintro.htm",
+    "finalUrl": "https://www.maharishi-india.org/jyotishintro.htm",
+    "title": "Maharishi Jyotish and Yagya Programmes",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN12.png",
+    "contactSheet": ".qa/research/sheet-02.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Stała, wąska kolumna na złoto-ochrowym tle. Żółty baner z portretem nauczyciela, czerwono-pomarańczowa nawigacja, ornament i kremowa karta treści; starszy styl z drobnym tekstem.",
+    "visualObservations": "Stała, wąska kolumna na złoto-ochrowym tle. Żółty baner z portretem nauczyciela, czerwono-pomarańczowa nawigacja, ornament i kremowa karta treści; starszy styl z drobnym tekstem.",
+    "limitations": null
+  },
+  {
+    "id": "IN13",
+    "region": "IN",
+    "url": "https://slbsrsv.ac.in/faculties-and-departments/faculty-veda-vedanga/department-jyotisha",
+    "finalUrl": "https://slbsrsv.ac.in/faculties-and-departments/faculty-veda-vedanga/department-jyotisha",
+    "title": "Department of Jyotisha | Shri Lal Bahadur Shastri National Sanskrit University",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN13.png",
+    "contactSheet": ".qa/research/sheet-03.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Biało-fioletowa strona uczelni z wieloma logotypami i fotograficznym paskiem kampusu. Lewy panel wydziałów, centralny portret kierownika i opis tekstowy; układ administracyjny.",
+    "visualObservations": "Biało-fioletowa strona uczelni z wieloma logotypami i fotograficznym paskiem kampusu. Lewy panel wydziałów, centralny portret kierownika i opis tekstowy; układ administracyjny.",
+    "limitations": null
+  },
+  {
+    "id": "IN14",
+    "region": "IN",
+    "url": "https://www.sanskrit.nic.in/programme.php",
+    "finalUrl": "https://www.sanskrit.nic.in/programme.php",
+    "title": "Programme",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN14.png",
+    "contactSheet": ".qa/research/sheet-03.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Biała strona z bordowym nagłówkiem i stopką. Programy wyświetlone jako zwarte turkusowe poziome paski; prosta hierarchia instytucjonalna i duże białe marginesy.",
+    "visualObservations": "Biała strona z bordowym nagłówkiem i stopką. Programy wyświetlone jako zwarte turkusowe poziome paski; prosta hierarchia instytucjonalna i duże białe marginesy.",
+    "limitations": null
+  },
+  {
+    "id": "IN15",
+    "region": "IN",
+    "url": "https://nsktu.ac.in/index.php/department-of-jyotisha/",
+    "finalUrl": "https://nsktu.ac.in/index.php/department-of-jyotisha/",
+    "title": "Department of Jyotisha and Vasthu",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN15.png",
+    "contactSheet": ".qa/research/sheet-03.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Szeroki nagłówek uczelni w niebieskiej kolorystyce, ciemne tło obramowujące białą kartę. Centralny portret kierownika i dane, gęsta nawigacja oraz pionowy pasek ikon społecznościowych.",
+    "visualObservations": "Szeroki nagłówek uczelni w niebieskiej kolorystyce, ciemne tło obramowujące białą kartę. Centralny portret kierownika i dane, gęsta nawigacja oraz pionowy pasek ikon społecznościowych.",
+    "limitations": null
+  },
+  {
+    "id": "IN16",
+    "region": "IN",
+    "url": "https://www.drikpanchang.com/",
+    "finalUrl": "https://www.drikpanchang.com/",
+    "title": "Drik Panchang - online Hindu Almanac and Calendar with Planetary Ephemeris based on Vedic Astrology.",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN16.png",
+    "contactSheet": ".qa/research/sheet-03.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Pomarańczowo-złoty portal z ornamentowymi brzegami, wieloma przyciskami i panelem kalendarza. Duże reklamy zajmują znaczną część pierwszego ekranu i przesuwają właściwą treść w dół.",
+    "visualObservations": "Pomarańczowo-złoty portal z ornamentowymi brzegami, wieloma przyciskami i panelem kalendarza. Duże reklamy zajmują znaczną część pierwszego ekranu i przesuwają właściwą treść w dół.",
+    "limitations": null
+  },
+  {
+    "id": "IN17",
+    "region": "IN",
+    "url": "https://www.jyotishvidya.co.in/",
+    "finalUrl": "https://www.jyotishvidya.co.in/",
+    "title": "Best Vedic Astrology Course In India | Jyotish Vidya, India | Jyotish Vidya, India",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN17.png",
+    "contactSheet": ".qa/research/sheet-03.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Biała, współczesna nawigacja i duży fotograficzny baner z tabletem oraz masywnym czarnym napisem. Poniżej wyśrodkowana sekcja edukacyjna; mały komunikat prywatności w rogu.",
+    "visualObservations": "Biała, współczesna nawigacja i duży fotograficzny baner z tabletem oraz masywnym czarnym napisem. Poniżej wyśrodkowana sekcja edukacyjna; mały komunikat prywatności w rogu.",
+    "limitations": null
+  },
+  {
+    "id": "IN18",
+    "region": "IN",
+    "url": "https://www.journalofastrology.com/",
+    "finalUrl": "https://www.journalofastrology.com/",
+    "title": "Vedic Astrology Articles and Horoscope Predictions",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN18.png",
+    "contactSheet": ".qa/research/sheet-03.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Czarny nagłówek i gęsty trzykolumnowy portal na białym tle. Szare panele, zielone nagłówki, listy kategorii, artykuły z miniaturami i oferty horoskopów w bocznej kolumnie.",
+    "visualObservations": "Czarny nagłówek i gęsty trzykolumnowy portal na białym tle. Szare panele, zielone nagłówki, listy kategorii, artykuły z miniaturami i oferty horoskopów w bocznej kolumnie.",
+    "limitations": null
+  },
+  {
+    "id": "IN19",
+    "region": "IN",
+    "url": "https://www.aifas.com/",
+    "finalUrl": "https://www.aifas.com/",
+    "title": "Online learning courses in occult sciences by AIFAS",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN19.png",
+    "contactSheet": ".qa/research/sheet-04.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Bordowa nawigacja i bardzo kolorowy baner kursu z dużym portretem. Poniżej białe karty na szarym tle; prawa kolumna zawiera ofertę i stale widoczny formularz zapytania.",
+    "visualObservations": "Bordowa nawigacja i bardzo kolorowy baner kursu z dużym portretem. Poniżej białe karty na szarym tle; prawa kolumna zawiera ofertę i stale widoczny formularz zapytania.",
+    "limitations": null
+  },
+  {
+    "id": "IN20",
+    "region": "IN",
+    "url": "https://planetarypositions.com/",
+    "finalUrl": "https://planetarypositions.com/",
+    "title": "VEDIC ASTROLOGY - Janma Kundali – Vedic Astrology . Comprehensive blog on Janma Kundali, Indian Astrology software, free horoscope compatibility, gemstones, Panchanga",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN20.png",
+    "contactSheet": ".qa/research/sheet-04.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Biały portal z czerwoną nawigacją boczną i niebieskimi nagłówkami kafli narzędzi. Wielokolumnowy, funkcjonalny układ; duża reklama nad siatką usług zabiera pierwszy plan.",
+    "visualObservations": "Biały portal z czerwoną nawigacją boczną i niebieskimi nagłówkami kafli narzędzi. Wielokolumnowy, funkcjonalny układ; duża reklama nad siatką usług zabiera pierwszy plan.",
+    "limitations": null
+  },
+  {
+    "id": "IN21",
+    "region": "IN",
+    "url": "https://www.chandranarayanjyotishfoundation.in/index",
+    "finalUrl": "https://www.chandranarayanjyotishfoundation.in/index",
+    "title": "Chandra Narayan Jyotish Foundation | Vedic Astrology NGO",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN21.png",
+    "contactSheet": ".qa/research/sheet-04.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Białe tło, mała nawigacja i mocny podział na dużą fotografię nauczycielki z dziećmi oraz tekst fundacji. Czarne linie i typografia, niewiele ozdób; wizualnie profil pomocy społeczcznej.",
+    "visualObservations": "Białe tło, mała nawigacja i mocny podział na dużą fotografię nauczycielki z dziećmi oraz tekst fundacji. Czarne linie i typografia, niewiele ozdób; wizualnie profil pomocy społeczcznej.",
+    "limitations": null
+  },
+  {
+    "id": "IN22",
+    "region": "IN",
+    "url": "https://www.jyotishvidyapeeth.com/",
+    "finalUrl": "https://www.jyotishvidyapeeth.com/",
+    "title": "Jyotish Vidyapeeth",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN22.png",
+    "contactSheet": ".qa/research/sheet-04.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Jaskrawożółty i pomarańczowy nagłówek z symbolami religijnymi, horoskopem i sanskrytem. Biała część z wizerunkiem bogini, portretem nauczyciela, fotografią grupową i wielobarwnymi tekstami.",
+    "visualObservations": "Jaskrawożółty i pomarańczowy nagłówek z symbolami religijnymi, horoskopem i sanskrytem. Biała część z wizerunkiem bogini, portretem nauczyciela, fotografią grupową i wielobarwnymi tekstami.",
+    "limitations": null
+  },
+  {
+    "id": "IN23",
+    "region": "IN",
+    "url": "https://abhayagaste.com/institute/",
+    "finalUrl": "https://abhayagaste.com/institute/",
+    "title": "Astrology & Vastu Course Institute — JVSIRC, Nashik",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN23.png",
+    "contactSheet": ".qa/research/sheet-04.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Kremowe tło, bordowy pas z prostym białym tytułem szeryfowym i złoty przycisk. Duże marginesy, krótki opis, poniżej autentyczna fotografia budynku instytutu.",
+    "visualObservations": "Kremowe tło, bordowy pas z prostym białym tytułem szeryfowym i złoty przycisk. Duże marginesy, krótki opis, poniżej autentyczna fotografia budynku instytutu.",
+    "limitations": null
+  },
+  {
+    "id": "IN24",
+    "region": "IN",
+    "url": "https://jaiminisutra.com/",
+    "finalUrl": "https://jaiminisutra.com/",
+    "title": "Home | JaiminiSutra.com",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN24.png",
+    "contactSheet": ".qa/research/sheet-04.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Jasnoszare tło, minimalistyczny nagłówek i białe karty linków. Po lewej duży tytuł, po prawej siatka czterech opcji nauki; niżej szeroki blok tekstu o tradycji.",
+    "visualObservations": "Jasnoszare tło, minimalistyczny nagłówek i białe karty linków. Po lewej duży tytuł, po prawej siatka czterech opcji nauki; niżej szeroki blok tekstu o tradycji.",
+    "limitations": null
+  },
+  {
+    "id": "IN25",
+    "region": "IN",
+    "url": "https://sagittariuspublications.com/",
+    "finalUrl": "https://sagittariuspublications.com/",
+    "title": "Sagittarius Publications – Jyotish Resources",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/IN25.png",
+    "contactSheet": ".qa/research/sheet-05.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Zielony nagłówek i bardzo jasne miętowe tło sklepu. Siatka kategorii z okładkami i produktami, prawa kolumna polecanych publikacji, podwójna nawigacja i pasek informacji o walucie.",
+    "visualObservations": "Zielony nagłówek i bardzo jasne miętowe tło sklepu. Siatka kategorii z okładkami i produktami, prawa kolumna polecanych publikacji, podwójna nawigacja i pasek informacji o walucie.",
+    "limitations": null
+  },
+  {
+    "id": "WE01",
+    "region": "WE",
+    "url": "https://www.vedicastrologer.org/",
+    "finalUrl": "https://www.vedicastrologer.org/",
+    "title": "Astrology & Spirituality Resources",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE01.png",
+    "contactSheet": ".qa/research/sheet-05.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Ciepłe kremowo-brzoskwiniowe tło, bordowy pasek nawigacji i drobna typografia. Zasoby, grafiki, wideo i cytat w kilku kolumnach; strona przypomina obszerną bibliotekę autora.",
+    "visualObservations": "Ciepłe kremowo-brzoskwiniowe tło, bordowy pasek nawigacji i drobna typografia. Zasoby, grafiki, wideo i cytat w kilku kolumnach; strona przypomina obszerną bibliotekę autora.",
+    "limitations": null
+  },
+  {
+    "id": "WE02",
+    "region": "WE",
+    "url": "https://komilla.com/",
+    "finalUrl": "https://komilla.com/",
+    "title": "Komilla | Vedic Astrology",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE02.png",
+    "contactSheet": ".qa/research/sheet-05.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Białe tło i zielony znak Komilla. Regularna siatka ośmiu kart z autentycznymi fotografiami, krótkimi opisami i małymi oliwkowymi przyciskami; szeroka, lecz dyskretna nawigacja.",
+    "visualObservations": "Białe tło i zielony znak Komilla. Regularna siatka ośmiu kart z autentycznymi fotografiami, krótkimi opisami i małymi oliwkowymi przyciskami; szeroka, lecz dyskretna nawigacja.",
+    "limitations": null
+  },
+  {
+    "id": "WE03",
+    "region": "WE",
+    "url": "https://shrifreedom.org/",
+    "finalUrl": "https://shrifreedom.org/",
+    "title": "Freedom Vidya",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE03.png",
+    "contactSheet": ".qa/research/sheet-05.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Papierowa, kremowa faktura i oliwkowy nagłówek. Biografia po lewej, duża ilustracja bóstwa po prawej; poniżej trzy obszary praktyki i kafle kursów. Tradycyjna, spokojna paleta.",
+    "visualObservations": "Papierowa, kremowa faktura i oliwkowy nagłówek. Biografia po lewej, duża ilustracja bóstwa po prawej; poniżej trzy obszary praktyki i kafle kursów. Tradycyjna, spokojna paleta.",
+    "limitations": null
+  },
+  {
+    "id": "WE04",
+    "region": "WE",
+    "url": "https://www.vedanet.com/",
+    "finalUrl": "https://www.vedanet.com/",
+    "title": "American Institute of Vedic Studies",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE04.png",
+    "contactSheet": ".qa/research/sheet-05.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Biały nagłówek z ochrowymi linkami i niebieskim paskiem pomocniczym. Duża fotografia liści lotosu w wodzie oraz dwa okrągłe portrety dominują nad tytułem; naturalny, spokojny nastrój.",
+    "visualObservations": "Biały nagłówek z ochrowymi linkami i niebieskim paskiem pomocniczym. Duża fotografia liści lotosu w wodzie oraz dwa okrągłe portrety dominują nad tytułem; naturalny, spokojny nastrój.",
+    "limitations": null
+  },
+  {
+    "id": "WE05",
+    "region": "WE",
+    "url": "https://www.councilvedicastrology.com/",
+    "finalUrl": "https://www.councilvedicastrology.com/",
+    "title": "HOME | CVA",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE05.png",
+    "contactSheet": ".qa/research/sheet-05.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Przygaszony fioletowy nagłówek i rozległa fotografia Ziemi w kosmosie. Trzy turkusowo-fioletowe prostokąty komunikatów przykrywają dolną część hero; instytucjonalny znak i wiele odnośników.",
+    "visualObservations": "Przygaszony fioletowy nagłówek i rozległa fotografia Ziemi w kosmosie. Trzy turkusowo-fioletowe prostokąty komunikatów przykrywają dolną część hero; instytucjonalny znak i wiele odnośników.",
+    "limitations": null
+  },
+  {
+    "id": "WE06",
+    "region": "WE",
+    "url": "https://www.vedicsciences.com/",
+    "finalUrl": "https://www.vedicsciences.com/",
+    "title": "Home | NIVS",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE06.png",
+    "contactSheet": ".qa/research/sheet-06.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Ciemnogranatowy kosmiczny hero z dużymi planetami i orbitami, biały wyśrodkowany napis. Mała górna nawigacja; ilustracja prawie w całości wypełnia pierwszy ekran.",
+    "visualObservations": "Ciemnogranatowy kosmiczny hero z dużymi planetami i orbitami, biały wyśrodkowany napis. Mała górna nawigacja; ilustracja prawie w całości wypełnia pierwszy ekran.",
+    "limitations": null
+  },
+  {
+    "id": "WE07",
+    "region": "WE",
+    "url": "https://jameskelleher.com/",
+    "finalUrl": "https://jameskelleher.com/",
+    "title": "James Kelleher",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE07.png",
+    "contactSheet": ".qa/research/sheet-06.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Czarna nawigacja i szeroka fotografia górskiego jeziora z białym tytułem. Poniżej trzy obrazkowe wejścia do zajęć, konsultacji i książek; dalsza treść na białym tle.",
+    "visualObservations": "Czarna nawigacja i szeroka fotografia górskiego jeziora z białym tytułem. Poniżej trzy obrazkowe wejścia do zajęć, konsultacji i książek; dalsza treść na białym tle.",
+    "limitations": null
+  },
+  {
+    "id": "WE08",
+    "region": "WE",
+    "url": "https://www.lightonvedicastrology.com/",
+    "finalUrl": "https://www.lightonvedicastrology.com/",
+    "title": "Paul Manley | Light on Vedic Astrology",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE08.png",
+    "contactSheet": ".qa/research/sheet-06.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Intensywnie niebieskie gwiazdy i ocean, żółte akcenty, półprzezroczysta karta oferty. Okrągły portret obok formularza newslettera; mocna stylistyka kosmiczna i kursowa.",
+    "visualObservations": "Intensywnie niebieskie gwiazdy i ocean, żółte akcenty, półprzezroczysta karta oferty. Okrągły portret obok formularza newslettera; mocna stylistyka kosmiczna i kursowa.",
+    "limitations": null
+  },
+  {
+    "id": "WE09",
+    "region": "WE",
+    "url": "https://vedicchart.com/",
+    "finalUrl": "https://vedicchart.com/",
+    "title": "The Cosmic Kaleidoscope – Vedic Chart",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE09.png",
+    "contactSheet": ".qa/research/sheet-06.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Ciemnozielony nagłówek, słoneczny pastelowy baner z Ganeszą i kremowo-żółte tło. Lewa kolumna odnośników, szeroki blok powitania i fotografia lampki; tradycyjny układ biblioteki.",
+    "visualObservations": "Ciemnozielony nagłówek, słoneczny pastelowy baner z Ganeszą i kremowo-żółte tło. Lewa kolumna odnośników, szeroki blok powitania i fotografia lampki; tradycyjny układ biblioteki.",
+    "limitations": null
+  },
+  {
+    "id": "WE10",
+    "region": "WE",
+    "url": "https://www.navamsa.com/",
+    "finalUrl": "https://www.navamsa.com/",
+    "title": "NAVAMSA – Vedic Astrology & Palmistry",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE10.png",
+    "contactSheet": ".qa/research/sheet-06.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Biało-czarna strona z fragmentem fotografii architektury w banerze. Duże, ciężkie menu, artykuł z ilustracją Ganeszy i prawy panel archiwum; dużo zwykłego tekstu.",
+    "visualObservations": "Biało-czarna strona z fragmentem fotografii architektury w banerze. Duże, ciężkie menu, artykuł z ilustracją Ganeszy i prawy panel archiwum; dużo zwykłego tekstu.",
+    "limitations": null
+  },
+  {
+    "id": "WE11",
+    "region": "WE",
+    "url": "https://www.robertkoch.com/",
+    "finalUrl": "https://www.robertkoch.com/",
+    "title": "Vedic Astrology",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE11.png",
+    "contactSheet": ".qa/research/sheet-06.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Bardzo wąska centralna kolumna na białym tle. Czarno-biały baner, mały portret, pomarańczowe tytuły i drobny tekst; prawy panel z linkami, bez dużego hero.",
+    "visualObservations": "Bardzo wąska centralna kolumna na białym tle. Czarno-biały baner, mały portret, pomarańczowe tytuły i drobny tekst; prawy panel z linkami, bez dużego hero.",
+    "limitations": null
+  },
+  {
+    "id": "WE12",
+    "region": "WE",
+    "url": "https://www.indische-astrologie.eu/start-en",
+    "finalUrl": "https://www.indische-astrologie.eu/start-en",
+    "title": "Start – EN – Marcello Michelutti",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE12.png",
+    "contactSheet": ".qa/research/sheet-07.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Biała nawigacja i bardzo duża fotografia rzeźby Ganeszy w pudrowo-złotej palecie. Pionowe ikony kontaktu po prawej, pasek zgody na cookies u dołu; obraz dominuje nad treścią.",
+    "visualObservations": "Biała nawigacja i bardzo duża fotografia rzeźby Ganeszy w pudrowo-złotej palecie. Pionowe ikony kontaktu po prawej, pasek zgody na cookies u dołu; obraz dominuje nad treścią.",
+    "limitations": "Część dolna ekranu zasłonięta banerem zgód; pozostały układ widoczny."
+  },
+  {
+    "id": "WE13",
+    "region": "WE",
+    "url": "https://jyotish.ws/",
+    "finalUrl": "https://jyotish.ws/",
+    "title": "Jyotish.ws - Michael Laughrin's North American Jyotish Newsletter - Vedic Astrology Newsletter",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE13.png",
+    "contactSheet": ".qa/research/sheet-07.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Purpurowe obramowanie i żółty znak, wewnątrz biała kolumna z czarnym tekstem szeryfowym. Niebieskie podkreślone linki, biografia i długa lista artykułów; prosty charakter archiwum.",
+    "visualObservations": "Purpurowe obramowanie i żółty znak, wewnątrz biała kolumna z czarnym tekstem szeryfowym. Niebieskie podkreślone linki, biografia i długa lista artykułów; prosty charakter archiwum.",
+    "limitations": null
+  },
+  {
+    "id": "WE14",
+    "region": "WE",
+    "url": "https://acvaonline.org/membership/",
+    "finalUrl": "https://acvaonline.org/membership/",
+    "title": "Membership – ACVA",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE14.png",
+    "contactSheet": ".qa/research/sheet-07.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Kosmiczny baner z planetami, białym tytułem i czerwonym przyciskiem logowania. Poniżej biała strona z dużym granatowym nagłówkiem i obszernym opisem członkostwa.",
+    "visualObservations": "Kosmiczny baner z planetami, białym tytułem i czerwonym przyciskiem logowania. Poniżej biała strona z dużym granatowym nagłówkiem i obszernym opisem członkostwa.",
+    "limitations": null
+  },
+  {
+    "id": "WE15",
+    "region": "WE",
+    "url": "https://rohinaa.com/",
+    "finalUrl": "https://rohinaa.com/",
+    "title": "Home – Rohinaa - Vedic Astrology by Rafal Gendarz",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE15.png",
+    "contactSheet": ".qa/research/sheet-07.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Kremowe tło, ciemnogranatowe pasy i fioletowe akcenty. Bardzo duży elegancki tytuł szeryfowy, drobne etykiety i cienkie linie; oszczędne przyciski i dużo przestrzeni.",
+    "visualObservations": "Kremowe tło, ciemnogranatowe pasy i fioletowe akcenty. Bardzo duży elegancki tytuł szeryfowy, drobne etykiety i cienkie linie; oszczędne przyciski i dużo przestrzeni.",
+    "limitations": null
+  },
+  {
+    "id": "WE16",
+    "region": "WE",
+    "url": "https://bavamembership.org/about/",
+    "finalUrl": "https://bavamembership.org/about/",
+    "title": "About BAVA - BAVA Membership",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE16.png",
+    "contactSheet": ".qa/research/sheet-07.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Bordowo-purpurowe tło z kremowo-żółtym banerem Ganeszy. Wąska biała kolumna, małe menu i spokojne akapity; tradycyjny styl organizacyjnej podstrony.",
+    "visualObservations": "Bordowo-purpurowe tło z kremowo-żółtym banerem Ganeszy. Wąska biała kolumna, małe menu i spokojne akapity; tradycyjny styl organizacyjnej podstrony.",
+    "limitations": null
+  },
+  {
+    "id": "WE17",
+    "region": "WE",
+    "url": "https://srigaruda.com/",
+    "finalUrl": "https://srigaruda.com/",
+    "title": "Sri Garuda by Visti Larsen | Traditional Vedic Astrology",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE17.png",
+    "contactSheet": ".qa/research/sheet-07.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Czarny nagłówek, turkusowo-zielony gradient i duża wycięta fotografia figury Garudy. Jasny bezszeryfowy tytuł, trzy zaokrąglone przyciski i pas informacji o terminach.",
+    "visualObservations": "Czarny nagłówek, turkusowo-zielony gradient i duża wycięta fotografia figury Garudy. Jasny bezszeryfowy tytuł, trzy zaokrąglone przyciski i pas informacji o terminach.",
+    "limitations": null
+  },
+  {
+    "id": "WE18",
+    "region": "WE",
+    "url": "https://marcboney.com/",
+    "finalUrl": "https://marcboney.com/",
+    "title": "Jyotisha | The Astrology of Ancient India",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE18.png",
+    "contactSheet": ".qa/research/sheet-08.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Oliwkowe obrzeża, kremowo-żółte wnętrze i duży baner z Ganeszą oraz Om. Gruba szeryfowa typografia, portret przy tekście i prawa kolumna wyróżnionych kursów; klasyczny układ blogowy.",
+    "visualObservations": "Oliwkowe obrzeża, kremowo-żółte wnętrze i duży baner z Ganeszą oraz Om. Gruba szeryfowa typografia, portret przy tekście i prawa kolumna wyróżnionych kursów; klasyczny układ blogowy.",
+    "limitations": null
+  },
+  {
+    "id": "WE19",
+    "region": "WE",
+    "url": "https://vedichealing.com/services-rates/jyotish/",
+    "finalUrl": "https://vedichealing.com/services-rates/jyotish/",
+    "title": "Jyotish | Vedic Healing",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE19.png",
+    "contactSheet": ".qa/research/sheet-08.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Jaskrawe żółto-złote tło z ornamentem w nagłówku. Gęsta lista usług, ceny, ilustracja solarna i prawy panel wpisów; niewczytana mała grafika u góry. Homepage pokazywał shortcode zamiast slidera, dlatego oceniono podstronę usług.",
+    "visualObservations": "Jaskrawe żółto-złote tło z ornamentem w nagłówku. Gęsta lista usług, ceny, ilustracja solarna i prawy panel wpisów; niewczytana mała grafika u góry. Homepage pokazywał shortcode zamiast slidera, dlatego oceniono podstronę usług.",
+    "limitations": "Niewczytana mała grafika; homepage z uszkodzonym sliderem, oceniono działającą podstronę."
+  },
+  {
+    "id": "WE20",
+    "region": "WE",
+    "url": "https://www.thevedicdawn.com/",
+    "finalUrl": "https://www.thevedicdawn.com/",
+    "title": "Vedicdawn | Vedic Astrology & Jyotiṣa Guidance by Kunal Shah",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE20.png",
+    "contactSheet": ".qa/research/sheet-08.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Prawie czarne tło z delikatnymi gwiazdami, białe szeryfowe nagłówki i pomarańczowe przyciski. Tekst po lewej, złota jantra po prawej; dolna krawędź hero ma malarski biały efekt.",
+    "visualObservations": "Prawie czarne tło z delikatnymi gwiazdami, białe szeryfowe nagłówki i pomarańczowe przyciski. Tekst po lewej, złota jantra po prawej; dolna krawędź hero ma malarski biały efekt.",
+    "limitations": null
+  },
+  {
+    "id": "WE21",
+    "region": "WE",
+    "url": "https://www.jyotish.coach/",
+    "finalUrl": "https://www.jyotish.coach/",
+    "title": "Vedic Astrology | Authentic Jyotish Readings with Daria Aichinger",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE21.png",
+    "contactSheet": ".qa/research/sheet-08.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Jasny, beżowo-różowy abstrakcyjny baner z białym dużym napisem i pomarańczowym przyciskiem. Rozległe tło z drobinami światła; widoczny duży dolny panel ustawień prywatności.",
+    "visualObservations": "Jasny, beżowo-różowy abstrakcyjny baner z białym dużym napisem i pomarańczowym przyciskiem. Rozległe tło z drobinami światła; widoczny duży dolny panel ustawień prywatności.",
+    "limitations": "Część dolna ekranu zasłonięta banerem zgód; pozostały układ widoczny."
+  },
+  {
+    "id": "WE22",
+    "region": "WE",
+    "url": "https://jyotish.com/",
+    "finalUrl": "https://jyotish.com/",
+    "title": "Jyotish",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE22.png",
+    "contactSheet": ".qa/research/sheet-08.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Ciemne, przygaszone fioletowe tło i jaskrawożółte akcenty. Duży wyśrodkowany bezszeryfowy nagłówek wydarzenia, obrysowe kapsuły i dwa przyciski; czytelny układ konferencyjny.",
+    "visualObservations": "Ciemne, przygaszone fioletowe tło i jaskrawożółte akcenty. Duży wyśrodkowany bezszeryfowy nagłówek wydarzenia, obrysowe kapsuły i dwa przyciski; czytelny układ konferencyjny.",
+    "limitations": null
+  },
+  {
+    "id": "WE23",
+    "region": "WE",
+    "url": "https://www.schoolofdharma.com.au/ritikaofferings",
+    "finalUrl": "https://www.schoolofdharma.com.au/ritikaofferings",
+    "title": "Vedic Astrology Readings & Online Jyotish Consultations | Ritika",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE23.png",
+    "contactSheet": ".qa/research/sheet-08.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Biała nawigacja z fioletowym znakiem i szeroka fotografia nauczycielki podczas spotkania. Biały tytuł na zdjęciu, poniżej spokojny opis, małe przyciski i rząd liczb; dużo oddechu.",
+    "visualObservations": "Biała nawigacja z fioletowym znakiem i szeroka fotografia nauczycielki podczas spotkania. Biały tytuł na zdjęciu, poniżej spokojny opis, małe przyciski i rząd liczb; dużo oddechu.",
+    "limitations": null
+  },
+  {
+    "id": "WE24",
+    "region": "WE",
+    "url": "https://www.himalayanacademy.com/books/jyotisha-hindu-astrology-2/",
+    "finalUrl": "https://www.himalayanacademy.com/books/jyotisha-hindu-astrology-2/",
+    "title": "Jyotisha, Hindu Astrology",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE24.png",
+    "contactSheet": ".qa/research/sheet-09.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Biała strona biblioteki z subtelną fakturą, bordowo-ochrowe elementy nawigacji. Okładka obok metadanych książki, niżej opis i linki pobierania; układ rzeczowy i oszczędny.",
+    "visualObservations": "Biała strona biblioteki z subtelną fakturą, bordowo-ochrowe elementy nawigacji. Okładka obok metadanych książki, niżej opis i linki pobierania; układ rzeczowy i oszczędny.",
+    "limitations": null
+  },
+  {
+    "id": "WE25",
+    "region": "WE",
+    "url": "https://sivanandayogafarm.org/study/scriptural-study/jyotish-vedic-astrology/",
+    "finalUrl": "https://sivanandayogafarm.org/study/scriptural-study/jyotish-vedic-astrology/",
+    "title": "Jyotish: Vedic Astrology | Sivananda Yoga Farm",
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "screenshot": ".qa/research/WE25.png",
+    "contactSheet": ".qa/research/sheet-09.png",
+    "status": "rendered_and_visually_reviewed",
+    "visuallyReviewed": true,
+    "reviewScope": "Pierwszy ekran strony desktop; bez audytu całej witryny.",
+    "designPL": "Zielona nawigacja i duży fotograficzny baner kwiatów oraz figur z białym tytułem szeryfowym. Białe tło artykułu, pomarańczowe drobne akcenty i lista tematów; dolny pasek cookies.",
+    "visualObservations": "Zielona nawigacja i duży fotograficzny baner kwiatów oraz figur z białym tytułem szeryfowym. Białe tło artykułu, pomarańczowe drobne akcenty i lista tematów; dolny pasek cookies.",
+    "limitations": null
+  }
+]
