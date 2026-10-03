@@ -24,6 +24,10 @@ export function initBirthCalculator() {
   const chartPanel = root.querySelector<HTMLElement>('.birth-chart-panel')!;
   const download = get<HTMLButtonElement>('birth-download');
   const print = get<HTMLButtonElement>('birth-print');
+  const enlarge = get<HTMLButtonElement>('birth-enlarge');
+  const dialog = get<HTMLDialogElement>('birth-chart-dialog');
+  const backgroundHref = root.dataset.chartBackground;
+  let backgroundData: Promise<string> | undefined;
   let selectedPlace: Place | undefined;
   let currentSvg = '';
   let lastResult: BirthChart | undefined;
@@ -43,6 +47,7 @@ export function initBirthCalculator() {
       get('birth-stale').hidden = false;
       download.disabled = true;
       print.disabled = true;
+      enlarge.disabled = true;
     }
   };
   form.addEventListener('input', stale);
@@ -141,6 +146,7 @@ export function initBirthCalculator() {
       ascendantSign: chart.ascendant.signIndex,
       planets: chart.planets.map(planet => ({ id: planet.id, label: planet.name, glyph: planet.symbol, sign: planet.signIndex, retrograde: planet.retrograde })),
       title,
+      backgroundHref,
     });
     // Keep the exact calculation context with exported artwork, independent of the page.
     currentSvg = currentSvg.replace('</svg>', `<metadata>${escape(JSON.stringify({ title, utc: chart.utc, latitude: chart.latitude, longitude: chart.longitude, timeZone: chart.timeZone, utcOffset: chart.utcOffset, settings: chart.settings }))}</metadata></svg>`);
@@ -154,6 +160,7 @@ export function initBirthCalculator() {
     get('birth-stale').hidden = true;
     download.disabled = false;
     print.disabled = false;
+    enlarge.disabled = false;
     get('birth-positions').innerHTML = [chart.ascendant, ...chart.planets].map(renderRow).join('');
     get('birth-details').hidden = false;
     const fields = [
@@ -193,7 +200,7 @@ export function initBirthCalculator() {
       render(chart, place, example);
       say(example ? 'Gotowe — to przykład dla Warszawy, 15.06.1990 o 14:30. Zmień dane, aby obliczyć własny wykres.' : 'Gotowe. Twój wykres i tabela pozycji są poniżej.');
       get('birth-result-heading').focus({ preventScroll: true });
-      if (window.matchMedia('(max-width:850px)').matches) get('birth-result-heading').scrollIntoView({ block: 'start', behavior: window.matchMedia('(prefers-reduced-motion:reduce)').matches ? 'instant' : 'smooth' });
+      if (window.matchMedia('(max-width:1050px)').matches) get('birth-result-heading').scrollIntoView({ block: 'start', behavior: window.matchMedia('(prefers-reduced-motion:reduce)').matches ? 'instant' : 'smooth' });
     } catch (error) {
       say(error instanceof Error ? error.message : 'Nie udało się obliczyć wykresu. Sprawdź dane i spróbuj ponownie.', true);
     } finally {
@@ -213,14 +220,51 @@ export function initBirthCalculator() {
     choosePlace({ id: '756135', name: 'Warszawa', country: 'Polska', region: 'woj. mazowieckie', latitude: 52.22977, longitude: 21.01178, timezone: 'Europe/Warsaw' });
     void generateChart(true);
   });
-  download.addEventListener('click', () => {
+  download.addEventListener('click', async () => {
     if (!currentSvg || download.disabled) return;
-    const url = URL.createObjectURL(new Blob([currentSvg], { type: 'image/svg+xml;charset=utf-8' }));
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = 'wykres-urodzeniowy.svg';
-    link.click();
-    setTimeout(() => URL.revokeObjectURL(url), 1000);
+    const snapshot = currentSvg;
+    const revision = formRevision;
+    download.disabled = true;
+    try {
+      let exportedSvg = snapshot;
+      if (backgroundHref) {
+        // Bundle the artwork into the download so no website connection is needed to open it.
+        backgroundData ??= fetch(backgroundHref, { credentials: 'omit' }).then(async response => {
+          if (!response.ok) throw new Error('Nie udało się pobrać oprawy wykresu. Spróbuj ponownie.');
+          const blob = await response.blob();
+          return new Promise<string>((resolve, reject) => {
+            const reader = new FileReader();
+            reader.onload = () => resolve(String(reader.result));
+            reader.onerror = () => reject(new Error('Nie udało się przygotować pliku wykresu.'));
+            reader.readAsDataURL(blob);
+          });
+        }).catch(error => { backgroundData = undefined; throw error; });
+        const dataUrl = await backgroundData;
+        if (revision !== formRevision) return;
+        const document = new DOMParser().parseFromString(snapshot, 'image/svg+xml');
+        document.querySelector('image')?.setAttribute('href', dataUrl);
+        exportedSvg = new XMLSerializer().serializeToString(document);
+      }
+      const url = URL.createObjectURL(new Blob([exportedSvg], { type: 'image/svg+xml;charset=utf-8' }));
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'wykres-urodzeniowy.svg';
+      link.click();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+    } catch {
+      say('Nie udało się przygotować wykresu z oprawą. Sprawdź połączenie i spróbuj pobrać ponownie.', true);
+    } finally {
+      download.disabled = revision !== formRevision;
+    }
   });
   print.addEventListener('click', () => { if (lastResult && !print.disabled) window.print(); });
+  enlarge.addEventListener('click', () => {
+    if (!currentSvg || enlarge.disabled) return;
+    get('birth-dialog-subtitle').textContent = get('birth-result-subtitle').textContent;
+    // Keep gradient IDs independent of the inline chart while both SVGs are visible.
+    get('birth-dialog-visual').innerHTML = currentSvg.replaceAll('manuscript-', 'enlarged-manuscript-');
+    dialog.showModal();
+  });
+  get('birth-dialog-close').addEventListener('click', () => dialog.close());
+  dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
 }

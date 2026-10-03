@@ -47,6 +47,8 @@ Zakres lat: **1900–2100**, kalendarz gregoriański. Dokładność prototypu ok
 
 Baza **GeoNames, CC BY 4.0** obejmuje 76 802 miejscowości: większe miasta świata i szerokie pokrycie Polski. Statyczny indeks (~5,3 MB przed kompresją) pobiera się dopiero przy wyszukiwaniu. Wyszukiwane nazwy i dane urodzenia nie opuszczają przeglądarki; bez zewnętrznych API, zapisów kont, cookies, localStorage i danych w URL. Brakujące miejsca można wprowadzić ręcznie. Aktualizacja bazy: `python scripts/build-birth-places.py --refresh`; źródła, przekształcenia i hashe zapisano w `public/data/birth-places-LICENSE.txt`.
 
+Oprawa wykresu wykorzystuje wybrany wariant manuskryptowy: lokalny obraz WebP z papierem, ornamentem i motywami domów, na który SVG nakłada dokładną siatkę, numery znaków oraz dynamiczne medaliony planet. Motywy są ilustracyjne, nie są dodatkowymi planetami. Plik `public/images/chart-manuscript.webp` (~282 kB) pochodzi z wbudowanego `image_gen`; opis i prompt: `research/chart-manuscript-design.md`. Eksport SVG osadza ten obraz jako data URL, więc działa samodzielnie. Przycisk „Powiększ wykres” otwiera duży podgląd; na telefonie można przewijać go w bok.
+
 Pliki kalkulatora: `src/components/BirthChart.astro`, `src/styles/birth-chart.css`, `src/lib/birth-calculator-ui.ts`, `src/lib/birth-chart.ts`, `src/lib/north-indian-chart.ts`, `src/lib/birth-places.ts`. Test obliczeń: `npm run test:chart`; jest częścią workflow publikacji. Ustawienia i przyjęta dokładność są rozwijane także pod wynikiem na stronie. To prototyp do eksploracji; nie tworzy automatycznej interpretacji ani nie wysyła zamówienia.
 
 Wymagany Node.js 22.12+ (wdrożenie używa Node 24).

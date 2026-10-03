@@ -1,10 +1,13 @@
 ---
 import '../styles/birth-chart.css';
+import { renderNorthIndianChart } from '../lib/north-indian-chart';
 interface Props { version?: 1 | 2 }
 const { version = 2 } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const chartBackground = `${base}/images/chart-manuscript.webp`;
+const emptyChart = renderNorthIndianChart({ ascendantSign: 0, planets: [], empty: true, backgroundHref: chartBackground, idPrefix: 'birth-empty', title: 'Miejsce na Twój wykres urodzeniowy' });
 ---
-<main id="main" class="birth-page" data-birth-calculator>
+<main id="main" class="birth-page" data-birth-calculator data-chart-background={chartBackground}>
   <header class="birth-heading">
     <div><p class="birth-eyebrow">JYOTISH · POZNAJ SWÓJ UKŁAD PLANET</p><h1>Twój wykres <em>urodzeniowy.</em></h1><p class="birth-intro">Podaj datę, godzinę i miejsce urodzenia. Zobacz układ planet w tradycyjnym wykresie północnoindyjskim.</p></div>
     <span class="birth-prototype"><span aria-hidden="true">✧</span> Wersja próbna</span>
@@ -45,12 +48,12 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       <div class="birth-result-heading"><h2 id="birth-result-heading" tabindex="-1">Mapa Twojego nieba</h2><p id="birth-result-subtitle">Dwanaście domów. Dziewięć grah. Jedna chwila.</p></div>
       <p id="birth-stale" class="birth-stale" hidden>Dane zmienione — wygeneruj wykres ponownie.</p>
       <div id="birth-chart-visual" class="birth-chart-visual">
-        <svg class="birth-empty-chart" viewBox="0 0 600 600" role="img" aria-labelledby="birth-empty-title"><title id="birth-empty-title">Miejsce na Twój wykres urodzeniowy</title><defs><radialGradient id="birth-paper"><stop stop-color="#f4ead5"/><stop offset="1" stop-color="#fffcf6"/></radialGradient></defs><rect x="20" y="20" width="560" height="560" rx="4" fill="url(#birth-paper)" stroke="#c9b897"/><g stroke="#c9b897" stroke-width="1.15" fill="none"><path d="M20 20L580 580M580 20L20 580M300 20L580 300L300 580L20 300Z"/><rect x="11" y="11" width="578" height="578" rx="5" stroke-opacity=".35"/></g><g fill="#a08455" font-family="Georgia,serif" text-anchor="middle"><text x="300" y="154" font-size="48">☉</text><text x="153" y="313" font-size="42">☽</text><text x="447" y="313" font-size="38">✧</text><text x="300" y="460" font-size="42">♃</text></g><circle cx="300" cy="300" r="31" fill="#fffcf6" stroke="#c9b897"/><path d="M300 283L304 296L317 300L304 304L300 317L296 304L283 300L296 296Z" fill="#a08455"/></svg>
+        <Fragment set:html={emptyChart} />
         <p class="birth-empty-caption">Twój wykres pojawi się tutaj po obliczeniu.</p>
       </div>
       <div id="birth-highlights" class="birth-highlights" hidden></div>
-      <div id="birth-result-actions" class="birth-result-actions" hidden><button type="button" class="birth-small-button" id="birth-download">Pobierz wykres SVG <span aria-hidden="true">↓</span></button><button type="button" class="birth-small-button" id="birth-print">Drukuj / zapisz PDF</button></div>
-      <p class="birth-chart-footnote">Lahiri · zodiak syderyczny · domy całoznakowe</p>
+      <div id="birth-result-actions" class="birth-result-actions" hidden><button type="button" class="birth-small-button" id="birth-enlarge">Powiększ wykres <span aria-hidden="true">⤢</span></button><button type="button" class="birth-small-button" id="birth-download">Pobierz wykres SVG <span aria-hidden="true">↓</span></button><button type="button" class="birth-small-button" id="birth-print">Drukuj / zapisz PDF</button></div>
+      <p class="birth-chart-footnote">Lahiri · zodiak syderyczny · domy całoznakowe</p><p class="birth-art-note">Ilustracje w tle nawiązują do tematów domów. Kolorowe medaliony oznaczają grahy.</p>
     </section>
   </div>
   <section id="birth-details" class="birth-details" aria-labelledby="birth-positions-heading" hidden>
@@ -64,6 +67,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <div><span class="birth-explainer-symbol" aria-hidden="true">☽</span><h2>Godzina ma znaczenie</h2><p>Wpisz możliwie dokładną godzinę urodzenia. Jej zmiana wpływa szczególnie na ascendent i układ domów. Jeśli znasz ją tylko w przybliżeniu, potraktuj wykres jako orientacyjny.</p></div>
     <div><span class="birth-explainer-symbol" aria-hidden="true">✧</span><h2>Wykres to początek</h2><p>Diagram pokazuje pozycje grah. Ich znaczenie wymaga spojrzenia na cały horoskop oraz kontekst Twojego życia.</p><a href={`${base}${version === 2 ? '/v2/oferta/horoskop-urodzeniowy/' : '/#rozmowa'}`}>O indywidualnej interpretacji <span aria-hidden="true">↗</span></a></div>
   </section>
+  <dialog id="birth-chart-dialog" class="birth-chart-dialog" aria-labelledby="birth-dialog-title"><div class="birth-dialog-header"><div><h2 id="birth-dialog-title">Twój wykres urodzeniowy</h2><p id="birth-dialog-subtitle"></p></div><button type="button" id="birth-dialog-close" aria-label="Zamknij powiększenie wykresu">Zamknij <span aria-hidden="true">×</span></button></div><p class="birth-dialog-hint">Na małym ekranie przesuń wykres w bok, aby obejrzeć szczegóły.</p><div id="birth-dialog-visual" class="birth-dialog-visual"></div></dialog>
   <p class="birth-credits">Obliczenia: <a href="https://github.com/cosinekitty/astronomy" target="_blank" rel="noopener noreferrer">Astronomy Engine</a>. Miejscowości: <a href="https://www.geonames.org/" target="_blank" rel="noopener noreferrer">GeoNames</a>, <a href={`${base}/data/birth-places-LICENSE.txt`}>CC BY 4.0 i opis bazy</a>. <a href={`${base}/licenses/birth-calculator.txt`}>Licencje bibliotek</a>.</p>
 </main>
 <script>
