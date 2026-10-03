@@ -7,8 +7,17 @@
     "dev": "astro dev --host 127.0.0.1",
     "build": "astro build",
     "preview": "astro preview --host 127.0.0.1",
-    "check:site": "node scripts/check-site.mjs"
+    "check:site": "node scripts/check-site.mjs",
+    "test:chart": "node --experimental-strip-types --test scripts/test-birth-chart.mjs"
   },
-  "dependencies": { "astro": "7.3.5", "@fontsource/cormorant-garamond": "^5.2.0", "@fontsource/dm-sans": "^5.2.0" },
-  "engines": { "node": ">=22.12.0" }
+  "dependencies": {
+    "@fontsource/cormorant-garamond": "^5.2.0",
+    "@fontsource/dm-sans": "^5.2.0",
+    "@js-temporal/polyfill": "0.5.1",
+    "astro": "7.3.5",
+    "astronomy-engine": "2.1.19"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
 }

@@ -1,0 +1,1687 @@
+{
+  "description": "Independent reference output from official Swiss Ephemeris swetest64, Moshier analytic ephemeris (-emos), Lahiri (-sid1), geocentric, whole-sign houses; generated 2026-10-03. Numerical data only: the binary and its code are not distributed.",
+  "source": "https://github.com/aloistr/swisseph/tree/master/windows/programs",
+  "command": "swetest64 -bj{julianDayUT} -ut -p0123456m -sid1 -emos -house{longitude},{latitude},W -fPls -g, -head",
+  "fixtures": [
+    {
+      "input": {
+        "date": "1900-01-01",
+        "time": "12:00",
+        "timeZone": "UTC",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "utc": "1900-01-01T12:00:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 258.1978721,
+          "speed": 1.0197689
+        },
+        "moon": {
+          "longitude": 257.1509922,
+          "speed": 14.4735222
+        },
+        "mercury": {
+          "longitude": 237.1739386,
+          "speed": 1.2895138
+        },
+        "venus": {
+          "longitude": 284.5307477,
+          "speed": 1.2432567
+        },
+        "mars": {
+          "longitude": 261.7876183,
+          "speed": 0.7706601
+        },
+        "jupiter": {
+          "longitude": 218.7681602,
+          "speed": 0.1949634
+        },
+        "saturn": {
+          "longitude": 245.3095408,
+          "speed": 0.1161381
+        },
+        "rahu": {
+          "longitude": 236.6694379,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 349.152365,
+          "speed": 390.9618938
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "1900-06-20",
+        "time": "06:15",
+        "timeZone": "Europe/Warsaw",
+        "latitude": 52.2297,
+        "longitude": 21.0122
+      },
+      "utc": "1900-06-20T04:51:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 65.9060717,
+          "speed": 0.9540504
+        },
+        "moon": {
+          "longitude": 338.0592407,
+          "speed": 14.2231646
+        },
+        "mercury": {
+          "longitude": 87.1209475,
+          "speed": 1.5978642
+        },
+        "venus": {
+          "longitude": 91.3193737,
+          "speed": -0.1289149
+        },
+        "mars": {
+          "longitude": 32.3890097,
+          "speed": 0.7186751
+        },
+        "jupiter": {
+          "longitude": 220.7285027,
+          "speed": -0.1048498
+        },
+        "saturn": {
+          "longitude": 249.5348272,
+          "speed": -0.073452
+        },
+        "rahu": {
+          "longitude": 227.6765665,
+          "speed": -0.0529922
+        },
+        "ascendant": {
+          "longitude": 95.9513732,
+          "speed": 260.6504405
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "1921-08-14",
+        "time": "23:20",
+        "timeZone": "Asia/Kolkata",
+        "latitude": 28.6139,
+        "longitude": 77.209
+      },
+      "utc": "1921-08-14T17:50:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 118.598454,
+          "speed": 0.9606275
+        },
+        "moon": {
+          "longitude": 255.9294393,
+          "speed": 11.9972865
+        },
+        "mercury": {
+          "longitude": 109.4553088,
+          "speed": 2.0001142
+        },
+        "venus": {
+          "longitude": 77.4600122,
+          "speed": 1.1311409
+        },
+        "mars": {
+          "longitude": 104.5080023,
+          "speed": 0.6420535
+        },
+        "jupiter": {
+          "longitude": 148.3113834,
+          "speed": 0.2004029
+        },
+        "saturn": {
+          "longitude": 150.6967017,
+          "speed": 0.1116777
+        },
+        "rahu": {
+          "longitude": 178.2839363,
+          "speed": -0.0529921
+        },
+        "ascendant": {
+          "longitude": 27.0165906,
+          "speed": 426.6254949
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "1945-05-08",
+        "time": "23:01",
+        "timeZone": "Europe/London",
+        "latitude": 51.5072,
+        "longitude": -0.1276
+      },
+      "utc": "1945-05-08T21:01:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 24.7902391,
+          "speed": 0.9670529
+        },
+        "moon": {
+          "longitude": 342.8437162,
+          "speed": 14.8857714
+        },
+        "mercury": {
+          "longitude": 358.9250809,
+          "speed": 0.827488
+        },
+        "venus": {
+          "longitude": 354.1824611,
+          "speed": 0.0772485
+        },
+        "mars": {
+          "longitude": 341.5370558,
+          "speed": 0.7665643
+        },
+        "jupiter": {
+          "longitude": 144.4889352,
+          "speed": -0.0180039
+        },
+        "saturn": {
+          "longitude": 74.2211068,
+          "speed": 0.0993682
+        },
+        "rahu": {
+          "longitude": 78.9415964,
+          "speed": -0.0529921
+        },
+        "ascendant": {
+          "longitude": 221.3912608,
+          "speed": 266.1780066
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "1956-03-21",
+        "time": "00:00",
+        "timeZone": "UTC",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "utc": "1956-03-21T00:00:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 337.1081407,
+          "speed": 0.9926971
+        },
+        "moon": {
+          "longitude": 83.9762356,
+          "speed": 14.2141365
+        },
+        "mercury": {
+          "longitude": 322.3374133,
+          "speed": 1.7281765
+        },
+        "venus": {
+          "longitude": 21.4670213,
+          "speed": 1.1002633
+        },
+        "mars": {
+          "longitude": 260.5936711,
+          "speed": 0.6514454
+        },
+        "jupiter": {
+          "longitude": 119.4033732,
+          "speed": -0.0824967
+        },
+        "saturn": {
+          "longitude": 219.4979053,
+          "speed": -0.0148482
+        },
+        "rahu": {
+          "longitude": 228.6095262,
+          "speed": -0.0529921
+        },
+        "ascendant": {
+          "longitude": 245.3599301,
+          "speed": 331.2218406
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "1960-02-29",
+        "time": "10:45",
+        "timeZone": "America/New_York",
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "utc": "1960-02-29T15:45:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 316.7761341,
+          "speed": 1.0039785
+        },
+        "moon": {
+          "longitude": 352.6197929,
+          "speed": 12.9069298
+        },
+        "mercury": {
+          "longitude": 332.4925705,
+          "speed": 0.1555329
+        },
+        "venus": {
+          "longitude": 287.7148184,
+          "speed": 1.2304427
+        },
+        "mars": {
+          "longitude": 281.6429902,
+          "speed": 0.7638753
+        },
+        "jupiter": {
+          "longitude": 246.5762305,
+          "speed": 0.1390725
+        },
+        "saturn": {
+          "longitude": 262.5282285,
+          "speed": 0.0843912
+        },
+        "rahu": {
+          "longitude": 152.266195,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 49.5558783,
+          "speed": 385.6266172
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "1977-11-04",
+        "time": "17:20",
+        "timeZone": "Asia/Kolkata",
+        "latitude": 19.076,
+        "longitude": 72.8777
+      },
+      "utc": "1977-11-04T11:50:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 198.4032069,
+          "speed": 1.0022827
+        },
+        "moon": {
+          "longitude": 112.111015,
+          "speed": 12.3659735
+        },
+        "mercury": {
+          "longitude": 208.4784604,
+          "speed": 1.5414816
+        },
+        "venus": {
+          "longitude": 179.3664186,
+          "speed": 1.2487828
+        },
+        "mars": {
+          "longitude": 99.9545528,
+          "speed": 0.3757755
+        },
+        "jupiter": {
+          "longitude": 72.3894203,
+          "speed": -0.0369221
+        },
+        "saturn": {
+          "longitude": 125.7608115,
+          "speed": 0.0647627
+        },
+        "rahu": {
+          "longitude": 170.0522331,
+          "speed": -0.0529921
+        },
+        "ascendant": {
+          "longitude": 6.5747393,
+          "speed": 435.562151
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "1989-09-17",
+        "time": "05:15",
+        "timeZone": "Europe/Warsaw",
+        "latitude": 52.2297,
+        "longitude": 21.0122
+      },
+      "utc": "1989-09-17T03:15:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 150.5001222,
+          "speed": 0.9751906
+        },
+        "moon": {
+          "longitude": 353.6592649,
+          "speed": 15.1016708
+        },
+        "mercury": {
+          "longitude": 165.3225773,
+          "speed": -0.5872995
+        },
+        "venus": {
+          "longitude": 191.6581822,
+          "speed": 1.1602174
+        },
+        "mars": {
+          "longitude": 154.6858025,
+          "speed": 0.6453797
+        },
+        "jupiter": {
+          "longitude": 74.4294655,
+          "speed": 0.1233072
+        },
+        "saturn": {
+          "longitude": 253.6128537,
+          "speed": 0.0094755
+        },
+        "rahu": {
+          "longitude": 300.3507442,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 139.3985206,
+          "speed": 251.2205755
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "1990-05-12",
+        "time": "14:30",
+        "timeZone": "Europe/Warsaw",
+        "latitude": 52.2297,
+        "longitude": 21.0122
+      },
+      "utc": "1990-05-12T12:30:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 27.7963271,
+          "speed": 0.9652489
+        },
+        "moon": {
+          "longitude": 237.3761014,
+          "speed": 11.9365782
+        },
+        "mercury": {
+          "longitude": 14.9691563,
+          "speed": -0.3336261
+        },
+        "venus": {
+          "longitude": 345.7019568,
+          "speed": 1.1355264
+        },
+        "mars": {
+          "longitude": 322.3939387,
+          "speed": 0.7437042
+        },
+        "jupiter": {
+          "longitude": 75.2580705,
+          "speed": 0.1853055
+        },
+        "saturn": {
+          "longitude": 271.5671216,
+          "speed": -0.0122267
+        },
+        "rahu": {
+          "longitude": 287.771211,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 148.262489,
+          "speed": 252.0197257
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "1991-04-17",
+        "time": "02:15",
+        "timeZone": "Pacific/Auckland",
+        "latitude": -36.8485,
+        "longitude": 174.7633
+      },
+      "utc": "1991-04-16T14:15:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 2.3542467,
+          "speed": 0.9788373
+        },
+        "moon": {
+          "longitude": 26.2736457,
+          "speed": 14.5706697
+        },
+        "mercury": {
+          "longitude": 359.3805149,
+          "speed": -0.7344118
+        },
+        "venus": {
+          "longitude": 40.4718715,
+          "speed": 1.171156
+        },
+        "mars": {
+          "longitude": 73.5702676,
+          "speed": 0.5485619
+        },
+        "jupiter": {
+          "longitude": 100.263091,
+          "speed": 0.0525532
+        },
+        "saturn": {
+          "longitude": 282.347901,
+          "speed": 0.0485383
+        },
+        "rahu": {
+          "longitude": 269.8030518,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 305.7732089,
+          "speed": 292.7243614
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "1999-12-31",
+        "time": "23:59",
+        "timeZone": "America/Los_Angeles",
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "utc": "2000-01-01T07:59:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 256.3450917,
+          "speed": 1.0193767
+        },
+        "moon": {
+          "longitude": 197.4565532,
+          "speed": 12.0467819
+        },
+        "mercury": {
+          "longitude": 247.7756764,
+          "speed": 1.5553332
+        },
+        "venus": {
+          "longitude": 217.5102519,
+          "speed": 1.2088096
+        },
+        "mars": {
+          "longitude": 303.9802802,
+          "speed": 0.7756291
+        },
+        "jupiter": {
+          "longitude": 1.3930399,
+          "speed": 0.0401569
+        },
+        "saturn": {
+          "longitude": 16.5457866,
+          "speed": -0.0202892
+        },
+        "rahu": {
+          "longitude": 101.1962924,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 166.0852874,
+          "speed": 303.6581993
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2000-01-01",
+        "time": "12:00",
+        "timeZone": "UTC",
+        "latitude": 52.23,
+        "longitude": 21.01
+      },
+      "utc": "2000-01-01T12:00:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 256.5156972,
+          "speed": 1.0193919
+        },
+        "moon": {
+          "longitude": 199.470553,
+          "speed": 12.0211429
+        },
+        "mercury": {
+          "longitude": 248.0360525,
+          "speed": 1.5562139
+        },
+        "venus": {
+          "longitude": 217.7125758,
+          "speed": 1.2089996
+        },
+        "mars": {
+          "longitude": 304.1100908,
+          "speed": 0.7756326
+        },
+        "jupiter": {
+          "longitude": 1.3998078,
+          "speed": 0.0407212
+        },
+        "saturn": {
+          "longitude": 16.5424165,
+          "speed": -0.0199848
+        },
+        "rahu": {
+          "longitude": 101.1874236,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 38.8636238,
+          "speed": 501.9050389
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2000-02-29",
+        "time": "12:00",
+        "timeZone": "Australia/Sydney",
+        "latitude": -33.8688,
+        "longitude": 151.2093
+      },
+      "utc": "2000-02-29T01:00:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 315.8900721,
+          "speed": 1.0042618
+        },
+        "moon": {
+          "longitude": 246.2665629,
+          "speed": 11.8069298
+        },
+        "mercury": {
+          "longitude": 319.1069289,
+          "speed": -0.982059
+        },
+        "venus": {
+          "longitude": 289.5347969,
+          "speed": 1.235442
+        },
+        "mars": {
+          "longitude": 349.0213995,
+          "speed": 0.7521296
+        },
+        "jupiter": {
+          "longitude": 8.6350116,
+          "speed": 0.1884183
+        },
+        "saturn": {
+          "longitude": 18.4730731,
+          "speed": 0.0808402
+        },
+        "rahu": {
+          "longitude": 98.0851829,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 21.545421,
+          "speed": 297.2787461
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2005-07-19",
+        "time": "16:00",
+        "timeZone": "Africa/Johannesburg",
+        "latitude": -26.2041,
+        "longitude": 28.0473
+      },
+      "utc": "2005-07-19T14:00:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 93.0576886,
+          "speed": 0.953942
+        },
+        "moon": {
+          "longitude": 246.4173972,
+          "speed": 14.904975
+        },
+        "mercury": {
+          "longitude": 116.0277235,
+          "speed": 0.283529
+        },
+        "venus": {
+          "longitude": 121.9000445,
+          "speed": 1.2054366
+        },
+        "mars": {
+          "longitude": 0.8819432,
+          "speed": 0.6152227
+        },
+        "jupiter": {
+          "longitude": 167.7538354,
+          "speed": 0.1179097
+        },
+        "saturn": {
+          "longitude": 96.4616097,
+          "speed": 0.1290434
+        },
+        "rahu": {
+          "longitude": 353.821198,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 253.154603,
+          "speed": 322.6805129
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2010-10-30",
+        "time": "22:18",
+        "timeZone": "Asia/Kathmandu",
+        "latitude": 27.7172,
+        "longitude": 85.324
+      },
+      "utc": "2010-10-30T16:33:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 193.1334257,
+          "speed": 0.9994583
+        },
+        "moon": {
+          "longitude": 105.1726075,
+          "speed": 13.9493833
+        },
+        "mercury": {
+          "longitude": 201.7442592,
+          "speed": 1.5651339
+        },
+        "venus": {
+          "longitude": 190.4945165,
+          "speed": -0.6058493
+        },
+        "mars": {
+          "longitude": 217.7140633,
+          "speed": 0.71881
+        },
+        "jupiter": {
+          "longitude": 330.0992956,
+          "speed": -0.0638905
+        },
+        "saturn": {
+          "longitude": 167.3122761,
+          "speed": 0.1152754
+        },
+        "rahu": {
+          "longitude": 251.5939927,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 88.6120144,
+          "speed": 310.5117452
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2024-03-31",
+        "time": "01:59",
+        "timeZone": "Europe/Warsaw",
+        "latitude": 52.2297,
+        "longitude": 21.0122
+      },
+      "utc": "2024-03-31T00:59:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 346.6113175,
+          "speed": 0.9873484
+        },
+        "moon": {
+          "longitude": 231.1434289,
+          "speed": 12.8072805
+        },
+        "mercury": {
+          "longitude": 2.8104435,
+          "speed": 0.2283269
+        },
+        "venus": {
+          "longitude": 329.4701364,
+          "speed": 1.2361343
+        },
+        "mars": {
+          "longitude": 312.0700235,
+          "speed": 0.7782463
+        },
+        "jupiter": {
+          "longitude": 22.9538561,
+          "speed": 0.2133401
+        },
+        "saturn": {
+          "longitude": 319.2964511,
+          "speed": 0.113212
+        },
+        "rahu": {
+          "longitude": 351.9145991,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 256.2862689,
+          "speed": 384.0521921
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2024-03-31",
+        "time": "03:01",
+        "timeZone": "Europe/Warsaw",
+        "latitude": 52.2297,
+        "longitude": 21.0122
+      },
+      "utc": "2024-03-31T01:01:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 346.6126888,
+          "speed": 0.9873477
+        },
+        "moon": {
+          "longitude": 231.1612171,
+          "speed": 12.8076884
+        },
+        "mercury": {
+          "longitude": 2.8107605,
+          "speed": 0.2281557
+        },
+        "venus": {
+          "longitude": 329.4718532,
+          "speed": 1.2361342
+        },
+        "mars": {
+          "longitude": 312.0711044,
+          "speed": 0.7782463
+        },
+        "jupiter": {
+          "longitude": 22.9541525,
+          "speed": 0.2133416
+        },
+        "saturn": {
+          "longitude": 319.2966084,
+          "speed": 0.1132113
+        },
+        "rahu": {
+          "longitude": 351.9145255,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 256.8218539,
+          "speed": 387.2019087
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2024-10-27",
+        "time": "02:30",
+        "timeZone": "+02:00",
+        "latitude": 52.2297,
+        "longitude": 21.0122
+      },
+      "utc": "2024-10-27T00:30:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 189.8771297,
+          "speed": 0.9978763
+        },
+        "moon": {
+          "longitude": 130.1482099,
+          "speed": 11.9586413
+        },
+        "mercury": {
+          "longitude": 206.0806787,
+          "speed": 1.4690611
+        },
+        "venus": {
+          "longitude": 226.9111678,
+          "speed": 1.2044431
+        },
+        "mars": {
+          "longitude": 92.7771926,
+          "speed": 0.3976323
+        },
+        "jupiter": {
+          "longitude": 56.6111383,
+          "speed": -0.0586542
+        },
+        "saturn": {
+          "longitude": 318.8211107,
+          "speed": -0.0333102
+        },
+        "rahu": {
+          "longitude": 340.7873489,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 137.9197619,
+          "speed": 251.1225441
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2024-10-27",
+        "time": "02:30",
+        "timeZone": "+01:00",
+        "latitude": 52.2297,
+        "longitude": 21.0122
+      },
+      "utc": "2024-10-27T01:30:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 189.9187084,
+          "speed": 0.9979015
+        },
+        "moon": {
+          "longitude": 130.6463484,
+          "speed": 11.9519538
+        },
+        "mercury": {
+          "longitude": 206.1418808,
+          "speed": 1.4686426
+        },
+        "venus": {
+          "longitude": 226.9613525,
+          "speed": 1.2044209
+        },
+        "mars": {
+          "longitude": 92.7937552,
+          "speed": 0.3973698
+        },
+        "jupiter": {
+          "longitude": 56.6086916,
+          "speed": -0.0587869
+        },
+        "saturn": {
+          "longitude": 318.8197242,
+          "speed": -0.0332445
+        },
+        "rahu": {
+          "longitude": 340.7851409,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 148.40479,
+          "speed": 252.0665894
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2026-10-03",
+        "time": "12:00",
+        "timeZone": "Europe/Warsaw",
+        "latitude": 52.2297,
+        "longitude": 21.0122
+      },
+      "utc": "2026-10-03T10:00:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 165.9822181,
+          "speed": 0.9841635
+        },
+        "moon": {
+          "longitude": 74.1054728,
+          "speed": 14.1690102
+        },
+        "mercury": {
+          "longitude": 189.5844921,
+          "speed": 1.2714798
+        },
+        "venus": {
+          "longitude": 194.2576732,
+          "speed": -0.0044872
+        },
+        "mars": {
+          "longitude": 98.8578763,
+          "speed": 0.5779447
+        },
+        "jupiter": {
+          "longitude": 115.786864,
+          "speed": 0.1755885
+        },
+        "saturn": {
+          "longitude": 347.1555937,
+          "speed": -0.0786555
+        },
+        "rahu": {
+          "longitude": 303.3540309,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 220.8853155,
+          "speed": 265.0142951
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2049-06-16",
+        "time": "03:50",
+        "timeZone": "America/Sao_Paulo",
+        "latitude": -23.5505,
+        "longitude": -46.6333
+      },
+      "utc": "2049-06-16T06:50:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 61.0348579,
+          "speed": 0.9546719
+        },
+        "moon": {
+          "longitude": 247.6982418,
+          "speed": 15.0334667
+        },
+        "mercury": {
+          "longitude": 41.1357178,
+          "speed": 1.6087012
+        },
+        "venus": {
+          "longitude": 16.5754348,
+          "speed": 1.0697143
+        },
+        "mars": {
+          "longitude": 76.2421016,
+          "speed": 0.6546767
+        },
+        "jupiter": {
+          "longitude": 74.2330726,
+          "speed": 0.2239093
+        },
+        "saturn": {
+          "longitude": 271.5837176,
+          "speed": -0.0580147
+        },
+        "rahu": {
+          "longitude": 223.9515693,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 21.3084392,
+          "speed": 317.4450018
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2100-01-01",
+        "time": "00:00",
+        "timeZone": "UTC",
+        "latitude": 28.6139,
+        "longitude": 77.209
+      },
+      "utc": "2100-01-01T00:00:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 255.3492468,
+          "speed": 1.0188593
+        },
+        "moon": {
+          "longitude": 132.1606532,
+          "speed": 14.0118028
+        },
+        "mercury": {
+          "longitude": 262.7509904,
+          "speed": 1.6228385
+        },
+        "venus": {
+          "longitude": 294.815594,
+          "speed": 1.2027039
+        },
+        "mars": {
+          "longitude": 4.2702545,
+          "speed": 0.4066083
+        },
+        "jupiter": {
+          "longitude": 175.951179,
+          "speed": 0.1062869
+        },
+        "saturn": {
+          "longitude": 180.3764398,
+          "speed": 0.0579611
+        },
+        "rahu": {
+          "longitude": 325.6824642,
+          "speed": -0.0529918
+        },
+        "ascendant": {
+          "longitude": 230.7123409,
+          "speed": 314.7942368
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2100-12-31",
+        "time": "12:00",
+        "timeZone": "UTC",
+        "latitude": 52.2297,
+        "longitude": 21.0122
+      },
+      "utc": "2100-12-31T12:00:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 254.583694,
+          "speed": 1.0194213
+        },
+        "moon": {
+          "longitude": 261.4251685,
+          "speed": 14.5921595
+        },
+        "mercury": {
+          "longitude": 272.3188305,
+          "speed": 1.4185931
+        },
+        "venus": {
+          "longitude": 239.9189892,
+          "speed": 1.256185
+        },
+        "mars": {
+          "longitude": 228.3806212,
+          "speed": 0.7108408
+        },
+        "jupiter": {
+          "longitude": 201.6519258,
+          "speed": 0.1699342
+        },
+        "saturn": {
+          "longitude": 191.6472327,
+          "speed": 0.0752352
+        },
+        "rahu": {
+          "longitude": 306.3669114,
+          "speed": -0.0529919
+        },
+        "ascendant": {
+          "longitude": 36.7999049,
+          "speed": 506.9789434
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2000-01-01",
+        "time": "00:00",
+        "timeZone": "UTC",
+        "latitude": 69.65,
+        "longitude": 18.95
+      },
+      "utc": "2000-01-01T00:00:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 256.0060121,
+          "speed": 1.0193449
+        },
+        "moon": {
+          "longitude": 193.4401631,
+          "speed": 12.1029613
+        },
+        "mercury": {
+          "longitude": 247.2586014,
+          "speed": 1.5535949
+        },
+        "venus": {
+          "longitude": 217.1082174,
+          "speed": 1.208428
+        },
+        "mars": {
+          "longitude": 303.7222768,
+          "speed": 0.7756207
+        },
+        "jupiter": {
+          "longitude": 1.3798688,
+          "speed": 0.039034
+        },
+        "saturn": {
+          "longitude": 16.5526361,
+          "speed": -0.0208932
+        },
+        "rahu": {
+          "longitude": 101.2139196,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 170.6027185,
+          "speed": 178.6210996
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2000-01-01",
+        "time": "04:00",
+        "timeZone": "UTC",
+        "latitude": 69.65,
+        "longitude": 18.95
+      },
+      "utc": "2000-01-01T04:00:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 256.1759045,
+          "speed": 1.0193611
+        },
+        "moon": {
+          "longitude": 195.4548862,
+          "speed": 12.0739337
+        },
+        "mercury": {
+          "longitude": 247.5176064,
+          "speed": 1.5544639
+        },
+        "venus": {
+          "longitude": 217.3096384,
+          "speed": 1.2086198
+        },
+        "mars": {
+          "longitude": 303.8515474,
+          "speed": 0.7756251
+        },
+        "jupiter": {
+          "longitude": 1.3864214,
+          "speed": 0.0395968
+        },
+        "saturn": {
+          "longitude": 16.5491791,
+          "speed": -0.0205908
+        },
+        "rahu": {
+          "longitude": 101.2050876,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 198.7523403,
+          "speed": 154.6687341
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2000-01-01",
+        "time": "08:00",
+        "timeZone": "UTC",
+        "latitude": 69.65,
+        "longitude": 18.95
+      },
+      "utc": "2000-01-01T08:00:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 256.3457996,
+          "speed": 1.0193767
+        },
+        "moon": {
+          "longitude": 197.464919,
+          "speed": 12.0466719
+        },
+        "mercury": {
+          "longitude": 247.7767565,
+          "speed": 1.5553369
+        },
+        "venus": {
+          "longitude": 217.5110913,
+          "speed": 1.2088104
+        },
+        "mars": {
+          "longitude": 303.9808188,
+          "speed": 0.7756291
+        },
+        "jupiter": {
+          "longitude": 1.3930677,
+          "speed": 0.0401592
+        },
+        "saturn": {
+          "longitude": 16.5457725,
+          "speed": -0.020288
+        },
+        "rahu": {
+          "longitude": 101.1962556,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 37.1065476,
+          "speed": -4.2749632
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2000-01-01",
+        "time": "12:00",
+        "timeZone": "UTC",
+        "latitude": 69.65,
+        "longitude": 18.95
+      },
+      "utc": "2000-01-01T12:00:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 256.5156972,
+          "speed": 1.0193919
+        },
+        "moon": {
+          "longitude": 199.470553,
+          "speed": 12.0211429
+        },
+        "mercury": {
+          "longitude": 248.0360525,
+          "speed": 1.5562139
+        },
+        "venus": {
+          "longitude": 217.7125758,
+          "speed": 1.2089996
+        },
+        "mars": {
+          "longitude": 304.1100908,
+          "speed": 0.7756326
+        },
+        "jupiter": {
+          "longitude": 1.3998078,
+          "speed": 0.0407212
+        },
+        "saturn": {
+          "longitude": 16.5424165,
+          "speed": -0.0199848
+        },
+        "rahu": {
+          "longitude": 101.1874236,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 275.2301973,
+          "speed": -19.1172722
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2000-01-01",
+        "time": "16:00",
+        "timeZone": "UTC",
+        "latitude": 69.65,
+        "longitude": 18.95
+      },
+      "utc": "2000-01-01T16:00:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 256.6855973,
+          "speed": 1.0194065
+        },
+        "moon": {
+          "longitude": 201.4720741,
+          "speed": 11.997312
+        },
+        "mercury": {
+          "longitude": 248.295495,
+          "speed": 1.5570951
+        },
+        "venus": {
+          "longitude": 217.9140918,
+          "speed": 1.2091875
+        },
+        "mars": {
+          "longitude": 304.2393634,
+          "speed": 0.7756358
+        },
+        "jupiter": {
+          "longitude": 1.4066415,
+          "speed": 0.0412828
+        },
+        "saturn": {
+          "longitude": 16.539111,
+          "speed": -0.0196813
+        },
+        "rahu": {
+          "longitude": 101.1785916,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 112.9644416,
+          "speed": 153.7531912
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2000-01-01",
+        "time": "20:00",
+        "timeZone": "UTC",
+        "latitude": 69.65,
+        "longitude": 18.95
+      },
+      "utc": "2000-01-01T20:00:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 256.8554998,
+          "speed": 1.0194205
+        },
+        "moon": {
+          "longitude": 203.4697623,
+          "speed": 11.9751432
+        },
+        "mercury": {
+          "longitude": 248.5550848,
+          "speed": 1.5579806
+        },
+        "venus": {
+          "longitude": 218.1156389,
+          "speed": 1.209374
+        },
+        "mars": {
+          "longitude": 304.3686365,
+          "speed": 0.7756385
+        },
+        "jupiter": {
+          "longitude": 1.4135688,
+          "speed": 0.041844
+        },
+        "saturn": {
+          "longitude": 16.5358561,
+          "speed": -0.0193775
+        },
+        "rahu": {
+          "longitude": 101.1697596,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 141.0232671,
+          "speed": 178.3568131
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2000-01-01",
+        "time": "00:00",
+        "timeZone": "UTC",
+        "latitude": -69.65,
+        "longitude": 18.95
+      },
+      "utc": "2000-01-01T00:00:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 256.0060121,
+          "speed": 1.0193449
+        },
+        "moon": {
+          "longitude": 193.4401631,
+          "speed": 12.1029613
+        },
+        "mercury": {
+          "longitude": 247.2586014,
+          "speed": 1.5535949
+        },
+        "venus": {
+          "longitude": 217.1082174,
+          "speed": 1.208428
+        },
+        "mars": {
+          "longitude": 303.7222768,
+          "speed": 0.7756207
+        },
+        "jupiter": {
+          "longitude": 1.3798688,
+          "speed": 0.039034
+        },
+        "saturn": {
+          "longitude": 16.5526361,
+          "speed": -0.0208932
+        },
+        "rahu": {
+          "longitude": 101.2139196,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 95.260315,
+          "speed": -25.0018336
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2000-01-01",
+        "time": "04:00",
+        "timeZone": "UTC",
+        "latitude": -69.65,
+        "longitude": 18.95
+      },
+      "utc": "2000-01-01T04:00:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 256.1759045,
+          "speed": 1.0193611
+        },
+        "moon": {
+          "longitude": 195.4548862,
+          "speed": 12.0739337
+        },
+        "mercury": {
+          "longitude": 247.5176064,
+          "speed": 1.5544639
+        },
+        "venus": {
+          "longitude": 217.3096384,
+          "speed": 1.2086198
+        },
+        "mars": {
+          "longitude": 303.8515474,
+          "speed": 0.7756251
+        },
+        "jupiter": {
+          "longitude": 1.3864214,
+          "speed": 0.0395968
+        },
+        "saturn": {
+          "longitude": 16.5491791,
+          "speed": -0.0205908
+        },
+        "rahu": {
+          "longitude": 101.2050876,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 292.7547905,
+          "speed": 153.4121726
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2000-01-01",
+        "time": "08:00",
+        "timeZone": "UTC",
+        "latitude": -69.65,
+        "longitude": 18.95
+      },
+      "utc": "2000-01-01T08:00:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 256.3457996,
+          "speed": 1.0193767
+        },
+        "moon": {
+          "longitude": 197.464919,
+          "speed": 12.0466719
+        },
+        "mercury": {
+          "longitude": 247.7767565,
+          "speed": 1.5553369
+        },
+        "venus": {
+          "longitude": 217.5110913,
+          "speed": 1.2088104
+        },
+        "mars": {
+          "longitude": 303.9808188,
+          "speed": 0.7756291
+        },
+        "jupiter": {
+          "longitude": 1.3930677,
+          "speed": 0.0401592
+        },
+        "saturn": {
+          "longitude": 16.5457725,
+          "speed": -0.020288
+        },
+        "rahu": {
+          "longitude": 101.1962556,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 320.7798598,
+          "speed": 178.2574109
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2000-01-01",
+        "time": "12:00",
+        "timeZone": "UTC",
+        "latitude": -69.65,
+        "longitude": 18.95
+      },
+      "utc": "2000-01-01T12:00:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 256.5156972,
+          "speed": 1.0193919
+        },
+        "moon": {
+          "longitude": 199.470553,
+          "speed": 12.0211429
+        },
+        "mercury": {
+          "longitude": 248.0360525,
+          "speed": 1.5562139
+        },
+        "venus": {
+          "longitude": 217.7125758,
+          "speed": 1.2089996
+        },
+        "mars": {
+          "longitude": 304.1100908,
+          "speed": 0.7756326
+        },
+        "jupiter": {
+          "longitude": 1.3998078,
+          "speed": 0.0407212
+        },
+        "saturn": {
+          "longitude": 16.5424165,
+          "speed": -0.0199848
+        },
+        "rahu": {
+          "longitude": 101.1874236,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 350.846492,
+          "speed": 178.5259908
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2000-01-01",
+        "time": "16:00",
+        "timeZone": "UTC",
+        "latitude": -69.65,
+        "longitude": 18.95
+      },
+      "utc": "2000-01-01T16:00:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 256.6855973,
+          "speed": 1.0194065
+        },
+        "moon": {
+          "longitude": 201.4720741,
+          "speed": 11.997312
+        },
+        "mercury": {
+          "longitude": 248.295495,
+          "speed": 1.5570951
+        },
+        "venus": {
+          "longitude": 217.9140918,
+          "speed": 1.2091875
+        },
+        "mars": {
+          "longitude": 304.2393634,
+          "speed": 0.7756358
+        },
+        "jupiter": {
+          "longitude": 1.4066415,
+          "speed": 0.0412828
+        },
+        "saturn": {
+          "longitude": 16.539111,
+          "speed": -0.0196813
+        },
+        "rahu": {
+          "longitude": 101.1785916,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 18.9632549,
+          "speed": 154.3376614
+        }
+      }
+    },
+    {
+      "input": {
+        "date": "2000-01-01",
+        "time": "20:00",
+        "timeZone": "UTC",
+        "latitude": -69.65,
+        "longitude": 18.95
+      },
+      "utc": "2000-01-01T20:00:00Z",
+      "positions": {
+        "sun": {
+          "longitude": 256.8554998,
+          "speed": 1.0194205
+        },
+        "moon": {
+          "longitude": 203.4697623,
+          "speed": 11.9751432
+        },
+        "mercury": {
+          "longitude": 248.5550848,
+          "speed": 1.5579806
+        },
+        "venus": {
+          "longitude": 218.1156389,
+          "speed": 1.209374
+        },
+        "mars": {
+          "longitude": 304.3686365,
+          "speed": 0.7756385
+        },
+        "jupiter": {
+          "longitude": 1.4135688,
+          "speed": 0.041844
+        },
+        "saturn": {
+          "longitude": 16.5358561,
+          "speed": -0.0193775
+        },
+        "rahu": {
+          "longitude": 101.1697596,
+          "speed": -0.052992
+        },
+        "ascendant": {
+          "longitude": 217.0971718,
+          "speed": -9.4868527
+        }
+      }
+    }
+  ]
+}

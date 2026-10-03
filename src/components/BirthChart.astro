@@ -1,0 +1,72 @@
+---
+import '../styles/birth-chart.css';
+interface Props { version?: 1 | 2 }
+const { version = 2 } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<main id="main" class="birth-page" data-birth-calculator>
+  <header class="birth-heading">
+    <div><p class="birth-eyebrow">JYOTISH · POZNAJ SWÓJ UKŁAD PLANET</p><h1>Twój wykres <em>urodzeniowy.</em></h1><p class="birth-intro">Podaj datę, godzinę i miejsce urodzenia. Zobacz układ planet w tradycyjnym wykresie północnoindyjskim.</p></div>
+    <span class="birth-prototype"><span aria-hidden="true">✧</span> Wersja próbna</span>
+  </header>
+  <noscript><p class="birth-message">Włącz JavaScript w przeglądarce, aby obliczyć wykres. Dane są przetwarzane na Twoim urządzeniu.</p></noscript>
+  <div class="birth-workspace">
+    <section class="birth-input-panel" aria-labelledby="birth-form-title">
+      <div class="birth-panel-heading"><span class="birth-step">01</span><div><h2 id="birth-form-title">Chwila i miejsce</h2><p>Zacznij od danych urodzenia.</p></div></div>
+      <form id="birth-form" autocomplete="off">
+        <div class="birth-fields-pair">
+          <div class="birth-field"><label for="birth-date">Data urodzenia</label><input id="birth-date" type="date" min="1900-01-01" max="2100-12-31" required /></div>
+          <div class="birth-field"><label for="birth-time">Godzina urodzenia</label><input id="birth-time" type="time" required /><small>Czas lokalny, np. z aktu urodzenia.</small></div>
+        </div>
+        <div class="birth-field birth-place-field">
+          <label for="birth-place">Miejscowość urodzenia</label>
+          <input id="birth-place" type="search" placeholder="np. Warszawa, Kraków, Londyn" spellcheck="false" autocomplete="off" aria-describedby="birth-place-help birth-place-status" aria-controls="birth-place-results" />
+          <small id="birth-place-help">Wpisz co najmniej 2 litery i wybierz miejsce z listy.</small>
+          <p id="birth-place-status" class="birth-place-status" role="status"></p>
+          <ul id="birth-place-results" class="birth-place-results" aria-label="Znalezione miejscowości" hidden></ul>
+          <div id="birth-selected-place" class="birth-selected-place" hidden></div>
+        </div>
+        <details class="birth-manual"><summary>Nie ma Twojej miejscowości?</summary><p>Baza obejmuje polskie miejscowości i większe miasta świata. Możesz też podać współrzędne oraz strefę czasową samodzielnie.</p>
+          <label class="birth-checkbox"><input id="birth-manual-toggle" type="checkbox" /> Wpiszę miejsce ręcznie</label>
+          <fieldset id="birth-manual-fields" disabled hidden>
+            <div class="birth-field"><label for="birth-manual-name">Nazwa miejsca</label><input id="birth-manual-name" type="text" maxlength="100" placeholder="Miejscowość, kraj" required /></div>
+            <div class="birth-fields-pair"><div class="birth-field"><label for="birth-latitude">Szerokość geogr.</label><input id="birth-latitude" type="number" step="any" min="-89" max="89" placeholder="52.23" required /></div><div class="birth-field"><label for="birth-longitude">Długość geogr.</label><input id="birth-longitude" type="number" step="any" min="-180" max="180" placeholder="21.01" required /></div></div>
+            <div class="birth-field"><label for="birth-timezone">Strefa czasowa</label><input id="birth-timezone" type="text" list="birth-timezones" value="Europe/Warsaw" required spellcheck="false" /><datalist id="birth-timezones"><option value="Europe/Warsaw" /><option value="Europe/London" /><option value="Europe/Berlin" /><option value="America/New_York" /><option value="Asia/Kolkata" /><option value="UTC" /></datalist><small>Np. Europe/Warsaw uwzględnia czas letni. Znając właściwy offset dla chwili urodzenia, możesz wpisać np. +02:00.</small></div>
+          </fieldset>
+        </details>
+        <button class="birth-button birth-generate" type="submit" disabled><span>Wygeneruj wykres</span><span aria-hidden="true">↗</span></button>
+        <button class="birth-example" id="birth-example" type="button">Lub zobacz przykładowy wykres <span aria-hidden="true">→</span></button>
+        <p id="birth-status" class="birth-status" role="status" aria-live="polite"></p>
+      </form>
+      <div class="birth-privacy-note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3M12 14v3"/></svg><p>Dane zostają w Twojej przeglądarce. Nie wysyłamy ich ani nie zapisujemy. <a href={`${base}${version === 2 ? '/v2' : ''}/prywatnosc/`}>O prywatności</a></p></div>
+    </section>
+    <section class="birth-chart-panel" aria-labelledby="birth-result-heading" aria-busy="false">
+      <div class="birth-chart-topline"><span>RĀŚI · D1</span><span>UKŁAD PÓŁNOCNOINDYJSKI</span></div>
+      <div class="birth-result-heading"><h2 id="birth-result-heading" tabindex="-1">Mapa Twojego nieba</h2><p id="birth-result-subtitle">Dwanaście domów. Dziewięć grah. Jedna chwila.</p></div>
+      <p id="birth-stale" class="birth-stale" hidden>Dane zmienione — wygeneruj wykres ponownie.</p>
+      <div id="birth-chart-visual" class="birth-chart-visual">
+        <svg class="birth-empty-chart" viewBox="0 0 600 600" role="img" aria-labelledby="birth-empty-title"><title id="birth-empty-title">Miejsce na Twój wykres urodzeniowy</title><defs><radialGradient id="birth-paper"><stop stop-color="#f4ead5"/><stop offset="1" stop-color="#fffcf6"/></radialGradient></defs><rect x="20" y="20" width="560" height="560" rx="4" fill="url(#birth-paper)" stroke="#c9b897"/><g stroke="#c9b897" stroke-width="1.15" fill="none"><path d="M20 20L580 580M580 20L20 580M300 20L580 300L300 580L20 300Z"/><rect x="11" y="11" width="578" height="578" rx="5" stroke-opacity=".35"/></g><g fill="#a08455" font-family="Georgia,serif" text-anchor="middle"><text x="300" y="154" font-size="48">☉</text><text x="153" y="313" font-size="42">☽</text><text x="447" y="313" font-size="38">✧</text><text x="300" y="460" font-size="42">♃</text></g><circle cx="300" cy="300" r="31" fill="#fffcf6" stroke="#c9b897"/><path d="M300 283L304 296L317 300L304 304L300 317L296 304L283 300L296 296Z" fill="#a08455"/></svg>
+        <p class="birth-empty-caption">Twój wykres pojawi się tutaj po obliczeniu.</p>
+      </div>
+      <div id="birth-highlights" class="birth-highlights" hidden></div>
+      <div id="birth-result-actions" class="birth-result-actions" hidden><button type="button" class="birth-small-button" id="birth-download">Pobierz wykres SVG <span aria-hidden="true">↓</span></button><button type="button" class="birth-small-button" id="birth-print">Drukuj / zapisz PDF</button></div>
+      <p class="birth-chart-footnote">Lahiri · zodiak syderyczny · domy całoznakowe</p>
+    </section>
+  </div>
+  <section id="birth-details" class="birth-details" aria-labelledby="birth-positions-heading" hidden>
+    <div class="birth-section-heading"><div><p class="birth-eyebrow">SZCZEGÓŁY TWOJEGO WYKRESU</p><h2 id="birth-positions-heading">Pozycje planet</h2></div><p>R oznacza ruch wsteczny.</p></div>
+    <p class="birth-table-hint">Przesuń tabelę w bok, aby zobaczyć wszystkie pozycje. <span aria-hidden="true">↔</span></p>
+    <div class="birth-table-scroll" tabindex="0" role="region" aria-label="Tabela pozycji planet — przewiń poziomo na małym ekranie"><table class="birth-table"><thead><tr><th scope="col">Graha / punkt</th><th scope="col">Znak</th><th scope="col">Pozycja w znaku</th><th scope="col">Dom</th><th scope="col">Nakszatra</th><th scope="col">Pada</th></tr></thead><tbody id="birth-positions"></tbody></table></div>
+    <details class="birth-calculation-details"><summary>Dane i ustawienia obliczeń</summary><dl id="birth-calculation-data"></dl><p id="birth-warnings"></p><p>Wersja próbna: wynik służy poznaniu wykresu. Pozycje w pobliżu granic znaków i nakszatr warto sprawdzić w programie używanym do interpretacji.</p></details>
+  </section>
+  <section class="birth-explainer" aria-label="Jak czytać wykres">
+    <div><span class="birth-explainer-symbol" aria-hidden="true">◇</span><h2>Jak czytać ten wykres?</h2><p>Pierwszy dom znajduje się zawsze u góry. Kolejne domy biegną przeciwnie do ruchu wskazówek zegara. Liczby w polach oznaczają znaki zodiaku: od 1 — Barana do 12 — Ryb.</p></div>
+    <div><span class="birth-explainer-symbol" aria-hidden="true">☽</span><h2>Godzina ma znaczenie</h2><p>Wpisz możliwie dokładną godzinę urodzenia. Jej zmiana wpływa szczególnie na ascendent i układ domów. Jeśli znasz ją tylko w przybliżeniu, potraktuj wykres jako orientacyjny.</p></div>
+    <div><span class="birth-explainer-symbol" aria-hidden="true">✧</span><h2>Wykres to początek</h2><p>Diagram pokazuje pozycje grah. Ich znaczenie wymaga spojrzenia na cały horoskop oraz kontekst Twojego życia.</p><a href={`${base}${version === 2 ? '/v2/oferta/horoskop-urodzeniowy/' : '/#rozmowa'}`}>O indywidualnej interpretacji <span aria-hidden="true">↗</span></a></div>
+  </section>
+  <p class="birth-credits">Obliczenia: <a href="https://github.com/cosinekitty/astronomy" target="_blank" rel="noopener noreferrer">Astronomy Engine</a>. Miejscowości: <a href="https://www.geonames.org/" target="_blank" rel="noopener noreferrer">GeoNames</a>, <a href={`${base}/data/birth-places-LICENSE.txt`}>CC BY 4.0 i opis bazy</a>. <a href={`${base}/licenses/birth-calculator.txt`}>Licencje bibliotek</a>.</p>
+</main>
+<script>
+  import { initBirthCalculator } from '../lib/birth-calculator-ui';
+  initBirthCalculator();
+</script>

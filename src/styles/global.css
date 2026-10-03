@@ -7,3 +7,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 @media(max-width:360px){.header-inner{gap:8px}.brand{gap:9px}.brand strong{font-size:23px}.brand small{font-size:7px}.menu-toggle{gap:8px}}
 @media print{.site-header,.draft-strip,.site-footer,.skip-link,.report-controls,.no-print{display:none!important}body{background:#fff;color:#111;font:11pt/1.5 Georgia,serif}.container{width:100%}.section-pad,.prose{padding:20px 0}.hero-image{max-height:350px}.report-entry{break-inside:avoid}a{color:inherit}h1,h2,h3{break-after:avoid}}
+/* Keep the expanded navigation readable after adding the calculator. */
+@media(min-width:801px) and (max-width:1150px){.menu-toggle{display:flex;gap:12px;align-items:center;font-size:14px;padding:9px 0 9px 12px}.site-header nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--paper);padding:20px;border-bottom:1px solid var(--line)}.site-header nav.is-open{display:flex;flex-direction:column;gap:6px;align-items:stretch}.site-header nav a{padding:12px}.site-header .nav-contact{margin-top:6px}}

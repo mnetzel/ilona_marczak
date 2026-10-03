@@ -1,0 +1,38 @@
+Birthplace search data / Dane wyszukiwarki miejsc urodzenia
+
+Source / Źródło: GeoNames geographical database, https://www.geonames.org/
+Licence / Licencja: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+Legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+Source documentation: https://download.geonames.org/export/dump/readme.txt
+
+Downloaded and transformed: 2026-10-03
+Record count: 76802
+
+This is an adaptation of GeoNames. Changes: selected populated places,
+excluded place sections and historical/abandoned settlements, combined the
+worldwide cities15000 extract with Poland's extract, retained a subset of
+alternate names, selected Polish display labels where present in GeoNames,
+translated Polish province labels, compacted the data and sorted by population.
+Coordinates and IANA timezone identifiers are from GeoNames.
+GeoNames does not endorse this website or its calculator.
+
+Coverage: towns/cities in cities15000 worldwide, plus populated settlements
+in Poland. This is not a complete global list of birthplaces. Records with
+missing timezones are omitted. Data is supplied as is without warranty of
+accuracy, timeliness or completeness. The timezone field names a geographic
+zone; the calculator must still apply that zone's historical rules for the
+date of birth, rather than a present-day UTC offset.
+
+Build: python scripts/build-birth-places.py --refresh
+Source files and reproducibility hashes:
+- https://download.geonames.org/export/dump/cities15000.zip
+  SHA-256: c2fc384e708978317413a86d36886f226a1203dcbf54796416443691f8bba897
+- https://download.geonames.org/export/dump/PL.zip
+  SHA-256: 4e38be4311f291e94574865130db86bd524473d66c390ff53ef986bdaff30302
+- https://download.geonames.org/export/dump/admin1CodesASCII.txt
+  SHA-256: 1da92a6323a5fec3176f3f743bf4cf4040fd56a876da55e46fbca23c863aa60a
+- https://download.geonames.org/export/dump/admin2Codes.txt
+  SHA-256: a2c9cc3cefbeca82f4af9637ab68ae4975cc78444289bc4f62718e76c59b8488
+- https://download.geonames.org/export/dump/countryInfo.txt
+  SHA-256: 93bafc525813f22e4711ff9ed6d626343094ce48c26388dc7c49189b3d7d5512

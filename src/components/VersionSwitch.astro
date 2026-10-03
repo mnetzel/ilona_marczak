@@ -2,13 +2,14 @@
 interface Props { current: 1 | 2; }
 const { current } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const suffix = Astro.url.pathname.endsWith('/twoj-wykres/') ? 'twoj-wykres/' : '';
 ---
 <div class:list={['version-bar', { 'version-bar-v2': current === 2 }]}>
   <div class="version-inner">
     <span class="version-caption">Ilona Marczak <span class="version-caption-extra">· wybierz wersję strony</span></span>
     <div class="version-options" role="group" aria-label="Wersja strony">
-      <a href={`${base}/`} aria-current={current === 1 ? 'true' : undefined}>Wersja 1</a>
-      <a href={`${base}/v2/`} aria-current={current === 2 ? 'true' : undefined}>Wersja 2</a>
+      <a href={`${base}/${suffix}`} aria-current={current === 1 ? 'true' : undefined}>Wersja 1</a>
+      <a href={`${base}/v2/${suffix}`} aria-current={current === 2 ? 'true' : undefined}>Wersja 2</a>
     </div>
   </div>
 </div>

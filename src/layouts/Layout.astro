@@ -49,6 +49,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
           <a href={`${base}/#jyotish`}>O Jyotish</a>
           <a href={`${base}/#rozmowa`}>O rozmowie</a>
           <a href={`${base}/#czytelnia`}>Czytelnia</a>
+          <a href={`${base}/twoj-wykres/`} aria-current={Astro.url.pathname.endsWith('/twoj-wykres/') ? 'page' : undefined}>Twój wykres urodzeniowy</a>
           <a class="nav-contact" href={`${base}/#kontakt`}>Kontakt</a>
         </nav>
       </div>

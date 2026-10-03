@@ -27,6 +27,8 @@ jobs:
           cache: npm
       - name: Zainstaluj zależności
         run: npm ci
+      - name: Sprawdź obliczenia wykresu
+        run: npm run test:chart
       - name: Zbuduj stronę
         run: npm run build
         env:
